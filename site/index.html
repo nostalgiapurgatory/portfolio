@@ -1,0 +1,22 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+{% assign sorted_projects = site.projects | sort:"order" %}
+
+<div class="posts">
+  {% for project in sorted_projects %}
+    <a class="post-link" href="{{ project.url }}" style="background-image: url('{{ project.image }}');background-size:cover;background-position:center;">
+      <div class="post">
+        <h1 class="post-title-homepage">
+          
+            {{ project.title }}
+          
+        </h1>
+      </div>
+    </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,30 @@
+# Dependencies
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Jaden Andrea
+tagline:          'Immersive Artist'
+description:      'Wynn Thorn'
+url:              https://www.jadenandrea.com/
+baseurl:          /
+
+author:
+  name:           'Jaden Andrea'
+  url:            https://github.com/nostalgiapurgatory
+
+plugins: [jekyll-paginate]
+
+paginate:         5
+
+collections:
+  projects:
+    output: true
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
