@@ -9,7 +9,7 @@ order: 1
 ---
 
 
-![test](/assets/gather/byop-knoll.png) 
+![gatheradasset](/assets/gather/previewimage.png) 
 
 
 In 2020, many creative theatrical productions moved online out due to necessity from the COVID-19 lockdowns. Some creatives made use of Zoom, and others shared smaller platorms that allowed some interesting creative liberties. Gather became a popular choice among friends of mine in the Immersive Theatre crowd. I was invited to Terrence LeClere's birthday party on "Gather.town". This was a lot of fun-- it's a small retro-rpg aesthetic proximity chat platform that ran in-browser. The Pokemon inpired avatars couldn't be changed, but the background image for any 2D video chat could be anything. I made a few spaces, made some money using the platform creating themed event spaces for other users, and eventually found myself meeting the CEO, Phillip Wang, in a virtual coffee shop I had made and put the link out about on Twitter. 
