@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Art Direction at Gather
-image: /assets/gather/previewimage.png
+image: /assets/gather/500px_marketing_bookmeetings.png
 permalink: /gather/
 time: 2020 - 2023
 category: Art Direction and Management
