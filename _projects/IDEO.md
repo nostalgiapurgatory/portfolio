@@ -5,7 +5,7 @@ image: /assets/img/byop-knoll.png
 permalink: /ideo/
 category: Interviews
 time: 2014-01-01
-order: 2
+order: 5
 ---
 
 

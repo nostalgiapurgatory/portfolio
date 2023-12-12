@@ -5,7 +5,7 @@ image: /assets/img/byop-knoll.png
 permalink: /iabl/
 category: Blue Sky Thinking and Concepts
 time: 2014
-order: 2
+order: 5
 ---
 
 Installation Art Lounge 

@@ -5,7 +5,7 @@ image: /assets/img/byop-knoll.png
 permalink: /easteregghunt/
 category: Blue Sky Thinking and Concepts
 time: 2016
-order: 2
+order: 8
 ---
 
 Immersive Horror Easter Egg Hunt

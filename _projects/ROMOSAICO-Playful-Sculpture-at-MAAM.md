@@ -5,7 +5,7 @@ image: /assets/img/byop-knoll.png
 permalink: /maam/
 category: Immersive Art Design and Fabrication
 time: 2020-01-01
-order: 2
+order: 5
 ---
 
 ROMOSAICO: Playful Sculpture at MAAM

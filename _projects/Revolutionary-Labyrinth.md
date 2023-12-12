@@ -5,7 +5,7 @@ image: /assets/img/byop-knoll.png
 permalink: /revolutionarylabytinth/
 category: Blue Sky Thinking and Concepts
 time: 2019
-order: 2
+order: 4
 ---
 
 This concept, including budget and timeline for the scope of work, was submitted for honoraria grant consideration for Burning Man 2020, and was considered in the final round of applicants. 
