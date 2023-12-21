@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Digital Illustration
-image: /assets/img/byop-knoll.png
+image: /assets/digitalart/rosesthumbnail.png
 permalink: /digitalart/
 category: Technical Art and Fabrication Skills
 time: 2015-01-01
