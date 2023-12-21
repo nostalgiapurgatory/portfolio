@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Figurative Sculpture
-image: /assets/img/byop-knoll.png
+image: /assets/sculpture/sculpturethumbnail.png
 permalink: /sculpture/
 category: Technical Art and Fabrication Skills
 time: 2018-01-01
