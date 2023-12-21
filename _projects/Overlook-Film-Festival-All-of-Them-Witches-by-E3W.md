@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Overlook Film Festival: All of Them Witches by E3W"
-image: /assets/img/byop-knoll.png
+image: /assets/allofthemwitches/aotwthumbnail.png
 permalink: /allthemwitches/
 category: Immersive Art Design and Fabrication
 time: 2019-01-01
@@ -18,6 +18,8 @@ All Of Them Witches
 A fully immersive and interactive theatrical game that took place in 25 locations over four days in New Orleans at the 2019 Overlook Film Festival.
 
 As a slew of dead and dessicated bodies wash onto the shores of the city, siblings Anais and Pierre return to their hometown of New Orleans to jumpstart their artistic careers. Soon they rouse the attention of a local coven of witches, receiving a series of increasingly frightening threats and falling prey to what seems to be a debilitating and dangerous curse. Convinced that the attack on their safety is led by two senior members of the coven, Roz and Judah, they enlist the help of visiting tourists in a turf war between the old and the new. But in New Orleans there is dark magic around every corner, and nothing is as it seems...
+
+
 
 ![E3W1]({static}/home/jaden/nostalgiapurgatory.github.io/site/content/Themed Entertainment Design/images/20190527_221621.jpg)
 
