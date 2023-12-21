@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nostalgia Purgatory
-image: /assets/img/byop-knoll.png
+image: /assets/nostalgiapurgatory/coffinthumbnail.png
 permalink: /nostalgiapurgatory/
 category: Immersive Art Design and Fabrication
 time: 2018
