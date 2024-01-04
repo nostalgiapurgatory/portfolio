@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Broken Bone Bath Tub: New Orleans"
-image: /assets/brokenbonebathtub/byop-knoll.png
+image: /assets/brokenbonebathtub/bbbthumbnail.png
 permalink: /brokenbonebathtub/
 category: Art Direction and Management
 time: 2019-01-01
