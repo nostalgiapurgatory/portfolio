@@ -59,8 +59,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #eee;
+  background-color: #111;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #ccc;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -109,7 +109,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #bbb;
 }
 
 
@@ -336,7 +336,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #ddd;
 }
 .page-title,
 .post-title {
@@ -434,7 +434,8 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 20px;
+  border: 1px solid #444;
 }
 
 #instagram-embed-0 {
