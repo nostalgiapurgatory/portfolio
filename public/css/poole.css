@@ -427,3 +427,17 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+/* custom */
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#instagram-embed-0 {
+  display: block;
+  margin-left: 200px;
+}
