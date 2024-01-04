@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Voltavox
-image: /assets/img/byop-knoll.png
+image: /assets/voltavox/double-hero.jpg
 permalink: /voltavox/
 category: Creative Technology
-time: 2017-01-01
+time: 2022-11-03
 order: 2
 ---
 
