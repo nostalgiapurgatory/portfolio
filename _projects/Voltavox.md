@@ -5,7 +5,7 @@ image: /assets/voltavox/double-hero.jpg
 permalink: /voltavox/
 category: Creative Technology
 time: 2022-11-03
-order: 2
+order: 4
 ---
 
 Voltavox is a PCB-based phonograph!

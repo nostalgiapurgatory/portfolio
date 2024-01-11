@@ -5,7 +5,7 @@ image: /assets/intar/paragonthumbnail.png
 permalink: /wcm/
 category: Interior Architecture
 time: 2020-01-01
-order: 6
+order: 17
 ---
 
 Paragon Mills - What Cheer Market

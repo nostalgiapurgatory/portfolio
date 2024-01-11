@@ -5,7 +5,7 @@ image: /assets/sculpture/sculpturethumbnail.png
 permalink: /sculpture/
 category: Technical Art and Fabrication Skills
 time: 2018-01-01
-order: 3
+order: 7
 ---
 
 personal instruction from Alba Corrado at RISD in 2017-18

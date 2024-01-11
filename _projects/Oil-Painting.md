@@ -5,7 +5,7 @@ image: /assets/fineart/2017CampoDeFioreRomeItaly.png
 permalink: /painting/
 category: Technical Art and Fabrication Skills
 time: 2016-01-01
-order: 6
+order: 12
 ---
 !["Campo de Fiori"](/assets/fineart/2017CampoDeFioreRomeItaly.png) 
 !["Castellvecchio Calviso"](/assets/fineart/2016CastellvecchioCalvisoItalySOLD.png) 

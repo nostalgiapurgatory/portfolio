@@ -5,7 +5,7 @@ image: /assets/escapeindustries/escapethumbnail.png
 permalink: /escaperooms/
 category: Immersive Art Design and Fabrication
 time: 2020-01-01
-order: 5
+order: 12
 ---
 
 Text textddd
