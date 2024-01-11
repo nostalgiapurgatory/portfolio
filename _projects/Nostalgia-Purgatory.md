@@ -5,7 +5,7 @@ image: /assets/nostalgiapurgatory/coffinthumbnail.png
 permalink: /nostalgiapurgatory/
 category: Immersive Art Design and Fabrication
 time: 2018
-order: 2
+order: 3
 ---
 
 2018

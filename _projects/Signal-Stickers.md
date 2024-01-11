@@ -5,7 +5,7 @@ image: /assets/digitalart/signal-cambervillain.png
 permalink: /signal/
 category: Creative Technology
 time: 2017-01-01
-order: 3
+order: 2
 ---
 In 2020, I decided to make Signal my go-to messenger app for all communication, primarily so I could illustrate and share my own stickers while texting with my friends. I was living on the border of Cambridge and Somerville, Massachusetts, at the time and so were many of my friends-- so I called it "Cambervillian", since we all called the combination of the two towns, "Camberville", joking that it is one and the same town. 
 
