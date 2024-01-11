@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Burning Man: Blunderwood Portable"
-image: /assets/img/byop-knoll.png
+image: /assets/burningman/blunderwoodteam.jpeg
 permalink: /blunderwood/
 category: Immersive Art Design and Fabrication
 time: 2015
-order: 4
+order: 2
 ---
 
 
