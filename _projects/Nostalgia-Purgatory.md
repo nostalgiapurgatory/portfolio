@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Nostalgia Purgatory
-image: /assets/nostalgiapurgatory/coffinthumbnail.png
+image: /assets/nostalgiapurgatory/nphallwaythumbnail.png
 permalink: /nostalgiapurgatory/
 category: Immersive Art Design and Fabrication
 time: 2018
-order: 3
+order: 2
 ---
 
+!["Looking into Nostalgia Purgatory"](/assets/nostalgiapurgatory/nphallway.png) 
 2018
 
 Nostalgia Purgatory
