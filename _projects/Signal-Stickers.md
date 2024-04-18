@@ -4,7 +4,7 @@ title: Signal Stickerpack
 image: /assets/digitalart/signal-cambervillain.png
 permalink: /signal/
 category: Creative Technology
-time: 2017-01-01
+time: 2017
 order: 3
 status: publish
 ---
