@@ -4,16 +4,14 @@ title: "Present and Preserve Providence: The Old Brick Schoolhouse"
 image: /assets/intar/obshportfolio4.jpg
 permalink: /obsh/
 category: Interior Architecture
-time: 2020-01-01
-order: 18
+time: 2015
+order: 6
 status: publish
 ---
 
-2015
-
-Preserve, Present, Providence: The Old Brick Schoolhouse 
-!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio1.jpg)
 The Old Brick Schoolhouse (aka Meeting Street School or Providence Preservation Society) is a historic colonial property at 24 Meeting Street in Providence, Rhode Island.
+
+!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio1.jpg)
 
 The Rhode Island Historic Preservation Society requested assistance from RISD to plan a revitalization of the Old Brick Schoolhouse consistent with its historic use for education and public assembly, as well as to develop programming that support their historic preservation mission. Our class within the Interior Architecture department took on the task, each student individually redesigning the space to make it more functionally useful and accessible to their employees and visitors. The following details my approach to the task, which was presented to a board of critics and the client.
 
@@ -23,11 +21,15 @@ This project led me to become familiar with significant issues facing historic s
 
 Due to the historic importance of the structure, we were not to make any major alterations to the existing exterior of the brick school house if it was a historic feature of the structure. The interior space and all non-historic components of the back of the structure (such as the asphalt parking lot, covered back door addition, and an inefficient boiler room) were open to change. One important desire of the client was to include a space appropriate for board meetings and giving presentations for both large groups of up to 50 people from the community as well as small gatherings of members of the organization (7 currently employed with intention to grow in number by 1-3 persons every year).
 
-!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio2.jpg)!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio3.jpg)!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio4.jpg)
+!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio2.jpg)
+
+!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio3.jpg)
+
+!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio4.jpg)
+
 !["The Old Brick Schoolhouse"](/assets/intar/obshstreet.jpg)
 
-Design priorities were broken up into five categories: 
-Preservation/restoration, Business, Attraction, Landscape, and Demolition/construction.
+Design priorities were broken up into five categories: preservation/restoration, business, attraction, landscape, and demolition/construction.
 
 Below is a bullet list I made during my initial design process:
 

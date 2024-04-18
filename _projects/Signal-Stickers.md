@@ -19,7 +19,7 @@ If you use Signal, you can download it [here](https://signal.art/addstickers/?fb
 *Bashful*
 
 !["Bitchin"](/assets/digitalart/Bitchin.png) 
-*Bitchin;*
+*Bitchin'*
 
 !["Busy"](/assets/digitalart/Busy.png) 
 *Busy*
@@ -31,43 +31,64 @@ If you use Signal, you can download it [here](https://signal.art/addstickers/?fb
 *Can't talk now*
 
 !["Coffee"](/assets/digitalart/Coffee.png) 
+*Coffee*
 
 !["Date"](/assets/digitalart/Date.png) 
+*Date*
 
 !["Fool For You"](/assets/digitalart/FoolForYou.png) 
+*Fool for you*
 
 !["Glitch"](/assets/digitalart/Glitch.png) 
+*Glitch*
 
 !["Goodnight"](/assets/digitalart/Goodnight.png) 
+*Goodnight*
 
 !["Hugs"](/assets/digitalart/Hugs.png) 
+*Hugs*
 
 !["Kink"](/assets/digitalart/Kink.png) 
+*Kink*
 
 !["Late"](/assets/digitalart/Late.png) 
+*Late*
 
 !["Luck"](/assets/digitalart/Luck.png) 
+*Luck*
 
 !["Music"](/assets/digitalart/Music.png) 
+*Music*
 
 !["Pencil"](/assets/digitalart/Pencil.png) 
+*Pencil*
 
 !["Pinky Promise"](/assets/digitalart/PinkyPromise.png) 
+*Pinky Promise*
 
 !["Red Flags"](/assets/digitalart/RedFlags.png) 
+*Red Flags*
 
 !["See You"](/assets/digitalart/SeeYou.png)
+*See You*
 
 !["Shoe Fits"](/assets/digitalart/ShoeFits.png)
+*Shoe fits*
 
 !["Stressed"](/assets/digitalart/Stressed.png) 
+*Stressed*
 
 !["Sunrise"](/assets/digitalart/Sunrise.png)
+*Sunrise*
 
 !["Thankful"](/assets/digitalart/Thankful.png)
+*Thankful*
 
 !["Thinking Of You"](/assets/digitalart/ThinkingOfYou.png) 
+*Thinking of you*
 
 !["Tied Up"](/assets/digitalart/TiedUp.png)
+*Tied up*
 
 !["Walk"](/assets/digitalart/Walk.png) 
+*Walk*

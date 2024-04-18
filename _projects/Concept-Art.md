@@ -5,7 +5,7 @@ image: /assets/ravewonderland/ShoeAreaConceptArt_Jaden.png
 permalink: /conceptart/
 category: Blue Sky Thinking and Concepts
 time: 2019-01-01
-order: 5
+order: 4
 status: publish
 ---
 
