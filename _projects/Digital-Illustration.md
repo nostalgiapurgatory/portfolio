@@ -21,8 +21,6 @@ These are examples of various digital illustration projects I've done.
 
 ![](/assets/digitalart/GBCravesmallGif.gif)
 
-![](/assets/digitalart/GBposter1.png)
-
 ![](/assets/digitalart/20170426_Siobhan_O_Loughlin_0344.png)
 
 ![](/assets/digitalart/BrunchPoster1-2020.PNG)
@@ -37,31 +35,31 @@ These are examples of various digital illustration projects I've done.
 
 ![](/assets/digitalart/digitalsketchmonochrome.png)
 
+## Pixel Art
+
+![](/assets/digitalart/pixelbunny.png)
+
+![](/assets/digitalart/pixelsnail.png)
+
+![](/assets/digitalart/rosesthumbnail.png)
+
+![](/assets/digitalart/TwitchNoc.png)
+
+![](/assets/digitalart/PixelTarot01-2018.PNG)
+
 ## Illustration
 
 ![](/assets/digitalart/digitalsketchbike.png)
 
 ![](/assets/digitalart/digitalsketchcatsuit.png)
 
-![](/assets/digitalart/pixelbunny.png)
-
-![](/assets/digitalart/pixelsnail.png)
-
-![](/assets/digitalart/PixelTarot01-2018.PNG)
-
-![](/assets/digitalart/rosesthumbnail.png)
-
 ![](/assets/digitalart/CyberpunkDoodle-5-1-2020.png)
-
-![](/assets/digitalart/TwitchNoc.png)
 
 ![](/assets/digitalart/BeachPinup.png)
 
 ![](/assets/digitalart/BookCoverVintage_2020.PNG)
 
 ![](/assets/digitalart/EscapeNewHavenNewspaper.png)
-
-![](/assets/digitalart/cupcakesobviously3a.png)
 
 ## Logos
 
@@ -70,6 +68,8 @@ These are examples of various digital illustration projects I've done.
 ![](/assets/digitalart/Brodega2.png)
 
 ![](/assets/digitalart/logo_glassblowing2.png)
+
+![](/assets/digitalart/cupcakesobviously3a.png)
 
 ![](/assets/digitalart/LogoToughpuppy-2017.PNG)
 

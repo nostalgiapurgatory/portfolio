@@ -17,10 +17,10 @@ Gather is retro-RPG aesthetic proximity chat platform that runs in-browser.
 In 2020, many creative theatrical productions moved online out due to necessity from the COVID-19 lockdowns. Some creatives made use of Zoom, but others used smaller platorms that allowed for interesting creative liberties. Gather became a popular choice among friends of mine in the Immersive Theatre crowd. I was invited to Terrence LeClere's birthday party in Gather; it was a lot of fun!
 
 !["gather in 2020-1"](/assets/gather/all-hands.png)
-*An example of a map in Gather*
+*An example of a map in Gather in the early days*
 
 !["gather in 2020-3"](/assets/gather/avatars.png){: width="50%"}
-*Four Gather avatars*
+*Four of the original Gather avatars*
 
 In the early days, the avatars weren't user-editable, but the map was totally customizable. I made a few spaces, then did some contract work making maps for folks using the platform for themed event spaces.
 
