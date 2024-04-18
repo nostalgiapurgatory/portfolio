@@ -4,7 +4,7 @@ title: Phosphorescent Fungi
 image: /assets/sculpture/2015mushroomsglowing.jpg
 permalink: /mushrooms/
 category: Immersive Art Design and Fabrication
-time: 2016-01-01
+time: 2016
 order: 11
 status: publish
 ---
@@ -19,7 +19,7 @@ For a site-specific installation I sculpted a series of eleven mushrooms from wo
 
 !["Gesso 1"](/assets/sculpture/2015mushroomsgesso1.jpg)
 
-My next step after sanding them completely smooth (a process spend up with an angle grinder) was to cover them in several layers of white gesso. I wanted them to charge by sunlight, so I filled them with gllow-in-the-dark UV powder and clear epoxy resin. 
+My next step after sanding them completely smooth (a process spend up with an angle grinder) was to cover them in several layers of white gesso. I wanted them to charge by sunlight, so I filled them with gllow-in-the-dark UV powder and clear epoxy resin.
 
 !["Day Install 1"](/assets/sculpture/2015fungi1.jpg)
 
