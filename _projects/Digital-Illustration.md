@@ -4,7 +4,7 @@ title: Digital Illustration
 image: /assets/digitalart/rosesthumbnail.png
 permalink: /digitalart/
 category: Technical Art and Fabrication Skills
-time: 2015-01-01
+time: 2015 - 2024
 order: 3
 status: publish
 ---

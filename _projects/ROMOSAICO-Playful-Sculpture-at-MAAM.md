@@ -4,7 +4,7 @@ title: "ROMOSAICO: Playful Sculpture at MAAM"
 image: /assets/sculpture/maaminstallation3.jpg
 permalink: /maam/
 category: Immersive Art Design and Fabrication
-time: 2020-01-01
+time: 2017
 order: 5
 status: publish
 ---
