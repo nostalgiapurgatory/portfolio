@@ -6,6 +6,7 @@ permalink: /maam/
 category: Immersive Art Design and Fabrication
 time: 2020-01-01
 order: 5
+status: publish
 ---
 !["Romosaico at MAAM, Rome, Italy"](/assets/sculpture/maaminstallation3.jpg) 
 ROMOSAICO: Playful Sculpture at MAAM

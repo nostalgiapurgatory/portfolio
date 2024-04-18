@@ -6,11 +6,17 @@ permalink: /conceptart/
 category: Blue Sky Thinking and Concepts
 time: 2019-01-01
 order: 5
+status: publish
 ---
 
 Concept Art for Rave Wonderland, in Los Angeles
+
 !["Shoe Area"](/assets/ravewonderland/ShoeAreaConceptArt_Jaden.png) 
+
 !["Shoe Display"](/assets/ravewonderland/ShoeDisplayConcept.png) 
-!["Thumbnails"](/assets/ravewonderland/RavewonderlandThumbnails.pdf) 
+
+!["Thumbnails"](/assets/ravewonderland/RavewonderlandThumbnails.jpg) 
+
 !["Lighting"](/assets/ravewonderland/StorefrontLightingConcept.png) 
+
 !["Lighting Render"](/assets/ravewonderland/StorefrontLightingConceptRender.png) 

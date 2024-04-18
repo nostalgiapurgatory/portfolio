@@ -9,14 +9,16 @@ layout: default
 
 <div class="posts">
   {% for project in sorted_projects %}
-    <a class="post-link" href="{{ project.url }}" style="background-image: url('{{ project.image }}');background-size:cover;background-position:center;">
-      <div class="post">
-        <h1 class="post-title-homepage">
-          
-            {{ project.title }}
-          
-        </h1>
-      </div>
-    </a>
+    {% if project.status == "publish" %}
+      <a class="post-link" href="{{ project.url }}" style="background-image: url('{{ project.image }}');background-size:cover;background-position:center;">
+        <div class="post">
+          <h1 class="post-title-homepage">
+            
+              {{ project.title }}
+            
+          </h1>
+        </div>
+      </a>
+    {% endif %}
   {% endfor %}
 </div>

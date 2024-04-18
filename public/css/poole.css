@@ -442,3 +442,12 @@ img {
   display: block;
   margin-left: 200px;
 }
+
+.post img {
+  max-height: 800px;
+}
+
+.post iframe {
+  display: block;
+  margin: 0 auto;
+}

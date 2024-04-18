@@ -6,6 +6,7 @@ permalink: /voltavox/
 category: Creative Technology
 time: 2022-11-03
 order: 4
+status: publish
 ---
 
 Voltavox is a PCB-based phonograph!

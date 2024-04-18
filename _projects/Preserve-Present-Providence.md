@@ -6,6 +6,7 @@ permalink: /obsh/
 category: Interior Architecture
 time: 2020-01-01
 order: 18
+status: publish
 ---
 
 2015
