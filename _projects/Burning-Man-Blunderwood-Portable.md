@@ -20,6 +20,14 @@ I helped to design elements of the Blunderwood Portable by 2015 Burning Man hono
 
 In 2015, I had just finished my second year of college studying interior architecture at the Rhode Island School of Design (RISD). Having just learned to use Autodesk's AutoCAD and the 3D Modeling software Rhinoceros, I leapt at the opportunity to assist with CAD work planning the cuts for the return carriage, platen, and space bar sections of this giant 24:1 scale typewriter.
 
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x.png)
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x2.png)
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x3.png)
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x4.png)
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x5.png)
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x6.png)
+!["Blunderwood Portable progress"](/assets/burningman/blunderwood_x7.png)
+
 !["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot.png)!["Blunderwood Portable progress"](/assets/burningman/AdditionstoCad.png)
 !["Blunderwood Portable progress"](/assets/burningman/Additions1.png)
 !["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot1.png)!["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot2.png)
