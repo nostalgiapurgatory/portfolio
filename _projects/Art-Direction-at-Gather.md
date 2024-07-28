@@ -12,6 +12,9 @@ status: publish
 
 !["gather ad asset"](/assets/gather/previewimage.png)
 
+
+
+
 Gather is retro-RPG aesthetic proximity chat platform that runs in-browser.
 
 In 2020, many creative theatrical productions moved online out due to necessity from the COVID-19 lockdowns. Some creatives made use of Zoom, but others used smaller platorms that allowed for more creative liberties. Gather became a popular choice among colleagues of mine who were previously making live experiences and immersive artwork. I was first introduced to Gather at an "Everything Immersive" industry conference, and began to create work within the platform during the period of time where much of the world was in lockdown. The company took notice, and by the end of 2020, I was hired as their first full time artist. 
@@ -45,7 +48,20 @@ Shortly after that evening, I applied to Gather and began working there full tim
 !["Style Guide"](/assets/gather/Gather_design_principles3.png)
 !["Style Guide"](/assets/gather/Gather_design_principles4.png)
 
+Gather's success in the pandemic opened many potential avenues to explore. We made some experimental games to bring remote friends and families together. 
+
+!["RPG"](/assets/gather/2_rpg1.png)
+!["RPG"](/assets/gather/MakerweekRPGBooth.png)
+!["RPG"](/assets/gather/MakerweekRPGEast.png)
+!["RPG"](/assets/gather/MakerweekRPGSouth.png)
+!["RPG"](/assets/gather/MakerweekRPGWest.png)
+!["Night Bar"](/assets/gather/night_bar.png)
+
+
 After a couple years at Gather, I became the Art Director. While in this role, I led an update to the pallete, worked with design on a website refresh, pitched and developed a new model for structuring tiles in the platform, worked closely with product to adjust our style based on customer feedback, and dozens of other projects while coordinating with every team at the company.
+
+
+!["Gather Seasons"](/assets/gather/TimeofdaySeason_palette.png)
 
 !["Gather Banner"](/assets/gather/GatherBanner2.png)
 
@@ -61,7 +77,24 @@ After a couple years at Gather, I became the Art Director. While in this role, I
 !["Gather Website Iterations"](/assets/gather/WebsiteIterations7.png)
 !["Gather Website Iterations"](/assets/gather/WebsiteIterations8.png)
 
+!["Bookmeeting"](/assets/gather/500px_marketing_bookmeetings.png)
+!["Collab"](/assets/gather/500px_marketing_collaboration.png)
+!["Custom Avatars"](/assets/gather/500px_marketing_customavatars.png)
+!["Desk Customization"](/assets/gather/500px_marketing_deskcustomization.png)
+!["Space Design"](/assets/gather/500px_marketing_fullcustomization.png)
+!["Quick Start"](/assets/gather/500px_marketing_quickstarttemplates.png)
+!["Reactions"](/assets/gather/500px_marketing_reactions.png)
+!["Socialization"](/assets/gather/500px_marketing_socialization.png)
+!["Fun Environments"](/assets/gather/500px_marketing_spaceforeverystyle.png)
+!["Spontaneity"](/assets/gather/500px_marketing_spontaneity.png)
+
+
 One of the largest projects I worked on at Gather was making the selection of avatar styles and assets more inclusive. This included new hair styles, colors, skin tones, and skin types.
+
+!["Inclusivity"](/assets/gather/skintone_palette-export.png)
+*Skintone Base Explorations 1*
+!["Inclusivity"](/assets/gather/Untitled 98.png)
+*Skintone Base Explorations 2*
 
 !["Inclusivity"](/assets/gather/naturalhairlist.png)
 *Newly added hair styles*
@@ -78,8 +111,34 @@ After three years, Gather's leadership decided to lay off the art team, myself i
 !["my influence on the art"](/assets/gather/artqlu1.png)
 *My influence on Gather's style towards a more professional look*
 
+!["my influence on the art"](/assets/gather/Campsite.png)
+!["my influence on the art"](/assets/gather/WishingWell.png)
+
+!["Fishing"](/assets/gather/pond5fish.gif)
+!["Fishing"](/assets/gather/pond animated fish.gif)
+
 The result was a more professional and uniquely Gather style. This was comprised of identity-inclusive avatars and wearable features, objects, and world environments. I reshaped the color palette, set the bar for consistency and quality in the art the team produced, and developed broad goals for the art and map departments as a whole.
 
+!["Virtual Background"](/assets/gather/Pixel_Cafe_1_shadoweffect.png)
 !["Gather Watch Art"](/assets/gather/Gatherwatch.png)
+!["Smoothing"](/assets/gather/smoother.png)
+!["Future Forward"](/assets/gather/ArtboardHero.png)
+!["Hero"](/assets/gather/ArtboardHero2.png)
 
 I was able to contribute a number of blue sky ideas with other department heads and executive leadership at Gather, and delighted in the opportunity to help pull this start-up to profitibility and reknown. 
+
+During a pivotal moment for Gather, as the pandemic restrictions were lessened and live events began to happen again, we pivoted to focus on remote work and discussed at length what changing the style of the avatars would entail. I was asked to explore what it could look like. 
+
+!["Exploration"](/assets/gather/image (25).png)
+!["Exploration"](/assets/gather/image (24).png)
+!["Exploration"](/assets/gather/image (23).png)
+
+!["Exploration"](/assets/gather/image (26).png)
+!["Exploration"](/assets/gather/image (27).png)
+!["Exploration"](/assets/gather/image (28).png)
+!["Exploration"](/assets/gather/image (29).png)
+!["Exploration"](/assets/gather/image (30).png)
+!["Exploration"](/assets/gather/image (31).png)
+!["Exploration"](/assets/gather/image (32).png)
+!["Exploration"](/assets/gather/image (34).png)
+
