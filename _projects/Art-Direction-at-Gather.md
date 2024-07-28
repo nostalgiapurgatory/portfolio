@@ -75,7 +75,7 @@ Gather's success in the pandemic opened many potential avenues to explore. We ma
 !["Exploration"](/assets/gather/image (74).png)
 
 
-After a couple years at Gather, I became the Art Director. While in this role, I led an update to the pallete, worked with design on a website refresh, pitched and developed a new model for structuring tiles in the platform, worked closely with product to adjust our style based on customer feedback, and dozens of other projects while coordinating with every team at the company.
+After a couple years at Gather, I was leading the team as the Art Director. While in this role, I overhauled the avatar system, reworked the color palette, and revised systems of virtual space creation. I placed emphasis on more efficient workflows to craft  virtual offices and assets with ease, and improved the layout of our spritesheets and texture crafting. I worked closely with the product design leadership to adjust our style based on customer feedback, which my team and I participated in attentively by actively interviewing users and visiting their customized virtual offices. I interfaced with engineering, game server and rendering, product design, executive leadership, customer support, marketing, and localization teams. 
 
 
 !["Gather Seasons"](/assets/gather/TimeofdaySeason_palette.png)
@@ -133,6 +133,7 @@ I was able to contribute a number of blue sky ideas with other department heads 
 
 During a pivotal moment for Gather, as the pandemic restrictions were lessened and live events began to happen again, we pivoted to focus on remote work and discussed at length what changing the style of the avatars would entail. I was asked to explore what it could look like. 
 
+!["Exploration"](/assets/gather/sampleexperimentalavatars.png)
 !["Exploration"](/assets/gather/image (25).png)
 !["Exploration"](/assets/gather/image (24).png)
 !["Exploration"](/assets/gather/image (23).png)
