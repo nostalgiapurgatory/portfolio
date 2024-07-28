@@ -21,11 +21,15 @@ In 2020, many creative theatrical productions moved online out due to necessity 
 
 !["gather in 2020-3"](/assets/gather/avatars.png){: width="50%"}
 *Four of the original Gather avatars, before avatar style changes I lead*
+!["gather in 2023"](/assets/gather/GatherStaff_lineup200.png)
+
 
 Here's an example of the kind of spaces Gather offered when I first became introduced to the company. 
 
 !["gather in 2020-1"](/assets/gather/all-hands.png)
 *An example of a map in Gather in the early days*
+!["my first Gather space"](/assets/gather/gatherscreenshot.png)
+*My very first Gather space, very 1bit*
 
 In the early days, the avatars weren't user-editable, but the map was totally customizable. I made a few spaces, then did some contract work making maps for folks using the platform for themed event spaces.
 
@@ -38,7 +42,11 @@ In the late part of 2020, I made a virtual coffee shop and posted the link on Tw
 !["gather cafe"](/assets/gather/Gather.Cafe.JadenAndrea.png)
 *The coffee shop I created*
 
+
 I kept the space open on my laptop while I was in my room, using it as if I were working from a coffee shop. I heard voices coming from my laptop one evening and looked up to find Phillip Wang, the CEO of Gather, serving virtual visitors coffees from behind the counter, roleplaying as a barista. A writer for WIRED magazine was also in the space, and she later wrote [an article](https://www.wired.com/story/zoom-parties-proximity-chat/) about Gather from the visit.
+
+An asset I made three years later is an homage to that early Gather-ing place. 
+!["gather cafe 2"](/assets/gather/CoffeeShop_nofloor.png)
 
 Shortly after that evening, I applied to Gather and began working there full time. I was employee number 20. I started by working with the Art Director Mark Carpenter to develop Gather's visual style and color pallete. I also worked on a small team of other pixel artists to make thousands of assets for the platform.
 
@@ -68,14 +76,9 @@ After a couple years at Gather, I became the Art Director. While in this role, I
 !["Everything was closed for the pandemic"](/assets/gather/everything_is_closed.png)
 
 !["Gather Website Iterations"](/assets/gather/WebsiteIterations.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations1.png)
 !["Gather Website Iterations"](/assets/gather/WebsiteIterations2.png)
 !["Gather Website Iterations"](/assets/gather/WebsiteIterations3.png)
 !["Gather Website Iterations"](/assets/gather/WebsiteIterations4.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations5.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations6.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations7.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations8.png)
 
 !["Bookmeeting"](/assets/gather/500px_marketing_bookmeetings.png)
 !["Collab"](/assets/gather/500px_marketing_collaboration.png)
