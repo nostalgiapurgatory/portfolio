@@ -125,7 +125,6 @@ The result was a more professional and uniquely Gather style. This was comprised
 !["Gather Watch Art"](/assets/gather/Gatherwatch.png)
 !["Smoothing"](/assets/gather/smoother.png)
 !["Future Forward"](/assets/gather/ArtboardHero.png)
-!["Hero"](/assets/gather/ArtboardHero2.png)
 
 I was able to contribute a number of blue sky ideas with other department heads and executive leadership at Gather, and delighted in the opportunity to help pull this start-up to profitibility and reknown. 
 
