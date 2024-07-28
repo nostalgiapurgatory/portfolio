@@ -56,14 +56,21 @@ Shortly after that evening, I applied to Gather and began working there full tim
 !["Style Guide"](/assets/gather/Gather_design_principles3.png)
 !["Style Guide"](/assets/gather/Gather_design_principles4.png)
 
+
+
+!["RPG"](/assets/gather/MakerweekRPGBooth.png)
+
 Gather's success in the pandemic opened many potential avenues to explore. We made some experimental games to bring remote friends and families together. 
 
 !["RPG"](/assets/gather/2_rpg1.png)
-!["RPG"](/assets/gather/MakerweekRPGBooth.png)
 !["RPG"](/assets/gather/MakerweekRPGEast.png)
 !["RPG"](/assets/gather/MakerweekRPGSouth.png)
 !["RPG"](/assets/gather/MakerweekRPGWest.png)
 !["Night Bar"](/assets/gather/night_bar.png)
+!["Exploration"](/assets/gather/image (71).png)
+!["Exploration"](/assets/gather/image (72).png)
+!["Exploration"](/assets/gather/image (73).png)
+!["Exploration"](/assets/gather/image (74).png)
 
 
 After a couple years at Gather, I became the Art Director. While in this role, I led an update to the pallete, worked with design on a website refresh, pitched and developed a new model for structuring tiles in the platform, worked closely with product to adjust our style based on customer feedback, and dozens of other projects while coordinating with every team at the company.
@@ -116,9 +123,9 @@ After three years, Gather's leadership decided to lay off the art team, myself i
 
 !["my influence on the art"](/assets/gather/Campsite.png)
 !["my influence on the art"](/assets/gather/WishingWell.png)
+!["my influence on the art"](/assets/gather/Courtyard.png)
 
 !["Fishing"](/assets/gather/pond5fish.gif)
-!["Fishing"](/assets/gather/pond animated fish.gif)
 
 The result was a more professional and uniquely Gather style. This was comprised of identity-inclusive avatars and wearable features, objects, and world environments. I reshaped the color palette, set the bar for consistency and quality in the art the team produced, and developed broad goals for the art and map departments as a whole.
 
@@ -129,6 +136,9 @@ The result was a more professional and uniquely Gather style. This was comprised
 !["Hero"](/assets/gather/ArtboardHero2.png)
 
 I was able to contribute a number of blue sky ideas with other department heads and executive leadership at Gather, and delighted in the opportunity to help pull this start-up to profitibility and reknown. 
+
+!["Documents"](/assets/gather/documents.png)
+!["Sophisticated"](/assets/gather/image (75).png)
 
 During a pivotal moment for Gather, as the pandemic restrictions were lessened and live events began to happen again, we pivoted to focus on remote work and discussed at length what changing the style of the avatars would entail. I was asked to explore what it could look like. 
 
@@ -145,3 +155,7 @@ During a pivotal moment for Gather, as the pandemic restrictions were lessened a
 !["Exploration"](/assets/gather/image (32).png)
 !["Exploration"](/assets/gather/image (34).png)
 
+Interestingly, after extensive user interviews, the majority of users liked the pixelart styles the most. They appreciated the more "sophisticated" pixel art style, an improved color palette, slightly taller avatars with more colorblocked textures. So in the end, the overhaul of the art style and avatar system I managed in 2022 into 2023 was an evolution, or a "growing up" of our earlier pixel art style, instead of a drastically different style. We threw a lot of ideas against the wall, and some verson of them may reappear in the future of Gather-- who knows!
+
+
+!["Skyline"](/assets/gather/DaytimeSkyline.png)
