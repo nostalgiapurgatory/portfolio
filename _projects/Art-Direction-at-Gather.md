@@ -13,15 +13,16 @@ status: publish
 !["gather ad asset"](/assets/gather/previewimage.png)
 
 
+Gather is retro-RPG aesthetic proximity chat platform that runs in-browser. I worked for this company first as an early employee and their first full time artist hire. I was promoted a few times within the company, to senior level artist and team lead,  manager of the two teams in the department, and by the last year I was employed there I was heading the department in a leadership role as the Art Director. I loved each position along the way, grew in my own abilities and also significantly shaped the way Gather looked and felt.  
 
-
-Gather is retro-RPG aesthetic proximity chat platform that runs in-browser.
+!["Everything was closed for the pandemic"](/assets/gather/everything_is_closed.png)
 
 In 2020, many creative theatrical productions moved online out due to necessity from the COVID-19 lockdowns. Some creatives made use of Zoom, but others used smaller platorms that allowed for more creative liberties. Gather became a popular choice among colleagues of mine who were previously making live experiences and immersive artwork. I was first introduced to Gather at an "Everything Immersive" industry conference, and began to create work within the platform during the period of time where much of the world was in lockdown. The company took notice, and by the end of 2020, I was hired as their first full time artist. 
 
 !["gather in 2020-3"](/assets/gather/avatars.png){: width="50%"}
 *Four of the original Gather avatars, before avatar style changes I lead*
 !["gather in 2023"](/assets/gather/GatherStaff_lineup200.png)
+*A lineup of my coworkers' avatars, made with the customizer after my overhaul of the avatar system as the Art Director was implemented.*
 
 
 Here's an example of the kind of spaces Gather offered when I first became introduced to the company. 
@@ -34,7 +35,7 @@ Here's an example of the kind of spaces Gather offered when I first became intro
 In the early days, the avatars weren't user-editable, but the map was totally customizable. I made a few spaces, then did some contract work making maps for folks using the platform for themed event spaces.
 
 !["Camping in the Woods"](/assets/gather/ForestBackground2.png)
-*Camping themed event*
+*Camping themed space I made as a fan, before I started working at Gather*
 
 The story of the coffee shop is one that the CEO of Gather and I have shared often with others. 
 In the late part of 2020, I made a virtual coffee shop and posted the link on Twitter.
@@ -45,8 +46,9 @@ In the late part of 2020, I made a virtual coffee shop and posted the link on Tw
 
 I kept the space open on my laptop while I was in my room, using it as if I were working from a coffee shop. I heard voices coming from my laptop one evening and looked up to find Phillip Wang, the CEO of Gather, serving virtual visitors coffees from behind the counter, roleplaying as a barista. A writer for WIRED magazine was also in the space, and she later wrote [an article](https://www.wired.com/story/zoom-parties-proximity-chat/) about Gather from the visit.
 
-An asset I made three years later is an homage to that early Gather-ing place. 
+
 !["gather cafe 2"](/assets/gather/CoffeeShop_nofloor.png)
+*An asset I made three years later is an homage to that early Gather-ing place.*
 
 Shortly after that evening, I applied to Gather and began working there full time. I was employee number 20. I started by working with the Art Director Mark Carpenter to develop Gather's visual style and color pallete. I also worked on a small team of other pixel artists to make thousands of assets for the platform.
 
@@ -60,7 +62,7 @@ Shortly after that evening, I applied to Gather and began working there full tim
 
 !["RPG"](/assets/gather/MakerweekRPGBooth.png)
 
-Gather's success in the pandemic opened many potential avenues to explore. We made some experimental games to bring remote friends and families together. 
+Gather's success in the pandemic opened many potential avenues to explore. We made some experimental games to bring remote friends and families together, including a short RPG about indigenous identity, a grand prix racing game, two escape rooms, a fishing and gardening minigames, and more. 
 
 !["RPG"](/assets/gather/2_rpg1.png)
 !["RPG"](/assets/gather/MakerweekRPGEast.png)
@@ -79,14 +81,6 @@ After a couple years at Gather, I became the Art Director. While in this role, I
 !["Gather Seasons"](/assets/gather/TimeofdaySeason_palette.png)
 
 !["Gather Banner"](/assets/gather/GatherBanner2.png)
-
-!["Everything was closed for the pandemic"](/assets/gather/everything_is_closed.png)
-
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations2.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations3.png)
-!["Gather Website Iterations"](/assets/gather/WebsiteIterations4.png)
-
 !["Bookmeeting"](/assets/gather/500px_marketing_bookmeetings.png)
 !["Collab"](/assets/gather/500px_marketing_collaboration.png)
 !["Custom Avatars"](/assets/gather/500px_marketing_customavatars.png)
@@ -102,9 +96,9 @@ After a couple years at Gather, I became the Art Director. While in this role, I
 One of the largest projects I worked on at Gather was making the selection of avatar styles and assets more inclusive. This included new hair styles, colors, skin tones, and skin types.
 
 !["Inclusivity"](/assets/gather/skintone_palette-export.png)
-*Skintone Base Explorations 1*
+*Skintone Base Explorations on an avatar base from 2021*
 !["Inclusivity"](/assets/gather/Untitled 98.png)
-*Skintone Base Explorations 2*
+*Skintone Base Explorations on an avatar base from 2023*
 
 !["Inclusivity"](/assets/gather/naturalhairlist.png)
 *Newly added hair styles*
@@ -115,8 +109,6 @@ One of the largest projects I worked on at Gather was making the selection of av
 
 !["Staff Lineup"](/assets/gather/GatherStaff_lineup200.png)
 *A collection of different avatars, showing the range of appearances*
-
-After three years, Gather's leadership decided to lay off the art team, myself included. While I was there, I influenced and defined the evolution of the Gather art style into something less reminicient of nostalgic video game assets, but still in the pixel art format.
 
 !["my influence on the art"](/assets/gather/artqlu1.png)
 *My influence on Gather's style towards a more professional look*
@@ -155,7 +147,7 @@ During a pivotal moment for Gather, as the pandemic restrictions were lessened a
 !["Exploration"](/assets/gather/image (32).png)
 !["Exploration"](/assets/gather/image (34).png)
 
-Interestingly, after extensive user interviews, the majority of users liked the pixelart styles the most. They appreciated the more "sophisticated" pixel art style, an improved color palette, slightly taller avatars with more colorblocked textures. So in the end, the overhaul of the art style and avatar system I managed in 2022 into 2023 was an evolution, or a "growing up" of our earlier pixel art style, instead of a drastically different style. We threw a lot of ideas against the wall, and some verson of them may reappear in the future of Gather-- who knows!
+Interestingly, after extensive user interviews, the majority of users liked the pixelart styles the most. They appreciated the more "sophisticated" pixel art style, an improved color palette, slightly taller avatars with more colorblocked textures. So in the end, the overhaul of the art style and avatar system I managed in 2022 into 2023 was an evolution, or a "growing up" of our earlier pixel art style, instead of a drastically different style. We threw a lot of ideas against the wall, and some verson of them may reappear in the future of Gather-- who knows! I'll always look back at my time with Gather fondly. I loved my team and believed in our mission to make an accessible two dimensional metaverse product. 
 
 
 !["Skyline"](/assets/gather/DaytimeSkyline.png)
