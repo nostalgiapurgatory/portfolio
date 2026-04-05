@@ -2,7 +2,16 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
+<section class="finder-pane finder-page-pane">
+  <header class="finder-pane-header">
+    <div>
+      <p class="finder-pane-eyebrow">Reference File</p>
+      <h1>{{ page.title }}</h1>
+      <p class="finder-pane-intro">General information and context, opened inside the portfolio explorer.</p>
+    </div>
+  </header>
+
+  <div class="finder-document">
+    {{ content }}
+  </div>
+</section>

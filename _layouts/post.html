@@ -2,27 +2,22 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.time }}</span>
-  {{ content }}
-</div>
+<article class="finder-pane finder-project-pane">
+  <header class="finder-pane-header finder-project-header">
+    <div class="finder-project-titleblock">
+      <p class="finder-pane-eyebrow">{{ page.category }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="finder-pane-intro">{{ page.time }}</p>
+    </div>
 
+    {% if page.image %}
+      <div class="finder-project-preview">
+        <img src="{{ page.image }}" alt="{{ page.title }} preview image">
+      </div>
+    {% endif %}
+  </header>
 
-<!--
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
--->
+  <div class="finder-document">
+    {{ content }}
+  </div>
+</article>

@@ -3,22 +3,92 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Home
 ---
 
-{% assign sorted_projects = site.projects | sort:"order" %}
+{% assign published_projects = site.projects | where: "status", "publish" | sort: "order" %}
+{% assign featured_projects = published_projects | slice: 0, 8 %}
+{% assign project_categories = published_projects | map: "category" | uniq %}
 
-<div class="posts">
-  {% for project in sorted_projects %}
-    {% if project.status == "publish" %}
-      <a class="post-link" href="{{ project.url }}" style="background-image: url('{{ project.image }}');background-size:cover;background-position:center;">
-        <div class="post">
-          <h1 class="post-title-homepage">
-            
-              {{ project.title }}
-            
-          </h1>
-        </div>
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
+<section class="finder-pane finder-pane-home">
+  <header class="finder-pane-header finder-home-header">
+    <div>
+      <p class="finder-pane-eyebrow">Macintosh HD</p>
+      <h1>Portfolio Explorer</h1>
+      <p class="finder-pane-intro">
+        Browse projects like files on a vintage desktop. Open any document from the explorer on the left, or start with a featured file below.
+      </p>
+    </div>
+
+    <div class="finder-stats">
+      <div class="finder-stat">
+        <span class="finder-stat-value">{{ published_projects | size }}</span>
+        <span class="finder-stat-label">Files</span>
+      </div>
+      <div class="finder-stat">
+        <span class="finder-stat-value">{{ project_categories | size }}</span>
+        <span class="finder-stat-label">Folders</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="finder-home-grid">
+    <section class="finder-card">
+      <div class="finder-card-header">
+        <h2>Folders</h2>
+        <span>By category</span>
+      </div>
+      <div class="finder-folder-grid">
+        {% for category in project_categories %}
+          {% assign category_projects = published_projects | where: "category", category %}
+          <div class="finder-folder-card">
+            <div class="finder-folder-card-top">
+              <span class="finder-icon finder-icon-folder"></span>
+              <span class="finder-folder-count">{{ category_projects | size }} files</span>
+            </div>
+            <h3>{{ category }}</h3>
+            <p>
+              {% assign preview_project = category_projects | first %}
+              Opens files like {{ preview_project.title }} from the explorer.
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="finder-card finder-card-notes">
+      <div class="finder-card-header">
+        <h2>Read Me</h2>
+        <span>Quick start</span>
+      </div>
+      <div class="finder-note">
+        <p>
+          The left column acts like your file tree. Select any project to keep the Finder shell open while loading its images and writing in the preview pane.
+        </p>
+        <p>
+          Start with <a href="{{ site.baseurl }}/gather/">Gather</a>, <a href="{{ site.baseurl }}/voltavox/">Voltavox</a>, or visit the <a href="{{ site.baseurl }}/about/">About</a> file for background.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <section class="finder-card finder-card-table">
+    <div class="finder-card-header">
+      <h2>Featured Files</h2>
+      <span>Double-click energy, single-click speed</span>
+    </div>
+
+    <div class="finder-file-table" role="list">
+      {% for project in featured_projects %}
+        <a class="finder-file-row" href="{{ project.url }}" role="listitem">
+          <span class="finder-file-cell finder-file-cell-name">
+            <span class="finder-icon finder-icon-file"></span>
+            <span>{{ project.title }}</span>
+          </span>
+          <span class="finder-file-cell">{{ project.category }}</span>
+          <span class="finder-file-cell">{{ project.time }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+</section>
