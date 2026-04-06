@@ -3,7 +3,7 @@ layout: post
 title: Revolutionary Labyrinth
 image: /assets/revolutionarylabyrinth/6RevLabSaraDunnAnimation.gif
 permalink: /revolutionarylabytinth/
-category: Blue Sky Thinking and Concepts
+category: Blue Sky & Concept Art
 time: 2019
 order: 4
 ---

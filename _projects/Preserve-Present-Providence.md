@@ -21,13 +21,13 @@ This project led me to become familiar with significant issues facing historic s
 
 Due to the historic importance of the structure, we were not to make any major alterations to the existing exterior of the brick school house if it was a historic feature of the structure. The interior space and all non-historic components of the back of the structure (such as the asphalt parking lot, covered back door addition, and an inefficient boiler room) were open to change. One important desire of the client was to include a space appropriate for board meetings and giving presentations for both large groups of up to 50 people from the community as well as small gatherings of members of the organization (7 currently employed with intention to grow in number by 1-3 persons every year).
 
-!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio2.jpg)
+<div class="finder-inline-image-grid finder-inline-image-grid-three">
+  <img src="/assets/intar/obshportfolio2.jpg" alt="The Old Brick Schoolhouse">
+  <img src="/assets/intar/obshportfolio3.jpg" alt="The Old Brick Schoolhouse">
+  <img src="/assets/intar/obshportfolio4.jpg" alt="The Old Brick Schoolhouse">
+</div>
 
-!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio3.jpg)
-
-!["The Old Brick Schoolhouse"](/assets/intar/obshportfolio4.jpg)
-
-!["The Old Brick Schoolhouse"](/assets/intar/obshstreet.jpg)
+!["The Old Brick Schoolhouse"](/assets/intar/obshstreet.jpg){: width="50%" }
 
 Design priorities were broken up into five categories: preservation/restoration, business, attraction, landscape, and demolition/construction.
 
@@ -78,7 +78,7 @@ The smaller of the two exhibition rooms would be surrounded on three sides by me
 
 The second floor of the building would have a thickened floor to allow space for inlaid seating that can sit flush with the floor when not in use and can be pulled up from the floor to become benches to accommodate any number of people. From the ceiling on the left of the plan a projection screen can be pulled down for viewing presentations or films that the Providence Preservation Society chooses. To cover the windows in order to darken the room during these times, thin wall-length panels on tracks can be installed around the perimeter of the room. The room can very quickly be transformed from an open plan to a theater or small presentation space. In the back of the room there are two spaces, the larger containing a window containing a restroom facility and the smaller space existing as a storage closet.
 
-!["The Old Brick Schoolhouse"](/assets/intar/obsh1st2nd.jpg)
+!["The Old Brick Schoolhouse"](/assets/intar/obsh1st2nd.jpg){: width="50%" }
 
 On the exterior of the building, I proposed landscaping the neglected front garden and restoring the white picket fence seen in past documentation of the building. The front entrance stair tower is not handicap accessible and an alternative entrance is necessary. I proposed demolishing the non-historic covered back entrance and creating a larger door in the back, as well as a long sloped ramp along the left side of the building lined with grass and violets, the Rhode Island state flower. This way, the ground floor exhibit space and hallway can be accessed from both the North and South faces of the building for a streamlined walkthrough experience for community members and tourists during the open hours of the schoolhouse.
 

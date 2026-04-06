@@ -3,7 +3,13 @@
 
   {% include head.html %}
 
-  <body class="finder-body{% if page.url == '/' %} finder-home-page{% endif %}" data-theme="amber">
+  <body class="finder-body{% if page.url == '/' %} finder-home-page{% endif %}">
+    <script>
+      (function () {
+        var theme = window.__portfolioTheme || "amber";
+        document.body.setAttribute("data-theme", theme);
+      })();
+    </script>
     {% assign explorer_path = "Macintosh HD / Portfolio" %}
     {% if page.layout == "post" %}
       {% assign explorer_path = explorer_path | append: " / Projects" %}
@@ -36,6 +42,7 @@
 
           <div class="finder-toolbar-group finder-toolbar-right">
             <div class="finder-theme-switcher" role="group" aria-label="Display theme">
+              <button class="finder-theme-button" type="button" data-theme-option="mac2000s" aria-pressed="false">2000s Mac</button>
               <button class="finder-theme-button is-active" type="button" data-theme-option="amber" aria-pressed="true">Amber</button>
               <button class="finder-theme-button" type="button" data-theme-option="green" aria-pressed="false">Green</button>
               <button class="finder-theme-button" type="button" data-theme-option="paper" aria-pressed="false">Charcoal</button>
@@ -51,6 +58,31 @@
           <main class="finder-main" id="finder-main">
             {{ content }}
           </main>
+        </div>
+      </div>
+    </div>
+
+    <a class="finder-desktop-easter-egg{% if page.url == '/bygone-archive/' %} is-active{% endif %}" href="{{ site.baseurl }}/bygone-archive/" aria-label="Open Bygone Archive">
+      <span class="finder-desktop-easter-egg-icon" aria-hidden="true">
+        <span class="finder-desktop-easter-egg-lid"></span>
+        <span class="finder-desktop-easter-egg-body"></span>
+      </span>
+      <span class="finder-desktop-easter-egg-label">Bygone Archive</span>
+    </a>
+
+    <div class="finder-gallery-window-shell" data-gallery-window hidden>
+      <div class="finder-gallery-window-backdrop" data-gallery-dismiss></div>
+      <div class="finder-gallery-window" role="dialog" aria-modal="true" aria-label="Expanded artwork preview">
+        <div class="finder-gallery-window-toolbar">
+          <div class="finder-gallery-window-controls" aria-hidden="true">
+            <button class="finder-gallery-window-control finder-gallery-window-control-close" type="button" data-gallery-dismiss aria-label="Close preview"></button>
+            <button class="finder-gallery-window-control finder-gallery-window-control-minimize" type="button" data-gallery-dismiss aria-label="Minimize preview"></button>
+            <span class="finder-gallery-window-control finder-gallery-window-control-zoom"></span>
+          </div>
+          <p class="finder-gallery-window-title" data-gallery-title>Artwork Preview</p>
+        </div>
+        <div class="finder-gallery-window-body">
+          <img src="" alt="" data-gallery-image>
         </div>
       </div>
     </div>

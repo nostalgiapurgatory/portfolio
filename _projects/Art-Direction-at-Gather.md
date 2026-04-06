@@ -53,7 +53,6 @@ I kept the space open on my laptop while I was in my room, using it as if I were
 Shortly after that evening, I applied to Gather and began working there full time. I was employee number 20. I started by working with the Art Director Mark Carpenter to develop Gather's visual style and color pallete. I also worked on a small team of other pixel artists to make thousands of assets for the platform.
 
 !["Style Guide"](/assets/gather/Gather_design_principles.png)
-!["Style Guide"](/assets/gather/Gather_design_principles1.png)
 !["Style Guide"](/assets/gather/Gather_design_principles2.png)
 !["Style Guide"](/assets/gather/Gather_design_principles3.png)
 !["Style Guide"](/assets/gather/Gather_design_principles4.png)
@@ -82,15 +81,21 @@ After a couple years at Gather, I was leading the team as the Art Director. Whil
 
 !["Gather Banner"](/assets/gather/GatherBanner2.png)
 !["Bookmeeting"](/assets/gather/500px_marketing_bookmeetings.png)
-!["Collab"](/assets/gather/500px_marketing_collaboration.png)
-!["Custom Avatars"](/assets/gather/500px_marketing_customavatars.png)
-!["Desk Customization"](/assets/gather/500px_marketing_deskcustomization.png)
-!["Space Design"](/assets/gather/500px_marketing_fullcustomization.png)
-!["Quick Start"](/assets/gather/500px_marketing_quickstarttemplates.png)
-!["Reactions"](/assets/gather/500px_marketing_reactions.png)
-!["Socialization"](/assets/gather/500px_marketing_socialization.png)
-!["Fun Environments"](/assets/gather/500px_marketing_spaceforeverystyle.png)
-!["Spontaneity"](/assets/gather/500px_marketing_spontaneity.png)
+<div class="finder-inline-image-grid finder-inline-image-grid-three">
+  <img src="/assets/gather/500px_marketing_collaboration.png" alt="Collab">
+  <img src="/assets/gather/500px_marketing_customavatars.png" alt="Custom Avatars">
+  <img src="/assets/gather/500px_marketing_deskcustomization.png" alt="Desk Customization">
+</div>
+<div class="finder-inline-image-grid finder-inline-image-grid-three">
+  <img src="/assets/gather/500px_marketing_fullcustomization.png" alt="Space Design">
+  <img src="/assets/gather/500px_marketing_quickstarttemplates.png" alt="Quick Start">
+  <img src="/assets/gather/500px_marketing_reactions.png" alt="Reactions">
+</div>
+<div class="finder-inline-image-grid finder-inline-image-grid-three">
+  <img src="/assets/gather/500px_marketing_socialization.png" alt="Socialization">
+  <img src="/assets/gather/500px_marketing_spaceforeverystyle.png" alt="Fun Environments">
+  <img src="/assets/gather/500px_marketing_spontaneity.png" alt="Spontaneity">
+</div>
 
 
 One of the largest projects I worked on at Gather was making the selection of avatar styles and assets more inclusive. This included new hair styles, colors, skin tones, and skin types.
@@ -134,9 +139,11 @@ I was able to contribute a number of blue sky ideas with other department heads 
 During a pivotal moment for Gather, as the pandemic restrictions were lessened and live events began to happen again, we pivoted to focus on remote work and discussed at length what changing the style of the avatars would entail. I was asked to explore what it could look like. 
 
 !["Exploration"](/assets/gather/sampleexperimentalavatars.png)
-!["Exploration"](/assets/gather/image (25).png)
-!["Exploration"](/assets/gather/image (24).png)
-!["Exploration"](/assets/gather/image (23).png)
+<div class="finder-inline-image-grid finder-inline-image-grid-three">
+  <img src="/assets/gather/image (25).png" alt="Exploration">
+  <img src="/assets/gather/image (24).png" alt="Exploration">
+  <img src="/assets/gather/image (23).png" alt="Exploration">
+</div>
 
 !["Exploration"](/assets/gather/image (26).png)
 !["Exploration"](/assets/gather/image (27).png)

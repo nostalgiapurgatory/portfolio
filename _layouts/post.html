@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="finder-pane finder-project-pane">
+<article class="finder-pane finder-project-pane{% if page.gallery_mode == 'desktop-grid' %} finder-project-pane-has-gallery{% endif %}">
   <header class="finder-pane-header finder-project-header">
     <div class="finder-project-titleblock">
       <p class="finder-pane-eyebrow">{{ page.category }}</p>
@@ -17,7 +17,7 @@ layout: default
     {% endif %}
   </header>
 
-  <div class="finder-document">
+  <div class="finder-document{% if page.gallery_mode == 'desktop-grid' %} finder-document-has-gallery{% endif %}">
     {{ content }}
   </div>
 </article>

@@ -13,6 +13,20 @@
     {% endif %}
   </title>
 
+  <script>
+    (function () {
+      var theme = "amber";
+
+      try {
+        theme = window.localStorage.getItem("portfolio-theme") || theme;
+      } catch (error) {
+        theme = "amber";
+      }
+
+      window.__portfolioTheme = theme;
+    })();
+  </script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/finder.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">

@@ -3,7 +3,7 @@ layout: post
 title: Gateway
 image: /assets/img/byop-knoll.png
 permalink: /gateway/
-category: Blue Sky Thinking and Concepts
+category: Blue Sky & Concept Art
 time: 2016-01-01
 order: 27
 ---

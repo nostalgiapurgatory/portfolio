@@ -3,7 +3,7 @@ layout: post
 title: Installation Art Lounge
 image: /assets/img/byop-knoll.png
 permalink: /iabl/
-category: Blue Sky Thinking and Concepts
+category: Blue Sky & Concept Art
 time: 2014
 order: 27
 ---

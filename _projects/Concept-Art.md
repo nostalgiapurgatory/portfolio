@@ -3,7 +3,7 @@ layout: post
 title: Rave Wonderland Concept Art
 image: /assets/ravewonderland/ravewonderlandpreview.png
 permalink: /conceptart/
-category: Blue Sky Thinking and Concepts
+category: Blue Sky & Concept Art
 time: 2021
 order: 4
 status: publish

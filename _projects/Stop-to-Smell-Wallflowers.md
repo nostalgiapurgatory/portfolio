@@ -3,7 +3,7 @@ layout: post
 title: Stop to Smell Wallflowers
 image: /assets/img/byop-knoll.png
 permalink: /wallflowers/
-category: Blue Sky Thinking and Concepts
+category: Blue Sky & Concept Art
 time: 2016
 order: 20
 ---
