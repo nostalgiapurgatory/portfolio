@@ -8,7 +8,6 @@ time: 2017
 order: 5
 status: publish
 ---
-!["Romosaico at MAAM, Rome, Italy"](/assets/sculpture/maaminstallation3.jpg) 
 ROMOSAICO: Playful Sculpture at MAAM
 Outside of Rome, Italy, there is the MAAM – Museo dell'Altro e dell'Altrove. Museum of the Other and Elsewhere of Metropolis. It was reborn in 2012 as a contemporary street art museum, but has been the residence for displaced persons ("squatters") for decades. The existence of the museum protects the inhabitants from eviction, revealing the protective power of art. 
 

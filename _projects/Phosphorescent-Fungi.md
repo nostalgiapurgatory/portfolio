@@ -29,5 +29,3 @@ My next step after sanding them completely smooth (a process spend up with an an
 !["Installed 1"](/assets/sculpture/2015nightmushroooms1.jpg)
 
 !["Installed 2"](/assets/sculpture/2015glowresinmushrooms6.jpg)
-
-!["Glowing Epoxy"](/assets/sculpture/2015mushroomsglowing.jpg)

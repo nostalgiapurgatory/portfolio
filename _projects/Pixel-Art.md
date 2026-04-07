@@ -19,9 +19,6 @@ These are examples of pixel art studies, character work, and small-format illust
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/digitalart/pixelsnail.png" data-gallery-title="Pixel Art 02">
     <img src="/assets/digitalart/pixelsnail.png" alt="Pixel Art 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/digitalart/rosesthumbnail.png" data-gallery-title="Pixel Art 03">
-    <img src="/assets/digitalart/rosesthumbnail.png" alt="Pixel Art 03">
-  </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/digitalart/TwitchNoc.png" data-gallery-title="Pixel Art 04">
     <img src="/assets/digitalart/TwitchNoc.png" alt="Pixel Art 04">
   </button>

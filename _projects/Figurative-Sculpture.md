@@ -190,27 +190,6 @@ In this work, I drilled into a piece of reclaimed wood board and used wood reed 
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/woodpalette10.jpg" data-gallery-title="Wood Palette 10">
     <img src="/assets/sculpture/woodpalette10.jpg" alt="Wood Palette 10">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160409_172838.jpg" data-gallery-title="Wood Palette Process 01">
-    <img src="/assets/sculpture/20160409_172838.jpg" alt="Wood Palette Process 01">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160410_130058.jpg" data-gallery-title="Wood Palette Process 02">
-    <img src="/assets/sculpture/20160410_130058.jpg" alt="Wood Palette Process 02">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160414_090548_1.jpg" data-gallery-title="Wood Palette Process 03">
-    <img src="/assets/sculpture/20160414_090548_1.jpg" alt="Wood Palette Process 03">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160414_125443.jpg" data-gallery-title="Wood Palette Process 04">
-    <img src="/assets/sculpture/20160414_125443.jpg" alt="Wood Palette Process 04">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160414_183257.jpg" data-gallery-title="Wood Palette Process 05">
-    <img src="/assets/sculpture/20160414_183257.jpg" alt="Wood Palette Process 05">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160414_183335.jpg" data-gallery-title="Wood Palette Process 06">
-    <img src="/assets/sculpture/20160414_183335.jpg" alt="Wood Palette Process 06">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160414_183710_1.jpg" data-gallery-title="Wood Palette Process 07">
-    <img src="/assets/sculpture/20160414_183710_1.jpg" alt="Wood Palette Process 07">
-  </button>
 </div>
 
 ## SOYLENT: Welded Steel Leaf
@@ -227,9 +206,6 @@ I tried to recreate a "dusty miller" leaf out of steel though methods of welding
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015-07-2515.43.47.jpg" data-gallery-title="Steel Leaf Early View 01">
     <img src="/assets/sculpture/2015-07-2515.43.47.jpg" alt="Steel Leaf Early View 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015-07-2516.11.18.jpg" data-gallery-title="Steel Leaf Early View 02">
-    <img src="/assets/sculpture/2015-07-2516.11.18.jpg" alt="Steel Leaf Early View 02">
-  </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_122022.jpg" data-gallery-title="Steel Leaf Process 01">
     <img src="/assets/sculpture/20160508_122022.jpg" alt="Steel Leaf Process 01">
   </button>
@@ -241,9 +217,6 @@ I tried to recreate a "dusty miller" leaf out of steel though methods of welding
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132753.jpg" data-gallery-title="Steel Leaf Process 04">
     <img src="/assets/sculpture/20160508_132753.jpg" alt="Steel Leaf Process 04">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132754.jpg" data-gallery-title="Steel Leaf Process 05">
-    <img src="/assets/sculpture/20160508_132754.jpg" alt="Steel Leaf Process 05">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132758.jpg" data-gallery-title="Steel Leaf Process 06">
     <img src="/assets/sculpture/20160508_132758.jpg" alt="Steel Leaf Process 06">
@@ -289,9 +262,6 @@ I tried to recreate a "dusty miller" leaf out of steel though methods of welding
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/Leaf_Bathing.jpg" data-gallery-title="Leaf Bathing">
     <img src="/assets/sculpture/Leaf_Bathing.jpg" alt="Leaf Bathing">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/Leaf_Bathing2.jpg" data-gallery-title="Leaf Bathing 02">
-    <img src="/assets/sculpture/Leaf_Bathing2.jpg" alt="Leaf Bathing 02">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/Leaf_Body.jpg" data-gallery-title="Leaf Body">
     <img src="/assets/sculpture/Leaf_Body.jpg" alt="Leaf Body">
@@ -344,18 +314,6 @@ My next step after sanding them completely smooth (a process spend up with an an
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20151130_213259.jpg" data-gallery-title="Fungi Process 02">
     <img src="/assets/sculpture/20151130_213259.jpg" alt="Fungi Process 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015mushroomsgesso1.jpg" data-gallery-title="Fungi Gesso 01">
-    <img src="/assets/sculpture/2015mushroomsgesso1.jpg" alt="Fungi Gesso 01">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015mushroomsgesso2.jpg" data-gallery-title="Fungi Gesso 02">
-    <img src="/assets/sculpture/2015mushroomsgesso2.jpg" alt="Fungi Gesso 02">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015fungi1.jpg" data-gallery-title="Fungi Install 01">
-    <img src="/assets/sculpture/2015fungi1.jpg" alt="Fungi Install 01">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015fungi2.jpg" data-gallery-title="Fungi Install 02">
-    <img src="/assets/sculpture/2015fungi2.jpg" alt="Fungi Install 02">
-  </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/installedmushroomsday.jpg" data-gallery-title="Fungi Installed Day">
     <img src="/assets/sculpture/installedmushroomsday.jpg" alt="Fungi Installed Day">
   </button>
@@ -365,20 +323,11 @@ My next step after sanding them completely smooth (a process spend up with an an
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20151203_124422.jpg" data-gallery-title="Fungi Installed 04">
     <img src="/assets/sculpture/20151203_124422.jpg" alt="Fungi Installed 04">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015mushroomsinstalled1.jpg" data-gallery-title="Fungi Installed 05">
-    <img src="/assets/sculpture/2015mushroomsinstalled1.jpg" alt="Fungi Installed 05">
-  </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015glowresinmushrooms6.jpg" data-gallery-title="Glow Resin Mushrooms">
     <img src="/assets/sculpture/2015glowresinmushrooms6.jpg" alt="Glow Resin Mushrooms">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20151203_112616.jpg" data-gallery-title="Glowing Mushrooms 02">
     <img src="/assets/sculpture/20151203_112616.jpg" alt="Glowing Mushrooms 02">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015mushroomsglowing.jpg" data-gallery-title="Glowing Mushrooms 01">
-    <img src="/assets/sculpture/2015mushroomsglowing.jpg" alt="Glowing Mushrooms 01">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015nightmushroooms1.jpg" data-gallery-title="Night Mushrooms 01">
-    <img src="/assets/sculpture/2015nightmushroooms1.jpg" alt="Night Mushrooms 01">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015nightmushrooms2.jpg" data-gallery-title="Night Mushrooms 02">
     <img src="/assets/sculpture/2015nightmushrooms2.jpg" alt="Night Mushrooms 02">
@@ -415,27 +364,35 @@ With this wood sculpture, I incorporated smell as the main point of the sculptur
 I made an installation about memory spaces and fantasy doors. For this, I designed and carved a ouija board doormat out of a block of mahogany wood.
 
 <div class="finder-gallery-grid">
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_223716.jpg" data-gallery-title="Gateway Installation 01">
-    <img src="/assets/sculpture/20160306_223716.jpg" alt="Gateway Installation 01">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/a67c716b-f5e6-4118-b3ac-1b137fbfd0e4.jpeg" data-gallery-title="Gateway Installation 01">
+    <img src="/assets/sculpture/a67c716b-f5e6-4118-b3ac-1b137fbfd0e4.jpeg" alt="Gateway Installation 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_234148.jpg" data-gallery-title="Gateway Installation 02">
-    <img src="/assets/sculpture/20160306_234148.jpg" alt="Gateway Installation 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/c8c351f1-60c0-4a3f-b631-09002b30b04c.jpeg" data-gallery-title="Gateway Installation 02">
+    <img src="/assets/sculpture/c8c351f1-60c0-4a3f-b631-09002b30b04c.jpeg" alt="Gateway Installation 02">
   </button>
 </div>
 
-## Casting Claw Feet
+## Bronze Lost Wax Casting
+
+Process of bronze casting and accelerated patina.
 
 <div class="finder-gallery-grid">
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" data-gallery-title="Casting Claw Feet 01">
-    <img src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" alt="Casting Claw Feet 01">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_223716.jpg" data-gallery-title="Bronze Lost Wax Casting 01">
+    <img src="/assets/sculpture/20160306_223716.jpg" alt="Bronze Lost Wax Casting 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160307_135316.jpg" data-gallery-title="Casting Claw Feet 02">
-    <img src="/assets/sculpture/20160307_135316.jpg" alt="Casting Claw Feet 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_234148.jpg" data-gallery-title="Bronze Lost Wax Casting 02">
+    <img src="/assets/sculpture/20160306_234148.jpg" alt="Bronze Lost Wax Casting 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/snapchat-1476402055609385577.jpg" data-gallery-title="Casting Claw Feet 03">
-    <img src="/assets/sculpture/snapchat-1476402055609385577.jpg" alt="Casting Claw Feet 03">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" data-gallery-title="Bronze Lost Wax Casting 03">
+    <img src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" alt="Bronze Lost Wax Casting 03">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" data-gallery-title="Casting Claw Feet 04">
-    <img src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" alt="Casting Claw Feet 04">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160307_135316.jpg" data-gallery-title="Bronze Lost Wax Casting 04">
+    <img src="/assets/sculpture/20160307_135316.jpg" alt="Bronze Lost Wax Casting 04">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/snapchat-1476402055609385577.jpg" data-gallery-title="Bronze Lost Wax Casting 05">
+    <img src="/assets/sculpture/snapchat-1476402055609385577.jpg" alt="Bronze Lost Wax Casting 05">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" data-gallery-title="Bronze Lost Wax Casting 06">
+    <img src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" alt="Bronze Lost Wax Casting 06">
   </button>
 </div>
