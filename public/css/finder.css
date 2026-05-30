@@ -1533,6 +1533,13 @@ body[data-theme="green"] .finder-gallery-window-title {
   box-shadow: 0 0 18px var(--theme-glow);
 }
 
+.finder-document img.neo-fullwidth-photo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .finder-document blockquote {
   margin: 1rem 0;
   padding: 1rem 1.1rem;
@@ -4459,6 +4466,59 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
   overflow-x: auto;
   font-size: 0.78rem;
   line-height: 1.2;
+}
+
+.home-preview-art-rich {
+  white-space: normal;
+}
+
+.home-featured-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.home-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.home-featured-title,
+.home-featured-project {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--home-fg);
+  text-decoration: none;
+}
+
+.home-featured-title {
+  font-weight: bold;
+}
+
+.home-featured-project {
+  width: 100%;
+  border: 1px solid var(--home-border);
+  padding: 0.45rem;
+}
+
+.home-featured-project img {
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  border: 1px solid var(--home-border);
+}
+
+.home-featured-title:hover,
+.home-featured-project:hover {
+  background: var(--home-highlight);
+}
+
+@media (max-width: 700px) {
+  .home-featured-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .home-preview-caption {

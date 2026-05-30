@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var previewArt = document.querySelector("[data-home-preview-art]");
   var previewCaption = document.querySelector("[data-home-preview-caption]");
   var previewTriggers = document.querySelectorAll("[data-home-preview]");
+  var previewNav = document.querySelector(".home-tree");
   var contactForm = document.querySelector("[data-home-contact-form]");
   var contactMessage = document.querySelector("[data-home-contact-message]");
   var contactStatus = document.querySelector("[data-home-contact-status]");
@@ -24,13 +25,25 @@ document.addEventListener("DOMContentLoaded", function () {
     ].join("\n"),
     defaultCaption: "Hover a folder or file to preview.",
     rootDirectory: {
-      art: [
-        "home:/",
-        "|-- about.md",
-        "|-- tarot.md",
-        "`-- bygone-archive.md"
+      html: [
+        "<div class=\"home-featured-preview\">",
+        "  <a class=\"home-featured-title\" href=\"/sculpture/\">",
+        "    <span class=\"home-icon home-icon-folder\" aria-hidden=\"true\"></span>",
+        "    <span>FEATURED PROJECTS</span>",
+        "  </a>",
+        "  <div class=\"home-featured-grid\">",
+        "    <a class=\"home-featured-project\" href=\"/sculpture/\">",
+        "      <img src=\"/assets/sculpture/sculpturethumbnail.png\" alt=\"Alfred Hitchcock sculpture thumbnail\">",
+        "      <span>SCULPTURE &amp; INSTALLATION</span>",
+        "    </a>",
+        "    <a class=\"home-featured-project\" href=\"/neotropolis/\">",
+        "      <img src=\"/assets/neotropolis/2026/20260429_230355.jpg\" alt=\"Neotropolis thumbnail\">",
+        "      <span>NEOTROPOLIS</span>",
+        "    </a>",
+        "  </div>",
+        "</div>"
       ].join("\n"),
-      caption: "Root pages."
+      caption: "Open a featured page."
     },
     projectsDirectory: {
       art: [
@@ -50,21 +63,37 @@ document.addEventListener("DOMContentLoaded", function () {
       caption: "Open to reveal project pages."
     },
     projectFile: {
-      art: [
-        "open file -> project page",
-        "",
-        "[preview handled by page route]"
+      html: [
+        "<div class=\"home-featured-preview\">",
+        "  <a class=\"home-featured-title\" href=\"/sculpture/\">",
+        "    <span class=\"home-icon home-icon-folder\" aria-hidden=\"true\"></span>",
+        "    <span>FEATURED PROJECTS</span>",
+        "  </a>",
+        "  <div class=\"home-featured-grid\">",
+        "    <a class=\"home-featured-project\" href=\"/sculpture/\">",
+        "      <img src=\"/assets/sculpture/sculpturethumbnail.png\" alt=\"Alfred Hitchcock sculpture thumbnail\">",
+        "      <span>SCULPTURE &amp; INSTALLATION</span>",
+        "    </a>",
+        "    <a class=\"home-featured-project\" href=\"/neotropolis/\">",
+        "      <img src=\"/assets/neotropolis/2026/20260429_230355.jpg\" alt=\"Neotropolis thumbnail\">",
+        "      <span>NEOTROPOLIS</span>",
+        "    </a>",
+        "  </div>",
+        "</div>"
       ].join("\n"),
-      caption: "Open this file to visit the project."
+      caption: "Open a featured page."
     },
     tarotPage: {
       art: [
-        "tarot.md",
+        "  ___   ____      _    ____ _     _____    ____    _    ____  ____",
+        " / _ \\ |  _ \\    / \\  / ___| |   | ____|  / ___|  / \\  |  _ \\|  _ \\",
+        "| | | || |_) |  / _ \\| |   | |   |  _|   | |     / _ \\ | |_) | | | |",
+        "| |_| ||  _ <  / ___ \\ |___| |___| |___  | |___ / ___ \\|  _ <| |_| |",
+        " \\___/ |_| \\_\\/_/   \\_\\____|_____|_____|  \\____/_/   \\_\\_| \\_\\____/",
         "",
-        "separate route remains intact",
-        "with card drawing interface"
+        "draw your ASCII fate."
       ].join("\n"),
-      caption: "Tarot route is unchanged."
+      caption: "Open tarot.md to draw."
     },
     aboutPage: {
       art: [
@@ -74,13 +103,19 @@ document.addEventListener("DOMContentLoaded", function () {
       ].join("\n"),
       caption: "Artist overview."
     },
+    resumePage: {
+      art: [
+        "resume.md",
+        "",
+        "structured resume for AI parsing"
+      ].join("\n"),
+      caption: "Open resume.md."
+    },
     archivePage: {
       art: [
-        "bygone-archive.md",
-        "",
-        "older works and references"
+        "a collection of things on the internet I like"
       ].join("\n"),
-      caption: "Archive entry point."
+      caption: "Open bygone-archive.md."
     },
     connectDirectory: {
       art: [
@@ -107,7 +142,13 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    previewArt.textContent = item.art || previews.defaultArt;
+    if (item.html) {
+      previewArt.innerHTML = item.html;
+      previewArt.classList.add("home-preview-art-rich");
+    } else {
+      previewArt.textContent = item.art || previews.defaultArt;
+      previewArt.classList.remove("home-preview-art-rich");
+    }
     previewCaption.textContent = item.caption || previews.defaultCaption;
   }
 
@@ -246,6 +287,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  if (previewNav) {
+    previewNav.addEventListener("mouseleave", function () {
+      setPreview("projectFile");
+    });
+
+    previewNav.addEventListener("focusout", function () {
+      if (!previewNav.contains(document.activeElement)) {
+        setPreview("projectFile");
+      }
+    });
+  }
+
   if (contactForm && contactMessage) {
     contactForm.addEventListener("submit", function (event) {
       event.preventDefault();
@@ -271,5 +324,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  setPreview("default");
+  setPreview("projectFile");
 });

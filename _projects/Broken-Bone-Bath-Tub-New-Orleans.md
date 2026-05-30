@@ -3,7 +3,7 @@ layout: post
 title: "Broken Bone Bath Tub: New Orleans"
 image: /assets/brokenbonebathtub/bbbthumbnail.png
 permalink: /brokenbonebathtub/
-category: Art Direction and Management
+category: Art Direction & Management
 time: 2019-01-01
 order: 5
 ---

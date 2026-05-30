@@ -7,7 +7,7 @@ layout: default
     <div>
       <p class="finder-pane-eyebrow">Reference File</p>
       <h1>{{ page.title }}</h1>
-      <p class="finder-pane-intro">General information and context, opened inside the portfolio explorer.</p>
+      <p class="finder-pane-intro">{{ page.pane_intro | default: "General information and context, opened inside the portfolio explorer." }}</p>
     </div>
   </header>
 
