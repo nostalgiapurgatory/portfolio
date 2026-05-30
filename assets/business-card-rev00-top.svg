@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="89.0mm" height="50.9mm" viewBox="-0.05 -50.85 89.0 50.9" style="background-color:#f5f1e4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="f-copper">
+                    <feFlood result="flood-black" flood-color="black" flood-opacity="1"/>
+                    <feFlood result="flood-green" flood-color="#000000"/>
+                    <feBlend in="SourceGraphic" in2="flood-black" result="overlay" mode="normal"/>
+                    <feBlend in="overlay" in2="flood-green" result="colored" mode="multiply"/>
+                    <feColorMatrix in="overlay" type="matrix" result="alphaOut" values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    1 0 0 0 0"/>
+                    <feComposite in="colored" in2="alphaOut" operator="in"/>
+                    </filter>
+    <filter id="f-mask">
+                    <feFlood result="flood-black" flood-color="black" flood-opacity="1"/>
+                    <feFlood result="flood-green" flood-color="#c8a24a"/>
+                    <feBlend in="SourceGraphic" in2="flood-black" result="overlay" mode="normal"/>
+                    <feBlend in="overlay" in2="flood-green" result="colored" mode="multiply"/>
+                    <feColorMatrix in="overlay" type="matrix" result="alphaOut" values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    0.86 0 0 0 0"/>
+                    <feComposite in="colored" in2="alphaOut" operator="in"/>
+                    </filter>
+    <filter id="f-paste">
+                    <feFlood result="flood-black" flood-color="black" flood-opacity="1"/>
+                    <feFlood result="flood-green" flood-color="#000000"/>
+                    <feBlend in="SourceGraphic" in2="flood-black" result="overlay" mode="normal"/>
+                    <feBlend in="overlay" in2="flood-green" result="colored" mode="multiply"/>
+                    <feColorMatrix in="overlay" type="matrix" result="alphaOut" values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    1 0 0 0 0"/>
+                    <feComposite in="colored" in2="alphaOut" operator="in"/>
+                    </filter>
+    <filter id="f-silk">
+                    <feFlood result="flood-black" flood-color="black" flood-opacity="1"/>
+                    <feFlood result="flood-green" flood-color="#000000"/>
+                    <feBlend in="SourceGraphic" in2="flood-black" result="overlay" mode="normal"/>
+                    <feBlend in="overlay" in2="flood-green" result="colored" mode="multiply"/>
+                    <feColorMatrix in="overlay" type="matrix" result="alphaOut" values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    1 0 0 0 0"/>
+                    <feComposite in="colored" in2="alphaOut" operator="in"/>
+                    </filter>
+    <filter id="f-drill">
+                    <feFlood result="flood-black" flood-color="black" flood-opacity="1"/>
+                    <feFlood result="flood-green" flood-color="#f5f1e4"/>
+                    <feBlend in="SourceGraphic" in2="flood-black" result="overlay" mode="normal"/>
+                    <feBlend in="overlay" in2="flood-green" result="colored" mode="multiply"/>
+                    <feColorMatrix in="overlay" type="matrix" result="alphaOut" values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    1 0 0 0 0"/>
+                    <feComposite in="colored" in2="alphaOut" operator="in"/>
+                    </filter>
+    <filter id="f-outline">
+                    <feFlood result="flood-black" flood-color="black" flood-opacity="1"/>
+                    <feFlood result="flood-green" flood-color="#000000"/>
+                    <feBlend in="SourceGraphic" in2="flood-black" result="overlay" mode="normal"/>
+                    <feBlend in="overlay" in2="flood-green" result="colored" mode="multiply"/>
+                    <feColorMatrix in="overlay" type="matrix" result="alphaOut" values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    1 0 0 0 0"/>
+                    <feComposite in="colored" in2="alphaOut" operator="in"/>
+                    </filter>
+    <g id="a0">
+      <circle cx="0.0" cy="0.0" r="0.013" fill="white"/>
+    </g>
+    <g id="a1">
+      <circle cx="0.0" cy="0.0" r="0.075" fill="black"/>
+    </g>
+  </defs>
+  <g transform="translate(0 0) scale(1 1)">
+    <g id="l-top-copper" filter="url(#f-copper)" fill="white" stroke="none" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" transform="translate(0 -50.800000000000004) scale(1 -1)">
+      <path d="M 55.868 -22.8687 L 55.868 -27.9663 L 48.2591 -30.4677 L 33.032 -27.9298 L 33.032 -27.051 L 40.501 -27.051 L 40.5045 -27.0595 L 40.513 -27.063 L 40.5149 -27.0629 L 46.0806 -26.1774 L 46.1175 -26.2861 L 46.1181 -26.2876 L 46.2515 -26.558 L 46.2523 -26.5594 L 46.4198 -26.8101 L 46.4208 -26.8114 L 46.6196 -27.0381 L 46.6207 -27.0392 L 46.8474 -27.238 L 46.8487 -27.239 L 47.0994 -27.4065 L 47.1008 -27.4073 L 47.3712 -27.5407 L 47.3727 -27.5413 L 47.6583 -27.6382 L 47.6598 -27.6386 L 47.9555 -27.6975 L 47.9571 -27.6977 L 48.258 -27.7174 L 48.2596 -27.7174 L 48.5605 -27.6977 L 48.5621 -27.6975 L 48.8578 -27.6386 L 48.8594 -27.6382 L 49.1449 -27.5413 L 49.1464 -27.5407 L 49.4168 -27.4073 L 49.4182 -27.4065 L 49.6689 -27.239 L 49.6702 -27.238 L 49.8969 -27.0392 L 49.898 -27.0381 L 50.0969 -26.8114 L 50.0978 -26.8101 L 50.2653 -26.5594 L 50.2661 -26.558 L 50.3995 -26.2876 L 50.4001 -26.2861 L 50.497 -26.0005 L 50.4975 -25.999 L 50.5563 -25.7033 L 50.5565 -25.7017 L 50.5762 -25.4008 L 50.5762 -25.3992 L 50.5565 -25.0983 L 50.5563 -25.0967 L 50.4975 -24.801 L 50.497 -24.7995 L 50.4001 -24.5139 L 50.3995 -24.5124 L 50.2661 -24.242 L 50.2653 -24.2406 L 50.0978 -23.9899 L 50.0969 -23.9886 L 49.898 -23.7619 L 49.8969 -23.7608 L 49.6702 -23.562 L 49.6689 -23.561 L 49.4182 -23.3935 L 49.4168 -23.3927 L 49.1464 -23.2593 L 49.1449 -23.2587 L 48.8594 -23.1618 L 48.8578 -23.1614 L 48.5621 -23.1025 L 48.5605 -23.1023 L 48.2596 -23.0826 L 48.258 -23.0826 L 47.9571 -23.1023 L 47.9555 -23.1025 L 47.6598 -23.1614 L 47.6583 -23.1618 L 47.3727 -23.2587 L 47.3712 -23.2593 L 47.1008 -23.3927 L 47.0994 -23.3935 L 46.8487 -23.561 L 46.8474 -23.562 L 46.6207 -23.7608 L 46.6196 -23.7619 L 46.4208 -23.9886 L 46.4198 -23.9899 L 46.2523 -24.2406 L 46.2515 -24.242 L 46.1181 -24.5124 L 46.1175 -24.5139 L 46.0806 -24.6226 L 40.5149 -23.7371 L 40.506 -23.7393 L 40.5011 -23.7471 L 40.501 -23.749 L 40.501 -27.051 L 33.032 -27.051 L 33.032 -22.8702 L 48.259 -20.3623 L 55.868 -22.8687 L 48.259 -20.3623" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.026"/>
+      <path d="M 55.868 -22.8687 L 55.868 -27.9663 L 48.2591 -30.4677 L 33.032 -27.9298 L 33.032 -27.051 L 40.501 -27.051 L 40.5045 -27.0595 L 40.513 -27.063 L 40.5149 -27.0629 L 46.0806 -26.1774 L 46.1175 -26.2861 L 46.1181 -26.2876 L 46.2515 -26.558 L 46.2523 -26.5594 L 46.4198 -26.8101 L 46.4208 -26.8114 L 46.6196 -27.0381 L 46.6207 -27.0392 L 46.8474 -27.238 L 46.8487 -27.239 L 47.0994 -27.4065 L 47.1008 -27.4073 L 47.3712 -27.5407 L 47.3727 -27.5413 L 47.6583 -27.6382 L 47.6598 -27.6386 L 47.9555 -27.6975 L 47.9571 -27.6977 L 48.258 -27.7174 L 48.2596 -27.7174 L 48.5605 -27.6977 L 48.5621 -27.6975 L 48.8578 -27.6386 L 48.8594 -27.6382 L 49.1449 -27.5413 L 49.1464 -27.5407 L 49.4168 -27.4073 L 49.4182 -27.4065 L 49.6689 -27.239 L 49.6702 -27.238 L 49.8969 -27.0392 L 49.898 -27.0381 L 50.0969 -26.8114 L 50.0978 -26.8101 L 50.2653 -26.5594 L 50.2661 -26.558 L 50.3995 -26.2876 L 50.4001 -26.2861 L 50.497 -26.0005 L 50.4975 -25.999 L 50.5563 -25.7033 L 50.5565 -25.7017 L 50.5762 -25.4008 L 50.5762 -25.3992 L 50.5565 -25.0983 L 50.5563 -25.0967 L 50.4975 -24.801 L 50.497 -24.7995 L 50.4001 -24.5139 L 50.3995 -24.5124 L 50.2661 -24.242 L 50.2653 -24.2406 L 50.0978 -23.9899 L 50.0969 -23.9886 L 49.898 -23.7619 L 49.8969 -23.7608 L 49.6702 -23.562 L 49.6689 -23.561 L 49.4182 -23.3935 L 49.4168 -23.3927 L 49.1464 -23.2593 L 49.1449 -23.2587 L 48.8594 -23.1618 L 48.8578 -23.1614 L 48.5621 -23.1025 L 48.5605 -23.1023 L 48.2596 -23.0826 L 48.258 -23.0826 L 47.9571 -23.1023 L 47.9555 -23.1025 L 47.6598 -23.1614 L 47.6583 -23.1618 L 47.3727 -23.2587 L 47.3712 -23.2593 L 47.1008 -23.3927 L 47.0994 -23.3935 L 46.8487 -23.561 L 46.8474 -23.562 L 46.6207 -23.7608 L 46.6196 -23.7619 L 46.4208 -23.9886 L 46.4198 -23.9899 L 46.2523 -24.2406 L 46.2515 -24.242 L 46.1181 -24.5124 L 46.1175 -24.5139 L 46.0806 -24.6226 L 40.5149 -23.7371 L 40.506 -23.7393 L 40.5011 -23.7471 L 40.501 -23.749 L 40.501 -27.051 L 33.032 -27.051 L 33.032 -22.8702 L 48.259 -20.3623 L 55.868 -22.8687"/>
+    </g>
+    <g id="l-top-mask" filter="url(#f-mask)" fill="black" stroke="none" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" transform="translate(0 -50.800000000000004) scale(1 -1)">
+      <path id="outline-path" d="M 1.27 0.0 L 87.63 0.0 A 1.27 1.27 0 0 0 88.9 -1.27 L 88.9 -49.53 A 1.27 1.27 0 0 0 87.63 -50.8 L 1.27 -50.8 A 1.27 1.27 0 0 0 0.0 -49.53 L 0.0 -1.27 A 1.27 1.27 0 0 0 1.27 0.0 L 87.63 0.0 L 1.27 0.0 Z" fill="white"/>
+      <path d="M 40.25 -23.25 L 51.25 -23.25 L 51.25 -27.5 L 40.25 -27.5 L 40.25 -23.25" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.15"/>
+      <path d="M 40.25 -23.25 L 51.25 -23.25 L 51.25 -27.5 L 40.25 -27.5 L 40.25 -23.25"/>
+      <path d="M 55.88 -22.86 L 55.88 -27.94 L 48.26 -30.48 L 33.02 -27.94 L 33.02 -22.86 L 48.26 -20.32 L 55.88 -22.86"/>
+    </g>
+    <g id="l-top-silk" filter="url(#f-silk)" fill="none" stroke="white" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" transform="translate(0 -50.800000000000004) scale(1 -1)"/>
+    <g id="l-top-paste" filter="url(#f-paste)" fill="white" stroke="none" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" transform="translate(0 -50.800000000000004) scale(1 -1)"/>
+    <g id="l-drill-0" filter="url(#f-drill)" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -50.800000000000004) scale(1 -1)"/>
+    <g id="l-drill-1" filter="url(#f-drill)" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -50.800000000000004) scale(1 -1)"/>
+    <g id="l-mechanical-outline" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -50.800000000000004) scale(1 -1)">
+      <path d="M 1.27 0.0 A 1.27 1.27 0 0 1 0.0 -1.27" fill="none" stroke="white" stroke-width="0.1" stroke-linecap="round"/>
+      <path d="M 0.0 -49.53 A 1.27 1.27 0 0 1 1.27 -50.8" fill="none" stroke="white" stroke-width="0.1" stroke-linecap="round"/>
+      <path d="M 87.63 -50.8 A 1.27 1.27 0 0 1 88.9 -49.53" fill="none" stroke="white" stroke-width="0.1" stroke-linecap="round"/>
+      <path d="M 88.9 -1.27 A 1.27 1.27 0 0 1 87.63 0.0" fill="none" stroke="white" stroke-width="0.1" stroke-linecap="round"/>
+      <path d="M 88.9 -49.53 L 88.9 -1.27" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+      <path d="M 1.27 -50.8 L 87.63 -50.8" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+      <path d="M 0.0 -1.27 L 0.0 -49.53" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+      <path d="M 87.63 0.0 L 1.27 0.0" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+    </g>
+  </g>
+</svg>

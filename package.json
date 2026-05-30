@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "the portfolio of jaden andrea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:rws-ascii": "node ./scripts/generate-rws-ascii.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostalgiapurgatory/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nostalgiapurgatory/portfolio/issues"
+  },
+  "homepage": "https://github.com/nostalgiapurgatory/portfolio#readme",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

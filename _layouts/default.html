@@ -3,90 +3,35 @@
 
   {% include head.html %}
 
-  <body class="finder-body{% if page.url == '/' %} finder-home-page{% endif %}">
+  <body class="finder-body finder-home-page" data-disable-theme-sync="true">
     <script>
       (function () {
         var theme = window.__portfolioTheme || "amber";
         document.body.setAttribute("data-theme", theme);
       })();
     </script>
-    {% assign explorer_path = "Macintosh HD / Portfolio" %}
-    {% if page.layout == "post" %}
-      {% assign explorer_path = explorer_path | append: " / Projects" %}
-      {% if page.category %}
-        {% assign explorer_path = explorer_path | append: " / " | append: page.category %}
-      {% endif %}
-      {% assign explorer_path = explorer_path | append: " / " | append: page.title %}
-    {% elsif page.title %}
-      {% assign explorer_path = explorer_path | append: " / " | append: page.title %}
-    {% endif %}
+    {% if page.url == '/' %}
+    <main class="finder-home-shell" id="finder-main">
+      {{ content }}
+    </main>
+    {% else %}
+    <main class="finder-home-shell" id="finder-main">
+      <header class="home-name-banner" aria-label="Site title">
+        <a class="home-topbar-name" href="{{ site.baseurl }}/" aria-label="Jaden Andrea">
+          <span class="home-topbar-name-default">Jaden Andrea</span>
+          <span class="home-topbar-name-hover">Gadget</span>
+        </a>
+      </header>
 
-    <div class="finder-app">
-      <div class="finder-window">
-        <header class="finder-toolbar">
-          <div class="finder-toolbar-group finder-toolbar-left">
-            <div class="finder-traffic-lights" aria-hidden="true">
-              <span class="finder-light finder-light-close"></span>
-              <span class="finder-light finder-light-minimize"></span>
-              <span class="finder-light finder-light-zoom"></span>
-            </div>
-            <button class="finder-mobile-toggle" type="button" data-sidebar-toggle aria-controls="finder-sidebar" aria-expanded="false">
-              Explorer
-            </button>
-          </div>
-
-          <div class="finder-toolbar-group finder-toolbar-center">
-            <p class="finder-window-title">{{ page.title | default: site.title }}</p>
-            <p class="finder-breadcrumb">{{ explorer_path }}</p>
-          </div>
-
-          <div class="finder-toolbar-group finder-toolbar-right">
-            <div class="finder-theme-switcher" role="group" aria-label="Display theme">
-              <button class="finder-theme-button" type="button" data-theme-option="mac2000s" aria-pressed="false">2000s Mac</button>
-              <button class="finder-theme-button is-active" type="button" data-theme-option="amber" aria-pressed="true">Amber</button>
-              <button class="finder-theme-button" type="button" data-theme-option="green" aria-pressed="false">Green</button>
-              <button class="finder-theme-button" type="button" data-theme-option="paper" aria-pressed="false">Charcoal</button>
-            </div>
-            <span class="finder-toolbar-meta">{{ site.time | date: "%b %Y" }}</span>
-          </div>
-        </header>
-
-        <div class="finder-workspace">
-          <button class="finder-overlay" type="button" data-sidebar-close tabindex="-1" aria-hidden="true"></button>
-          {% include sidebar.html %}
-
-          <main class="finder-main" id="finder-main">
-            {{ content }}
-          </main>
-        </div>
-      </div>
-    </div>
-
-    <a class="finder-desktop-easter-egg{% if page.url == '/bygone-archive/' %} is-active{% endif %}" href="{{ site.baseurl }}/bygone-archive/" aria-label="Open Bygone Archive">
-      <span class="finder-desktop-easter-egg-icon" aria-hidden="true">
-        <span class="finder-desktop-easter-egg-lid"></span>
-        <span class="finder-desktop-easter-egg-body"></span>
-      </span>
-      <span class="finder-desktop-easter-egg-label">Bygone Archive</span>
-    </a>
-
-    <div class="finder-gallery-window-shell" data-gallery-window hidden>
-      <div class="finder-gallery-window-backdrop" data-gallery-dismiss></div>
-      <div class="finder-gallery-window" role="dialog" aria-modal="true" aria-label="Expanded artwork preview">
-        <div class="finder-gallery-window-toolbar">
-          <div class="finder-gallery-window-controls" aria-hidden="true">
-            <button class="finder-gallery-window-control finder-gallery-window-control-close" type="button" data-gallery-dismiss aria-label="Close preview"></button>
-            <button class="finder-gallery-window-control finder-gallery-window-control-minimize" type="button" data-gallery-dismiss aria-label="Minimize preview"></button>
-            <span class="finder-gallery-window-control finder-gallery-window-control-zoom"></span>
-          </div>
-          <p class="finder-gallery-window-title" data-gallery-title>Artwork Preview</p>
-        </div>
-        <div class="finder-gallery-window-body">
-          <img src="" alt="" data-gallery-image>
-        </div>
-      </div>
-    </div>
-
+      <section class="home-explorer" data-home-explorer>
+        {% include home-tree-nav.html %}
+        <section class="home-preview home-preview-document" aria-live="polite">
+          {{ content }}
+        </section>
+      </section>
+    </main>
     <script src="{{ site.baseurl }}/public/js/finder.js" defer></script>
+    {% endif %}
+    <script src="{{ site.baseurl }}/public/js/home-explorer.js" defer></script>
   </body>
 </html>

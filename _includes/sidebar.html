@@ -9,6 +9,55 @@
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
       </h1>
       <p class="finder-sidebar-description">{{ site.tagline }}</p>
+      <a class="finder-paper-crest" href="{{ site.baseurl }}/" aria-label="{{ site.title }} {{ site.tagline }}">
+        <span class="finder-paper-crest-ribbon finder-paper-crest-ribbon-top">{{ site.title }}</span>
+        <span class="finder-paper-crest-seal">
+          <span class="finder-paper-crest-wax">
+            <span class="finder-paper-crest-shield">
+              <span class="finder-paper-crest-mark finder-paper-crest-mark-top">✦</span>
+              <span class="finder-paper-crest-monogram">𝔍𝔄</span>
+              <span class="finder-paper-crest-mark finder-paper-crest-mark-bottom">❦</span>
+            </span>
+          </span>
+        </span>
+        <span class="finder-paper-crest-ribbon finder-paper-crest-ribbon-bottom">{{ site.tagline }}</span>
+      </a>
+      <a class="finder-neo-signature" href="{{ site.baseurl }}/" aria-label="{{ site.title }} {{ site.tagline }}">
+        <svg class="finder-neo-signature-svg" viewBox="0 0 320 320" aria-hidden="true" focusable="false">
+          <defs>
+            <path id="finder-neo-orbit-equator" d="M 28 160 a 132 44 0 1 1 264 0 a 132 44 0 1 1 -264 0" />
+            <path id="finder-neo-orbit-shell" d="M 70 160 a 90 122 0 1 1 180 0 a 90 122 0 1 1 -180 0" />
+            <path id="finder-neo-orbit-core" d="M 92 160 a 68 86 0 1 1 136 0 a 68 86 0 1 1 -136 0" />
+          </defs>
+          <g class="finder-neo-signature-ring finder-neo-signature-ring-equator">
+            <text>
+              <textPath href="#finder-neo-orbit-equator">JADEN ANDREA IMMERSIVE ARTIST • JADEN ANDREA IMMERSIVE ARTIST •</textPath>
+            </text>
+          </g>
+          <g class="finder-neo-signature-ring finder-neo-signature-ring-shell finder-neo-signature-ring-shell-a">
+            <text>
+              <textPath href="#finder-neo-orbit-shell">JADEN ANDREA IMMERSIVE ARTIST • JADEN ANDREA IMMERSIVE ARTIST •</textPath>
+            </text>
+          </g>
+          <g class="finder-neo-signature-ring finder-neo-signature-ring-shell finder-neo-signature-ring-shell-b">
+            <text>
+              <textPath href="#finder-neo-orbit-shell">JADEN ANDREA IMMERSIVE ARTIST • JADEN ANDREA IMMERSIVE ARTIST •</textPath>
+            </text>
+          </g>
+          <g class="finder-neo-signature-ring finder-neo-signature-ring-core finder-neo-signature-ring-core-a">
+            <text>
+              <textPath href="#finder-neo-orbit-core">JADEN ANDREA IMMERSIVE ARTIST • JADEN ANDREA IMMERSIVE ARTIST •</textPath>
+            </text>
+          </g>
+          <g class="finder-neo-signature-ring finder-neo-signature-ring-core finder-neo-signature-ring-core-b">
+            <text>
+              <textPath href="#finder-neo-orbit-core">JADEN ANDREA IMMERSIVE ARTIST • JADEN ANDREA IMMERSIVE ARTIST •</textPath>
+            </text>
+          </g>
+          <circle class="finder-neo-signature-halo" cx="160" cy="160" r="78"></circle>
+          <circle class="finder-neo-signature-core-dot" cx="160" cy="160" r="10"></circle>
+        </svg>
+      </a>
     </div>
 
     <nav class="finder-tree">
@@ -22,11 +71,28 @@
           <span class="finder-icon finder-icon-page"></span>
           <span>About</span>
         </a>
+        <a class="finder-tree-link{% if page.url == '/tarot/' %} is-active{% endif %}" href="{{ site.baseurl }}/tarot/">
+          <span class="finder-icon finder-icon-page"></span>
+          <span>Tarot</span>
+        </a>
         <a class="finder-tree-link finder-mobile-only{% if page.url == '/bygone-archive/' %} is-active{% endif %}" href="{{ site.baseurl }}/bygone-archive/">
           <span class="finder-icon finder-icon-page"></span>
           <span>Bygone Archive</span>
         </a>
       </div>
+
+      {% if page.url == '/' %}
+      <div class="finder-tree-section finder-tarot-sidebar-controls" data-tarot-sidebar>
+        <p class="finder-tree-heading">Tarot Spread</p>
+        <label class="finder-tarot-sidebar-label" for="finder-tarot-spread-select">Select spread</label>
+        <select class="finder-tarot-sidebar-select" id="finder-tarot-spread-select" data-tarot-spread-select>
+          <option value="single">Single card</option>
+          <option value="three-card">Three-card spread</option>
+          <option value="celtic-cross">Celtic Cross spread</option>
+        </select>
+        <p class="finder-tarot-sidebar-status" data-tarot-sidebar-status>Ready for a new reading.</p>
+      </div>
+      {% endif %}
 
       <div class="finder-tree-section">
         <p class="finder-tree-heading">Project Folders</p>

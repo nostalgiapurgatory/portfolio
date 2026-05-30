@@ -1,0 +1,87 @@
+{% assign published_projects = site.projects | where: "status", "publish" | sort: "order" %}
+{% assign project_categories = published_projects | map: "category" | uniq %}
+
+<div class="home-explorer-column">
+  <div class="home-explorer-toolbar">
+    <button type="button" class="home-theme-toggle" data-home-theme-toggle aria-pressed="false">dark mode: off</button>
+  </div>
+
+  <nav class="home-tree" aria-label="Homepage explorer">
+    <details class="home-folder" open>
+      <summary class="home-folder-summary" data-home-preview="rootDirectory">
+        <span class="home-icon home-icon-folder" aria-hidden="true"></span>
+        <span>home:/</span>
+      </summary>
+      <div class="home-folder-items">
+        <a class="home-file-link" href="{{ site.baseurl }}/about/" data-home-preview="aboutPage">
+          <span class="home-icon home-icon-file" aria-hidden="true"></span>
+          <span>about.md</span>
+        </a>
+      </div>
+    </details>
+
+    <details class="home-folder" open>
+      <summary class="home-folder-summary" data-home-preview="projectsDirectory">
+        <span class="home-icon home-icon-folder" aria-hidden="true"></span>
+        <span>projects/</span>
+      </summary>
+      <div class="home-folder-items">
+        {% for category in project_categories %}
+        {% assign folder_projects = published_projects | where: "category", category %}
+        <details class="home-folder home-folder-nested">
+          <summary class="home-folder-summary" data-home-preview="projectCategory">
+            <span class="home-icon home-icon-folder" aria-hidden="true"></span>
+            <span>{{ category }}</span>
+          </summary>
+          <div class="home-folder-items">
+            {% for project in folder_projects %}
+            <a class="home-file-link" href="{{ project.url }}" data-home-preview="projectFile">
+              <span class="home-icon home-icon-file" aria-hidden="true"></span>
+              <span>{{ project.title }}</span>
+            </a>
+            {% endfor %}
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+    </details>
+
+    <details class="home-folder" open>
+      <summary class="home-folder-summary" data-home-preview="connectDirectory">
+        <span class="home-icon home-icon-folder" aria-hidden="true"></span>
+        <span>connect/</span>
+      </summary>
+      <div class="home-folder-items">
+        <a class="home-file-link" href="https://www.instagram.com/nostalgiapurgatory/" target="_blank" rel="noreferrer" data-home-preview="socialLink">
+          <span class="home-icon home-icon-file" aria-hidden="true"></span>
+          <span>instagram.url</span>
+        </a>
+        <a class="home-file-link" href="https://github.com/nostalgiapurgatory" target="_blank" rel="noreferrer" data-home-preview="socialLink">
+          <span class="home-icon home-icon-file" aria-hidden="true"></span>
+          <span>github.url</span>
+        </a>
+        <a class="home-file-link" href="https://www.linkedin.com/in/jadenandrea" target="_blank" rel="noreferrer" data-home-preview="socialLink">
+          <span class="home-icon home-icon-file" aria-hidden="true"></span>
+          <span>linkedin.url</span>
+        </a>
+      </div>
+    </details>
+
+    <details class="home-folder" open>
+      <summary class="home-folder-summary" data-home-preview="rootDirectory">
+        <span class="home-icon home-icon-folder" aria-hidden="true"></span>
+        <span>misc/</span>
+      </summary>
+      <div class="home-folder-items">
+        <a class="home-file-link" href="{{ site.baseurl }}/tarot/" data-home-preview="tarotPage">
+          <span class="home-icon home-icon-file" aria-hidden="true"></span>
+          <span>tarot.md</span>
+        </a>
+        <a class="home-file-link" href="{{ site.baseurl }}/bygone-archive/" data-home-preview="archivePage">
+          <span class="home-icon home-icon-file" aria-hidden="true"></span>
+          <span>bygone-archive.md</span>
+        </a>
+      </div>
+    </details>
+  </nav>
+</div>

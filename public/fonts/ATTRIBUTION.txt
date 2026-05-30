@@ -1,0 +1,10 @@
+IBM MDA webfont attribution
+===========================
+
+This site self-hosts `Web437_IBM_MDA.woff` from "The Ultimate Oldschool PC Font Pack"
+by VileR: https://int10h.org/oldschool-pc-fonts/
+
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The full bundled license text is available in `LICENSE.TXT`.

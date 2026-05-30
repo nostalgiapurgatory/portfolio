@@ -16,6 +16,8 @@ author:
   url:            https://github.com/nostalgiapurgatory
 
 plugins: [jekyll-paginate]
+exclude:
+  - node_modules
 
 paginate:         5
 

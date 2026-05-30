@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Web437 IBM MDA";
+  src: url("../fonts/Web437_IBM_MDA.woff") format("woff");
+  font-display: swap;
+}
+
 :root {
   --theme-bg: #050402;
   --theme-bg-secondary: #0d0904;
@@ -19,42 +25,47 @@
 }
 
 body[data-theme="green"] {
-  --theme-bg: #010502;
-  --theme-bg-secondary: #031005;
-  --theme-window: #020602;
-  --theme-panel: rgba(3, 14, 7, 0.97);
-  --theme-panel-secondary: rgba(3, 11, 6, 0.92);
-  --theme-border: rgba(93, 255, 148, 0.42);
-  --theme-border-strong: rgba(93, 255, 148, 0.85);
-  --theme-text: #83ffaf;
-  --theme-text-soft: rgba(161, 255, 191, 0.84);
-  --theme-text-muted: rgba(161, 255, 191, 0.54);
-  --theme-highlight: rgba(93, 255, 148, 0.14);
-  --theme-highlight-strong: rgba(93, 255, 148, 0.3);
-  --theme-glow: rgba(93, 255, 148, 0.25);
-  --theme-scanline: rgba(93, 255, 148, 0.045);
-  --theme-link: #beffd1;
+  --theme-bg: #02030a;
+  --theme-bg-secondary: #071221;
+  --theme-window: #030913;
+  --theme-panel: rgba(4, 13, 25, 0.95);
+  --theme-panel-secondary: rgba(4, 10, 20, 0.92);
+  --theme-border: rgba(79, 255, 232, 0.42);
+  --theme-border-strong: rgba(79, 255, 232, 0.86);
+  --theme-text: #7fffee;
+  --theme-text-soft: rgba(170, 255, 244, 0.86);
+  --theme-text-muted: rgba(152, 221, 255, 0.58);
+  --theme-highlight: rgba(79, 255, 232, 0.12);
+  --theme-highlight-strong: rgba(255, 77, 184, 0.32);
+  --theme-glow: rgba(79, 255, 232, 0.28);
+  --theme-shadow: rgba(0, 0, 0, 0.72);
+  --theme-scanline: rgba(79, 255, 232, 0.06);
+  --theme-link: #ff78cb;
   --theme-image-filter: none;
+  font-family: "Jura", "Segoe UI", Tahoma, sans-serif;
+  font-weight: 300;
 }
 
 body[data-theme="paper"] {
-  --theme-bg: #e8e1d0;
-  --theme-bg-secondary: #d9d0bc;
-  --theme-window: #f4efdf;
-  --theme-panel: rgba(250, 246, 236, 0.96);
-  --theme-panel-secondary: rgba(240, 234, 222, 0.92);
-  --theme-border: rgba(55, 49, 42, 0.34);
-  --theme-border-strong: rgba(55, 49, 42, 0.72);
-  --theme-text: #23201c;
-  --theme-text-soft: rgba(35, 32, 28, 0.82);
-  --theme-text-muted: rgba(35, 32, 28, 0.56);
-  --theme-highlight: rgba(55, 49, 42, 0.08);
-  --theme-highlight-strong: rgba(55, 49, 42, 0.18);
-  --theme-glow: rgba(35, 32, 28, 0.08);
-  --theme-shadow: rgba(64, 53, 39, 0.22);
-  --theme-scanline: rgba(35, 32, 28, 0.03);
-  --theme-link: #171513;
-  --theme-image-filter: none;
+  --theme-bg: #eadfbe;
+  --theme-bg-secondary: #d8c69b;
+  --theme-window: #f5edd6;
+  --theme-panel: rgba(248, 241, 223, 0.97);
+  --theme-panel-secondary: rgba(236, 223, 190, 0.94);
+  --theme-border: rgba(103, 74, 45, 0.3);
+  --theme-border-strong: rgba(103, 74, 45, 0.62);
+  --theme-text: #2f1d14;
+  --theme-text-soft: rgba(55, 30, 20, 0.86);
+  --theme-text-muted: rgba(93, 67, 45, 0.68);
+  --theme-highlight: rgba(160, 113, 44, 0.08);
+  --theme-highlight-strong: rgba(42, 74, 128, 0.16);
+  --theme-glow: rgba(191, 141, 70, 0.08);
+  --theme-shadow: rgba(78, 52, 27, 0.18);
+  --theme-scanline: transparent;
+  --theme-link: #7f1d1d;
+  --theme-image-filter: sepia(0.18) saturate(0.92);
+  font-family: "MedievalSharp", "Times New Roman", serif;
+  font-weight: 400;
 }
 
 body[data-theme="mac2000s"] {
@@ -87,6 +98,36 @@ body[data-theme="mac2000s"]::before {
   opacity: 0;
 }
 
+body[data-theme="amber"] {
+  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 4px rgba(255, 187, 85, 0.24), 0 0 10px rgba(255, 176, 71, 0.12);
+  background:
+    radial-gradient(circle at 50% 14%, rgba(255, 220, 161, 0.08), transparent 28%),
+    radial-gradient(circle at center, rgba(255, 149, 51, 0.05), transparent 60%),
+    linear-gradient(180deg, #110903 0%, #050402 70%, #030201 100%);
+}
+
+body[data-theme="green"] {
+  font-family: "Jura", "Segoe UI", Tahoma, sans-serif;
+  text-shadow: 0 0 4px rgba(127, 255, 238, 0.25), 0 0 12px rgba(66, 225, 255, 0.12);
+  background:
+    radial-gradient(circle at 16% 18%, rgba(22, 255, 220, 0.12), transparent 18%),
+    radial-gradient(circle at 82% 72%, rgba(255, 54, 171, 0.12), transparent 22%),
+    linear-gradient(180deg, #060814 0%, #02030a 45%, #010106 100%);
+  letter-spacing: 0.04em;
+}
+
+body[data-theme="paper"] {
+  font-family: "MedievalSharp", "Times New Roman", serif;
+  letter-spacing: 0.02em;
+  text-shadow: none;
+  background:
+    radial-gradient(circle at top, rgba(255, 250, 236, 0.46), transparent 34%),
+    linear-gradient(180deg, rgba(187, 143, 67, 0.08), rgba(255, 255, 255, 0)),
+    linear-gradient(180deg, #f0e2bd 0%, #dcc18d 100%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -105,7 +146,7 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
   color: var(--theme-text);
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.05), transparent 30%),
@@ -128,6 +169,65 @@ body::before {
   opacity: 0.45;
 }
 
+body[data-theme="amber"]::before {
+  background:
+    linear-gradient(180deg, transparent 0, transparent 2px, rgba(255, 187, 85, 0.07) 3px, transparent 4px),
+    linear-gradient(90deg, rgba(255, 176, 71, 0.02), rgba(255, 255, 255, 0.015), rgba(255, 176, 71, 0.02));
+  background-size: 100% 5px, 100% 100%;
+  opacity: 0.72;
+}
+
+body[data-theme="amber"]::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at center, transparent 48%, rgba(0, 0, 0, 0.2) 78%, rgba(0, 0, 0, 0.5) 100%),
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.06), transparent 24%);
+  opacity: 0.9;
+}
+
+body[data-theme="green"]::before {
+  background:
+    linear-gradient(180deg, transparent 0, transparent 2px, rgba(79, 255, 232, 0.08) 3px, transparent 4px),
+    linear-gradient(90deg, rgba(0, 255, 247, 0.05), transparent 22%, rgba(255, 77, 184, 0.04) 48%, transparent 70%, rgba(0, 255, 247, 0.04));
+  background-size: 100% 4px, 100% 100%;
+  opacity: 0.88;
+}
+
+body[data-theme="green"]::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at center, transparent 52%, rgba(0, 0, 0, 0.16) 76%, rgba(0, 0, 0, 0.48) 100%),
+    radial-gradient(circle at 14% 20%, rgba(0, 255, 247, 0.12), transparent 20%),
+    radial-gradient(circle at 84% 74%, rgba(255, 77, 184, 0.1), transparent 18%);
+  opacity: 0.95;
+}
+
+body[data-theme="paper"]::before {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0)),
+    radial-gradient(circle at 20% 18%, rgba(126, 32, 32, 0.05), transparent 16%),
+    radial-gradient(circle at 78% 74%, rgba(36, 66, 118, 0.05), transparent 18%);
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+
+body[data-theme="paper"]::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at center, transparent 56%, rgba(116, 82, 43, 0.06) 82%, rgba(75, 48, 26, 0.16) 100%),
+    radial-gradient(circle at 50% 0%, rgba(255, 251, 240, 0.22), transparent 22%);
+  opacity: 0.82;
+}
+
 a {
   color: var(--theme-link);
   text-decoration: none;
@@ -138,6 +238,40 @@ a:hover,
 a:focus {
   color: var(--theme-text);
   text-shadow: 0 0 12px var(--theme-glow);
+}
+
+body[data-theme="amber"] a,
+body[data-theme="amber"] .finder-file-cell-name,
+body[data-theme="amber"] .finder-sidebar-title a,
+body[data-theme="amber"] .finder-document strong,
+body[data-theme="amber"] .finder-pane-header h1,
+body[data-theme="amber"] .finder-card-header h2,
+body[data-theme="amber"] .finder-folder-card h3,
+body[data-theme="amber"] .finder-document h1,
+body[data-theme="amber"] .finder-document h2,
+body[data-theme="amber"] .finder-document h3,
+body[data-theme="amber"] .finder-document h4,
+body[data-theme="amber"] .finder-document h5,
+body[data-theme="amber"] .finder-document h6,
+body[data-theme="amber"] .finder-stat-value {
+  text-shadow: 0 0 3px rgba(255, 187, 85, 0.35), 0 0 12px rgba(255, 176, 71, 0.18);
+}
+
+body[data-theme="green"] a,
+body[data-theme="green"] .finder-file-cell-name,
+body[data-theme="green"] .finder-sidebar-title a,
+body[data-theme="green"] .finder-document strong,
+body[data-theme="green"] .finder-pane-header h1,
+body[data-theme="green"] .finder-card-header h2,
+body[data-theme="green"] .finder-folder-card h3,
+body[data-theme="green"] .finder-document h1,
+body[data-theme="green"] .finder-document h2,
+body[data-theme="green"] .finder-document h3,
+body[data-theme="green"] .finder-document h4,
+body[data-theme="green"] .finder-document h5,
+body[data-theme="green"] .finder-document h6,
+body[data-theme="green"] .finder-stat-value {
+  text-shadow: 0 0 3px rgba(127, 255, 238, 0.35), 0 0 14px rgba(66, 225, 255, 0.18);
 }
 
 img {
@@ -176,12 +310,63 @@ ol {
   overflow: hidden;
 }
 
+body[data-theme="amber"] .finder-window {
+  border-radius: 0;
+  border-color: rgba(255, 176, 71, 0.72);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.82),
+    0 24px 60px rgba(0, 0, 0, 0.62),
+    inset 0 0 38px rgba(255, 176, 71, 0.24),
+    inset 0 0 120px rgba(255, 149, 51, 0.08);
+}
+
+body[data-theme="green"] .finder-window {
+  border-radius: 0;
+  border-color: rgba(79, 255, 232, 0.82);
+  box-shadow:
+    0 0 0 1px rgba(1, 15, 20, 0.95),
+    0 0 24px rgba(79, 255, 232, 0.12),
+    0 0 56px rgba(255, 77, 184, 0.08),
+    0 24px 60px rgba(0, 0, 0, 0.68),
+    inset 0 0 38px rgba(79, 255, 232, 0.08);
+}
+
 .finder-window::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
   border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+body[data-theme="amber"] .finder-window::before {
+  border-color: rgba(255, 214, 163, 0.08);
+  border-radius: inherit;
+}
+
+body[data-theme="amber"] .finder-window::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    radial-gradient(ellipse at center, transparent 58%, rgba(0, 0, 0, 0.12) 84%, rgba(0, 0, 0, 0.42) 100%),
+    radial-gradient(circle at 50% 0%, rgba(255, 231, 194, 0.08), transparent 30%);
+}
+
+body[data-theme="green"] .finder-window::before {
+  border-color: rgba(116, 255, 239, 0.16);
+}
+
+body[data-theme="green"] .finder-window::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(133, 255, 242, 0.06), transparent 16%, transparent 84%, rgba(255, 77, 184, 0.04)),
+    radial-gradient(circle at top left, rgba(0, 255, 247, 0.08), transparent 24%);
 }
 
 .finder-toolbar {
@@ -218,6 +403,35 @@ ol {
   font-size: 0.95rem;
   font-weight: bold;
   letter-spacing: 0.16em;
+}
+
+body[data-theme="amber"] .finder-window-title,
+body[data-theme="amber"] .finder-breadcrumb,
+body[data-theme="amber"] .finder-toolbar-meta,
+body[data-theme="amber"] .finder-sidebar-label,
+body[data-theme="amber"] .finder-tree-heading,
+body[data-theme="amber"] .finder-sidebar-footnote,
+body[data-theme="amber"] .finder-sidebar-copyright,
+body[data-theme="amber"] .finder-pane-eyebrow,
+body[data-theme="amber"] .finder-card-header span,
+body[data-theme="amber"] .finder-folder-count,
+body[data-theme="amber"] .finder-stat-label {
+  letter-spacing: 0.08em;
+}
+
+body[data-theme="green"] .finder-window-title,
+body[data-theme="green"] .finder-breadcrumb,
+body[data-theme="green"] .finder-toolbar-meta,
+body[data-theme="green"] .finder-sidebar-label,
+body[data-theme="green"] .finder-tree-heading,
+body[data-theme="green"] .finder-sidebar-footnote,
+body[data-theme="green"] .finder-sidebar-copyright,
+body[data-theme="green"] .finder-pane-eyebrow,
+body[data-theme="green"] .finder-card-header span,
+body[data-theme="green"] .finder-folder-count,
+body[data-theme="green"] .finder-stat-label {
+  letter-spacing: 0.1em;
+  font-family: "Jura", "Segoe UI", Tahoma, sans-serif;
 }
 
 .finder-breadcrumb,
@@ -352,6 +566,20 @@ ol {
   font-size: 0.92rem;
 }
 
+.finder-neo-signature {
+  display: none;
+}
+
+.finder-paper-crest {
+  display: none;
+}
+
+.finder-neo-signature-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .finder-tree {
   flex: 1;
   min-height: 0;
@@ -455,6 +683,18 @@ ol {
     var(--theme-window);
 }
 
+body[data-theme="green"] .finder-main {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(101, 255, 241, 0.07), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0)),
+    linear-gradient(180deg, #040913 0%, #02060f 100%);
+  text-shadow: 0 0 4px rgba(127, 255, 238, 0.22), 0 0 9px rgba(66, 225, 255, 0.08);
+}
+
+body[data-theme="amber"] .finder-main {
+  text-shadow: 0 0 4px rgba(255, 187, 85, 0.22), 0 0 9px rgba(255, 176, 71, 0.08);
+}
+
 .finder-desktop-easter-egg {
   position: fixed;
   left: 1.4rem;
@@ -545,6 +785,187 @@ ol {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.015), rgba(255, 255, 255, 0)), var(--theme-panel);
   border: 1px solid var(--theme-border);
   box-shadow: inset 0 0 22px rgba(255, 255, 255, 0.02), 0 0 16px rgba(0, 0, 0, 0.18);
+}
+
+body[data-theme="amber"] .finder-pane-header,
+body[data-theme="amber"] .finder-card,
+body[data-theme="amber"] .finder-document,
+body[data-theme="amber"] .finder-folder-card,
+body[data-theme="amber"] .finder-note,
+body[data-theme="amber"] .finder-file-table,
+body[data-theme="amber"] .finder-stat,
+body[data-theme="amber"] .finder-gallery-item,
+body[data-theme="amber"] .finder-sticker-card,
+body[data-theme="amber"] .finder-captioned-card {
+  box-shadow:
+    inset 0 0 28px rgba(255, 176, 71, 0.06),
+    0 0 14px rgba(0, 0, 0, 0.2);
+}
+
+body[data-theme="green"] .finder-toolbar,
+body[data-theme="green"] .finder-gallery-window-toolbar {
+  background:
+    linear-gradient(180deg, rgba(84, 255, 238, 0.08), rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, rgba(255, 77, 184, 0.06), transparent 24%, transparent 76%, rgba(84, 255, 238, 0.05)),
+    var(--theme-panel);
+}
+
+body[data-theme="green"] .finder-pane-header,
+body[data-theme="green"] .finder-card,
+body[data-theme="green"] .finder-document,
+body[data-theme="green"] .finder-folder-card,
+body[data-theme="green"] .finder-note,
+body[data-theme="green"] .finder-file-table,
+body[data-theme="green"] .finder-stat,
+body[data-theme="green"] .finder-gallery-item,
+body[data-theme="green"] .finder-sticker-card,
+body[data-theme="green"] .finder-captioned-card,
+body[data-theme="green"] .finder-project-preview,
+body[data-theme="green"] .finder-gallery-window {
+  border-color: rgba(79, 255, 232, 0.48);
+  box-shadow:
+    inset 0 0 24px rgba(79, 255, 232, 0.05),
+    0 0 18px rgba(0, 0, 0, 0.24),
+    0 0 18px rgba(79, 255, 232, 0.06);
+}
+
+body[data-theme="green"] .finder-sidebar-header {
+  position: relative;
+  overflow: hidden;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(79, 255, 232, 0.34);
+  background:
+    linear-gradient(180deg, rgba(79, 255, 232, 0.04), rgba(255, 255, 255, 0)),
+    radial-gradient(circle at top, rgba(255, 77, 184, 0.08), transparent 42%);
+}
+
+body[data-theme="green"] .finder-sidebar-title,
+body[data-theme="green"] .finder-sidebar-description {
+  display: none;
+}
+
+body[data-theme="green"] .finder-sidebar-label {
+  margin-bottom: 0.4rem;
+}
+
+body[data-theme="green"] .finder-neo-signature {
+  position: relative;
+  display: block;
+  width: min(100%, 15rem);
+  margin: 0.6rem auto 0.15rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+body[data-theme="green"] .finder-neo-signature::before {
+  content: "";
+  position: absolute;
+  inset: 16%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, rgba(4, 13, 25, 0.12) 0 18%, rgba(4, 13, 25, 0.86) 55%, rgba(4, 13, 25, 0) 74%),
+    conic-gradient(from 0deg, rgba(79, 255, 232, 0.24), rgba(255, 77, 184, 0.14), rgba(111, 145, 255, 0.12), rgba(79, 255, 232, 0.26));
+  filter: blur(1px);
+  animation: finder-neo-wormhole 9s linear infinite;
+}
+
+body[data-theme="green"] .finder-neo-signature::after {
+  content: "";
+  position: absolute;
+  inset: 6%;
+  border-radius: 50%;
+  border: 1px solid rgba(79, 255, 232, 0.18);
+  box-shadow: inset 0 0 26px rgba(79, 255, 232, 0.08), 0 0 20px rgba(79, 255, 232, 0.08);
+}
+
+body[data-theme="green"] .finder-neo-signature-svg {
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 0 8px rgba(79, 255, 232, 0.28));
+}
+
+body[data-theme="green"] .finder-neo-signature-ring {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+body[data-theme="green"] .finder-neo-signature-ring text {
+  fill: rgba(143, 255, 244, 0.96);
+  font-family: "Jura", "Segoe UI", Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+body[data-theme="green"] .finder-neo-signature-ring-equator {
+  animation: finder-neo-ring-spin 16s linear infinite;
+}
+
+body[data-theme="green"] .finder-neo-signature-ring-shell-a {
+  animation: finder-neo-ring-spin-shell-a 12s linear infinite;
+}
+
+body[data-theme="green"] .finder-neo-signature-ring-shell-b {
+  animation: finder-neo-ring-spin-shell-b 14s linear infinite;
+}
+
+body[data-theme="green"] .finder-neo-signature-ring-core-a {
+  animation: finder-neo-ring-spin-core-a 11s linear infinite;
+}
+
+body[data-theme="green"] .finder-neo-signature-ring-core-b {
+  animation: finder-neo-ring-spin-core-b 9s linear infinite;
+}
+
+body[data-theme="green"] .finder-neo-signature-halo {
+  fill: none;
+  stroke: rgba(79, 255, 232, 0.18);
+  stroke-width: 2;
+}
+
+body[data-theme="green"] .finder-neo-signature-core-dot {
+  fill: rgba(79, 255, 232, 0.9);
+  filter: drop-shadow(0 0 10px rgba(79, 255, 232, 0.5));
+}
+
+body[data-theme="green"] .finder-theme-button.is-active,
+body[data-theme="green"] .finder-theme-button:hover,
+body[data-theme="green"] .finder-theme-button:focus,
+body[data-theme="green"] .finder-mobile-toggle:hover,
+body[data-theme="green"] .finder-mobile-toggle:focus,
+body[data-theme="green"] .finder-tree-link.is-active,
+body[data-theme="green"] .finder-file-link.is-active,
+body[data-theme="green"] .finder-folder-toggle:hover,
+body[data-theme="green"] .finder-file-link:hover,
+body[data-theme="green"] .finder-tree-link:hover,
+body[data-theme="green"] .finder-file-row:hover,
+body[data-theme="green"] .finder-gallery-item:hover,
+body[data-theme="green"] .finder-gallery-item:focus {
+  background: linear-gradient(90deg, rgba(0, 255, 247, 0.14), rgba(255, 77, 184, 0.08));
+  box-shadow: inset 0 0 0 1px rgba(79, 255, 232, 0.78), 0 0 16px rgba(79, 255, 232, 0.14);
+}
+
+body[data-theme="green"] .finder-light,
+body[data-theme="green"] .finder-gallery-window-control {
+  border-color: rgba(79, 255, 232, 0.72);
+  box-shadow: 0 0 12px rgba(79, 255, 232, 0.22);
+}
+
+body[data-theme="green"] .finder-light-close,
+body[data-theme="green"] .finder-gallery-window-control-close {
+  background: rgba(255, 77, 184, 0.18);
+}
+
+body[data-theme="green"] .finder-light-minimize,
+body[data-theme="green"] .finder-gallery-window-control-minimize {
+  background: rgba(79, 255, 232, 0.14);
+}
+
+body[data-theme="green"] .finder-light-zoom,
+body[data-theme="green"] .finder-gallery-window-control-zoom {
+  background: rgba(111, 145, 255, 0.16);
 }
 
 .finder-pane-header {
@@ -958,6 +1379,119 @@ ol {
   color: var(--theme-text-soft);
 }
 
+body[data-theme="amber"] .finder-document p,
+body[data-theme="amber"] .finder-document li,
+body[data-theme="amber"] .finder-document blockquote,
+body[data-theme="amber"] .finder-document figcaption,
+body[data-theme="amber"] .finder-sidebar-description,
+body[data-theme="amber"] .finder-folder-card p,
+body[data-theme="amber"] .finder-note p,
+body[data-theme="amber"] .finder-file-row,
+body[data-theme="amber"] .finder-sticker-card figcaption,
+body[data-theme="amber"] .finder-captioned-card figcaption {
+  text-shadow: 0 0 2px rgba(255, 187, 85, 0.16), 0 0 8px rgba(255, 176, 71, 0.08);
+}
+
+body[data-theme="green"] .finder-document p,
+body[data-theme="green"] .finder-document li,
+body[data-theme="green"] .finder-document blockquote,
+body[data-theme="green"] .finder-document figcaption,
+body[data-theme="green"] .finder-sidebar-description,
+body[data-theme="green"] .finder-folder-card p,
+body[data-theme="green"] .finder-note p,
+body[data-theme="green"] .finder-file-row,
+body[data-theme="green"] .finder-sticker-card figcaption,
+body[data-theme="green"] .finder-captioned-card figcaption {
+  text-shadow: 0 0 2px rgba(127, 255, 238, 0.16), 0 0 8px rgba(66, 225, 255, 0.08);
+}
+
+body[data-theme="green"] .finder-theme-button,
+body[data-theme="green"] .finder-mobile-toggle,
+body[data-theme="green"] .finder-tree-link,
+body[data-theme="green"] .finder-folder-toggle,
+body[data-theme="green"] .finder-file-link,
+body[data-theme="green"] .finder-file-row,
+body[data-theme="green"] .finder-pane-header,
+body[data-theme="green"] .finder-card,
+body[data-theme="green"] .finder-document,
+body[data-theme="green"] .finder-gallery-window-title {
+  font-family: "Jura", "Segoe UI", Tahoma, sans-serif;
+}
+
+@keyframes finder-neo-ring-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes finder-neo-ring-spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes finder-neo-ring-spin-shell-a {
+  from {
+    transform: rotate(63deg);
+  }
+
+  to {
+    transform: rotate(423deg);
+  }
+}
+
+@keyframes finder-neo-ring-spin-shell-b {
+  from {
+    transform: rotate(-63deg);
+  }
+
+  to {
+    transform: rotate(-423deg);
+  }
+}
+
+@keyframes finder-neo-ring-spin-core-a {
+  from {
+    transform: rotate(28deg) scale(0.92);
+  }
+
+  to {
+    transform: rotate(388deg) scale(0.92);
+  }
+}
+
+@keyframes finder-neo-ring-spin-core-b {
+  from {
+    transform: rotate(-28deg) scale(0.92);
+  }
+
+  to {
+    transform: rotate(-388deg) scale(0.92);
+  }
+}
+
+@keyframes finder-neo-wormhole {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(1.04);
+  }
+
+  to {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
 .finder-document strong {
   color: var(--theme-text);
 }
@@ -979,6 +1513,17 @@ ol {
 .finder-document code,
 .finder-document pre {
   font-family: "Courier New", Courier, monospace;
+}
+
+body[data-theme="amber"] .finder-theme-button,
+body[data-theme="amber"] .finder-mobile-toggle,
+body[data-theme="amber"] .finder-tree-link,
+body[data-theme="amber"] .finder-folder-toggle,
+body[data-theme="amber"] .finder-file-link,
+body[data-theme="amber"] .finder-file-row,
+body[data-theme="amber"] .finder-document code,
+body[data-theme="amber"] .finder-document pre {
+  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
 }
 
 .finder-document code {
@@ -1245,7 +1790,7 @@ body[data-theme="mac2000s"] a:focus {
 }
 
 body[data-theme="mac2000s"] .finder-window {
-  border-radius: 18px;
+  border-radius: 0;
   background: var(--theme-window);
   box-shadow: 0 28px 60px var(--theme-shadow);
 }
@@ -1429,7 +1974,7 @@ body[data-theme="mac2000s"] .finder-gallery-item:focus {
 
 body[data-theme="mac2000s"] .finder-gallery-item img,
 body[data-theme="mac2000s"] .finder-gallery-window {
-  border-radius: 14px;
+  border-radius: 0;
 }
 
 body[data-theme="mac2000s"] .finder-gallery-window {
@@ -1494,9 +2039,1826 @@ body[data-theme="paper"] .finder-desktop-easter-egg-body {
   background: rgba(240, 234, 222, 0.92);
 }
 
+body[data-theme="paper"] a:hover,
+body[data-theme="paper"] a:focus {
+  color: #5a1414;
+  text-shadow: none;
+}
+
+body[data-theme="paper"] .finder-window {
+  border-radius: 0;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(123, 29, 29, 0.04), transparent 14%),
+    radial-gradient(circle at 84% 18%, rgba(41, 74, 123, 0.045), transparent 16%),
+    linear-gradient(180deg, rgba(255, 252, 243, 0.7), rgba(255, 255, 255, 0)),
+    var(--theme-window);
+  box-shadow: 0 20px 40px var(--theme-shadow), inset 0 0 26px rgba(191, 141, 70, 0.06);
+}
+
+body[data-theme="paper"] .finder-toolbar,
+body[data-theme="paper"] .finder-gallery-window-toolbar {
+  background:
+    linear-gradient(180deg, rgba(255, 252, 243, 0.6), rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, rgba(123, 29, 29, 0.08), transparent 28%, transparent 72%, rgba(41, 74, 123, 0.08)),
+    var(--theme-panel);
+  border-bottom-color: rgba(103, 74, 45, 0.42);
+  text-transform: none;
+}
+
+body[data-theme="paper"] .finder-window::before {
+  border-color: rgba(123, 95, 52, 0.28);
+}
+
+body[data-theme="paper"] .finder-window::after {
+  content: "";
+  position: absolute;
+  inset: 0.7rem;
+  pointer-events: none;
+  border: 1px solid rgba(145, 108, 55, 0.22);
+  background:
+    radial-gradient(circle at top left, rgba(123, 29, 29, 0.07), transparent 10%),
+    radial-gradient(circle at top right, rgba(41, 74, 123, 0.07), transparent 10%),
+    radial-gradient(circle at bottom left, rgba(41, 74, 123, 0.06), transparent 10%),
+    radial-gradient(circle at bottom right, rgba(123, 29, 29, 0.06), transparent 10%);
+}
+
+body[data-theme="paper"] .finder-sidebar,
+body[data-theme="paper"] .finder-main {
+  background:
+    radial-gradient(circle at 24% 18%, rgba(123, 29, 29, 0.03), transparent 16%),
+    radial-gradient(circle at 74% 76%, rgba(41, 74, 123, 0.03), transparent 18%),
+    linear-gradient(180deg, rgba(255, 252, 243, 0.34), rgba(255, 255, 255, 0)),
+    var(--theme-window);
+}
+
+body[data-theme="paper"] .finder-sidebar::after {
+  background: rgba(103, 74, 45, 0.22);
+}
+
+body[data-theme="paper"] .finder-sidebar-header,
+body[data-theme="paper"] .finder-sidebar-footer {
+  border-color: rgba(123, 95, 52, 0.34);
+  border-style: solid;
+}
+
+body[data-theme="paper"] .finder-sidebar-header {
+  padding-top: 1.35rem;
+  text-align: center;
+}
+
+body[data-theme="paper"] .finder-sidebar-header,
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card-header {
+  position: relative;
+}
+
+body[data-theme="paper"] .finder-sidebar-header::before,
+body[data-theme="paper"] .finder-sidebar-header::after,
+body[data-theme="paper"] .finder-pane-header::before,
+body[data-theme="paper"] .finder-pane-header::after,
+body[data-theme="paper"] .finder-card-header::before,
+body[data-theme="paper"] .finder-card-header::after {
+  position: absolute;
+  top: 0.15rem;
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 1rem;
+  line-height: 1;
+  opacity: 0.75;
+}
+
+body[data-theme="paper"] .finder-sidebar-header::before,
+body[data-theme="paper"] .finder-pane-header::before,
+body[data-theme="paper"] .finder-card-header::before {
+  content: "❦";
+  left: 0.2rem;
+  color: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-sidebar-header::after,
+body[data-theme="paper"] .finder-pane-header::after,
+body[data-theme="paper"] .finder-card-header::after {
+  content: "✦";
+  right: 0.2rem;
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-window-title,
+body[data-theme="paper"] .finder-sidebar-title,
+body[data-theme="paper"] .finder-sidebar-title a,
+body[data-theme="paper"] .finder-pane-header h1,
+body[data-theme="paper"] .finder-card-header h2,
+body[data-theme="paper"] .finder-folder-card h3,
+body[data-theme="paper"] .finder-document h1,
+body[data-theme="paper"] .finder-document h2,
+body[data-theme="paper"] .finder-document h3,
+body[data-theme="paper"] .finder-document h4,
+body[data-theme="paper"] .finder-document h5,
+body[data-theme="paper"] .finder-document h6 {
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  text-transform: none;
+  color: #5c1414;
+  text-shadow:
+    0 1px 0 rgba(255, 248, 229, 0.8),
+    1px 1px 0 rgba(47, 79, 143, 0.18);
+}
+
+body[data-theme="paper"] .finder-window-title,
+body[data-theme="paper"] .finder-pane-header h1,
+body[data-theme="paper"] .finder-document h1,
+body[data-theme="paper"] .finder-document h5,
+body[data-theme="paper"] .finder-paper-crest-ribbon-top {
+  color: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-card-header h2,
+body[data-theme="paper"] .finder-document h2,
+body[data-theme="paper"] .finder-paper-crest-monogram {
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-folder-card h3,
+body[data-theme="paper"] .finder-document h3,
+body[data-theme="paper"] .finder-paper-crest-ribbon-bottom {
+  color: #4d7a61;
+}
+
+body[data-theme="paper"] .finder-document h4,
+body[data-theme="paper"] .finder-document h6,
+body[data-theme="paper"] .finder-sidebar-label,
+body[data-theme="paper"] .finder-tree-heading {
+  color: #bf8d46;
+}
+
+body[data-theme="paper"] .finder-window-title,
+body[data-theme="paper"] .finder-pane-header h1,
+body[data-theme="paper"] .finder-card-header h2 {
+  position: relative;
+  display: inline-block;
+  padding: 0 1.8rem;
+}
+
+body[data-theme="paper"] .finder-pane-header h1 {
+  font-size: clamp(2.5rem, 4vw, 3.6rem);
+  line-height: 0.94;
+}
+
+body[data-theme="paper"] .finder-card-header h2,
+body[data-theme="paper"] .finder-document h2 {
+  font-size: 1.75rem;
+}
+
+body[data-theme="paper"] .finder-document h3 {
+  font-size: 1.4rem;
+}
+
+body[data-theme="paper"] .finder-window-title::before,
+body[data-theme="paper"] .finder-window-title::after,
+body[data-theme="paper"] .finder-pane-header h1::before,
+body[data-theme="paper"] .finder-pane-header h1::after,
+body[data-theme="paper"] .finder-card-header h2::before,
+body[data-theme="paper"] .finder-card-header h2::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 0.8em;
+  line-height: 1;
+}
+
+body[data-theme="paper"] .finder-window-title::before,
+body[data-theme="paper"] .finder-pane-header h1::before,
+body[data-theme="paper"] .finder-card-header h2::before {
+  content: "❧";
+  left: 0;
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-window-title::after,
+body[data-theme="paper"] .finder-pane-header h1::after,
+body[data-theme="paper"] .finder-card-header h2::after {
+  content: "❧";
+  right: 0;
+  color: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-breadcrumb,
+body[data-theme="paper"] .finder-toolbar-meta,
+body[data-theme="paper"] .finder-sidebar-label,
+body[data-theme="paper"] .finder-tree-heading,
+body[data-theme="paper"] .finder-sidebar-footnote,
+body[data-theme="paper"] .finder-sidebar-copyright,
+body[data-theme="paper"] .finder-pane-eyebrow,
+body[data-theme="paper"] .finder-card-header span,
+body[data-theme="paper"] .finder-folder-count,
+body[data-theme="paper"] .finder-stat-label,
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle,
+body[data-theme="paper"] .finder-tree-link,
+body[data-theme="paper"] .finder-folder-toggle,
+body[data-theme="paper"] .finder-file-link,
+body[data-theme="paper"] .finder-file-row,
+body[data-theme="paper"] .finder-sidebar-description,
+body[data-theme="paper"] .finder-document p,
+body[data-theme="paper"] .finder-document li,
+body[data-theme="paper"] .finder-document blockquote,
+body[data-theme="paper"] .finder-document figcaption,
+body[data-theme="paper"] .finder-folder-card p,
+body[data-theme="paper"] .finder-note p,
+body[data-theme="paper"] .finder-sticker-card figcaption,
+body[data-theme="paper"] .finder-captioned-card figcaption {
+  font-family: "MedievalSharp", "Times New Roman", serif;
+  text-transform: none;
+  letter-spacing: 0.025em;
+  text-shadow: none;
+}
+
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle,
+body[data-theme="paper"] .finder-tree-link,
+body[data-theme="paper"] .finder-folder-toggle,
+body[data-theme="paper"] .finder-file-link,
+body[data-theme="paper"] .finder-file-row {
+  font-size: 0.92rem;
+}
+
+body[data-theme="paper"] .finder-sidebar-title,
+body[data-theme="paper"] .finder-sidebar-description {
+  display: none;
+}
+
+body[data-theme="paper"] .finder-paper-crest {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.8rem auto 0.2rem;
+  padding: 0.2rem 0 0.35rem;
+  color: var(--theme-text);
+}
+
+body[data-theme="paper"] .finder-paper-crest::before,
+body[data-theme="paper"] .finder-paper-crest::after {
+  content: "❧";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 1.4rem;
+  opacity: 0.7;
+}
+
+body[data-theme="paper"] .finder-paper-crest::before {
+  left: 0.2rem;
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-paper-crest::after {
+  right: 0.2rem;
+  color: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-paper-crest-ribbon {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 12rem;
+  max-width: 100%;
+  padding: 0.35rem 1.1rem;
+  background:
+    linear-gradient(180deg, rgba(255, 246, 224, 0.92), rgba(226, 203, 156, 0.94)),
+    linear-gradient(90deg, rgba(123, 29, 29, 0.08), rgba(41, 74, 123, 0.08));
+  border: 1px solid rgba(123, 95, 52, 0.42);
+  color: #5c1414;
+  box-shadow: 0 4px 10px rgba(87, 60, 35, 0.08);
+  text-align: center;
+}
+
+body[data-theme="paper"] .finder-paper-crest-ribbon-top {
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+body[data-theme="paper"] .finder-paper-crest-ribbon-bottom {
+  font-family: "MedievalSharp", "Times New Roman", serif;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-paper-crest-seal {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 10.4rem;
+  height: 10.4rem;
+}
+
+body[data-theme="paper"] .finder-paper-crest-wax {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 28%, rgba(255, 216, 216, 0.35), transparent 18%),
+    radial-gradient(circle at 68% 72%, rgba(74, 14, 14, 0.24), transparent 28%),
+    radial-gradient(circle at center, #a52620 0%, #7b1d1d 52%, #5b1112 100%);
+  box-shadow:
+    inset 0 0 24px rgba(255, 226, 192, 0.2),
+    inset 0 -12px 20px rgba(70, 11, 11, 0.25),
+    0 10px 22px rgba(80, 34, 20, 0.18);
+}
+
+body[data-theme="paper"] .finder-paper-crest-wax::before,
+body[data-theme="paper"] .finder-paper-crest-wax::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+}
+
+body[data-theme="paper"] .finder-paper-crest-wax::before {
+  inset: 0.4rem;
+  border: 1px solid rgba(255, 233, 193, 0.22);
+}
+
+body[data-theme="paper"] .finder-paper-crest-wax::after {
+  inset: 1rem;
+  border: 1px dashed rgba(255, 225, 186, 0.18);
+}
+
+body[data-theme="paper"] .finder-paper-crest-shield {
+  position: relative;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 0.2rem;
+  width: 4.7rem;
+  height: 5.8rem;
+  padding-top: 0.45rem;
+  background:
+    linear-gradient(180deg, rgba(255, 244, 222, 0.98), rgba(231, 205, 157, 0.98));
+  clip-path: polygon(50% 0, 92% 14%, 92% 58%, 50% 100%, 8% 58%, 8% 14%);
+  border: 1px solid rgba(123, 95, 52, 0.48);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 250, 239, 0.7),
+    0 6px 12px rgba(87, 60, 35, 0.12);
+}
+
+body[data-theme="paper"] .finder-paper-crest-shield::before {
+  content: "";
+  position: absolute;
+  inset: 0.35rem;
+  clip-path: inherit;
+  border: 1px solid rgba(47, 79, 143, 0.26);
+}
+
+body[data-theme="paper"] .finder-paper-crest-monogram {
+  position: relative;
+  z-index: 1;
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.06em;
+  color: #2f4f8f;
+  text-shadow: 1px 1px 0 rgba(123, 29, 29, 0.16);
+}
+
+body[data-theme="paper"] .finder-paper-crest-mark {
+  position: relative;
+  z-index: 1;
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  line-height: 1;
+}
+
+body[data-theme="paper"] .finder-paper-crest-mark-top {
+  font-size: 1rem;
+  color: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-paper-crest-mark-bottom {
+  font-size: 0.95rem;
+  color: #bf8d46;
+}
+
+body[data-theme="paper"] .finder-pane-intro,
+body[data-theme="paper"] .finder-document p,
+body[data-theme="paper"] .finder-note p,
+body[data-theme="paper"] .finder-document li {
+  line-height: 1.95;
+}
+
+body[data-theme="paper"] .finder-pane-intro::first-letter,
+body[data-theme="paper"] .finder-note p:first-of-type::first-letter,
+body[data-theme="paper"] .finder-document > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.1rem 0.5rem 0 0;
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 3.9rem;
+  line-height: 0.9;
+  color: #7b1d1d;
+  text-shadow:
+    1px 1px 0 rgba(47, 79, 143, 0.22),
+    0 0 0 rgba(0, 0, 0, 0);
+}
+
+body[data-theme="paper"] .finder-folder-card h3::first-letter,
+body[data-theme="paper"] .finder-document h1::first-letter,
+body[data-theme="paper"] .finder-document h2::first-letter,
+body[data-theme="paper"] .finder-document h3::first-letter,
+body[data-theme="paper"] .finder-pane-header h1::first-letter,
+body[data-theme="paper"] .finder-card-header h2::first-letter,
+body[data-theme="paper"] .finder-window-title::first-letter,
+body[data-theme="paper"] .finder-sidebar-title a::first-letter {
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-document h3::first-letter,
+body[data-theme="paper"] .finder-folder-card h3::first-letter {
+  color: #bf8d46;
+}
+
+body[data-theme="paper"] .finder-document h4::first-letter,
+body[data-theme="paper"] .finder-document h6::first-letter {
+  color: #4d7a61;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window {
+  background:
+    radial-gradient(circle at 18% 14%, rgba(123, 29, 29, 0.025), transparent 14%),
+    radial-gradient(circle at 82% 78%, rgba(41, 74, 123, 0.025), transparent 16%),
+    linear-gradient(180deg, rgba(255, 252, 243, 0.4), rgba(255, 255, 255, 0)),
+    var(--theme-panel);
+  border-color: rgba(123, 95, 52, 0.28);
+  box-shadow: inset 0 0 18px rgba(191, 141, 70, 0.05), 0 10px 22px rgba(87, 60, 35, 0.08);
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document {
+  overflow: hidden;
+  box-shadow:
+    inset 0 0 0 1px rgba(145, 108, 55, 0.16),
+    inset 0 0 18px rgba(191, 141, 70, 0.05),
+    0 10px 22px rgba(87, 60, 35, 0.08);
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-document {
+  background-image:
+    linear-gradient(180deg, rgba(255, 251, 239, 0.42), rgba(255, 255, 255, 0)),
+    repeating-linear-gradient(
+      180deg,
+      transparent 0,
+      transparent 2.25rem,
+      rgba(145, 108, 55, 0.045) 2.25rem,
+      rgba(145, 108, 55, 0.045) 2.32rem
+    );
+}
+
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle {
+  background: rgba(255, 249, 236, 0.62);
+  color: var(--theme-text);
+}
+
+body[data-theme="paper"] .finder-theme-button.is-active,
+body[data-theme="paper"] .finder-theme-button:hover,
+body[data-theme="paper"] .finder-theme-button:focus,
+body[data-theme="paper"] .finder-mobile-toggle:hover,
+body[data-theme="paper"] .finder-mobile-toggle:focus,
+body[data-theme="paper"] .finder-tree-link.is-active,
+body[data-theme="paper"] .finder-file-link.is-active,
+body[data-theme="paper"] .finder-folder-toggle:hover,
+body[data-theme="paper"] .finder-file-link:hover,
+body[data-theme="paper"] .finder-tree-link:hover,
+body[data-theme="paper"] .finder-file-row:hover {
+  background: linear-gradient(90deg, rgba(41, 74, 123, 0.09), rgba(123, 29, 29, 0.07));
+  box-shadow: inset 0 0 0 1px rgba(123, 95, 52, 0.26);
+}
+
+body[data-theme="paper"] .finder-document blockquote {
+  border-left-width: 4px;
+  border-left-color: rgba(123, 29, 29, 0.55);
+  background: rgba(185, 152, 96, 0.12);
+  border-radius: 0 0.9rem 0.9rem 0;
+}
+
+body[data-theme="paper"] .finder-document img,
+body[data-theme="paper"] .finder-project-preview img,
+body[data-theme="paper"] .finder-gallery-window-body img {
+  box-shadow: 0 10px 24px rgba(87, 60, 35, 0.1);
+}
+
+body[data-theme="paper"] .finder-file-table {
+  position: relative;
+}
+
+body[data-theme="paper"] .finder-file-row:nth-child(2n) {
+  background: rgba(137, 101, 52, 0.045);
+}
+
+body[data-theme="paper"] .finder-file-row {
+  position: relative;
+}
+
+body[data-theme="paper"] .finder-file-row::after {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0;
+  border-bottom: 1px solid rgba(145, 108, 55, 0.12);
+}
+
+body[data-theme="paper"] .finder-file-row:last-child::after {
+  display: none;
+}
+
+body[data-theme="paper"] .finder-icon,
+body[data-theme="paper"] .finder-icon-folder,
+body[data-theme="paper"] .finder-icon-file,
+body[data-theme="paper"] .finder-icon-page,
+body[data-theme="paper"] .finder-icon-drive {
+  width: 0.62rem;
+  height: 0.62rem;
+  flex: 0 0 0.62rem;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+  background: #bf8d46;
+  color: transparent;
+}
+
+body[data-theme="paper"] .finder-icon::before,
+body[data-theme="paper"] .finder-icon::after,
+body[data-theme="paper"] .finder-icon-folder::before,
+body[data-theme="paper"] .finder-icon-folder::after,
+body[data-theme="paper"] .finder-icon-file::before,
+body[data-theme="paper"] .finder-icon-file::after,
+body[data-theme="paper"] .finder-icon-page::before,
+body[data-theme="paper"] .finder-icon-page::after,
+body[data-theme="paper"] .finder-icon-drive::before,
+body[data-theme="paper"] .finder-icon-drive::after {
+  content: none;
+  display: none;
+}
+
+body[data-theme="paper"] .finder-icon-folder {
+  background: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-icon-file {
+  background: #8b2c22;
+}
+
+body[data-theme="paper"] .finder-icon-page {
+  background: #4d7a61;
+}
+
+body[data-theme="paper"] .finder-icon-drive {
+  background: #bf8d46;
+}
+
+body[data-theme="paper"] {
+  background: #f0e2bd;
+  text-shadow: none;
+}
+
+body[data-theme="paper"]::before,
+body[data-theme="paper"]::after,
+body[data-theme="paper"] .finder-traffic-lights,
+body[data-theme="paper"] .finder-gallery-window-controls,
+body[data-theme="paper"] .finder-desktop-easter-egg,
+body[data-theme="paper"] .finder-breadcrumb,
+body[data-theme="paper"] .finder-toolbar-meta,
+body[data-theme="paper"] .finder-folder-caret {
+  display: none;
+}
+
+body[data-theme="paper"] .finder-window,
+body[data-theme="paper"] .finder-toolbar,
+body[data-theme="paper"] .finder-gallery-window-toolbar,
+body[data-theme="paper"] .finder-sidebar,
+body[data-theme="paper"] .finder-main,
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window,
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle,
+body[data-theme="paper"] .finder-tree-link.is-active,
+body[data-theme="paper"] .finder-file-link.is-active,
+body[data-theme="paper"] .finder-folder-toggle:hover,
+body[data-theme="paper"] .finder-file-link:hover,
+body[data-theme="paper"] .finder-tree-link:hover,
+body[data-theme="paper"] .finder-file-row:hover,
+body[data-theme="paper"] .finder-paper-crest-ribbon,
+body[data-theme="paper"] .finder-paper-crest-wax,
+body[data-theme="paper"] .finder-paper-crest-shield {
+  background-image: none;
+  box-shadow: none;
+}
+
+body[data-theme="paper"] .finder-window {
+  background: var(--theme-window);
+}
+
+body[data-theme="paper"] .finder-toolbar,
+body[data-theme="paper"] .finder-gallery-window-toolbar,
+body[data-theme="paper"] .finder-sidebar,
+body[data-theme="paper"] .finder-main {
+  background: var(--theme-panel);
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window,
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle {
+  background: var(--theme-panel-secondary);
+}
+
+body[data-theme="paper"] .finder-window::after,
+body[data-theme="paper"] .finder-paper-crest-wax::before,
+body[data-theme="paper"] .finder-paper-crest-wax::after,
+body[data-theme="paper"] .finder-paper-crest-shield::before,
+body[data-theme="paper"] .finder-file-row::after {
+  background: none;
+  box-shadow: none;
+}
+
+body[data-theme="paper"] .finder-paper-crest-ribbon {
+  background: var(--theme-panel-secondary);
+}
+
+body[data-theme="paper"] .finder-paper-crest-wax {
+  background: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-paper-crest-shield {
+  background: #f0e2bd;
+}
+
+body[data-theme="paper"] .finder-window-title,
+body[data-theme="paper"] .finder-pane-header h1,
+body[data-theme="paper"] .finder-card-header h2,
+body[data-theme="paper"] .finder-document h1,
+body[data-theme="paper"] .finder-document h2,
+body[data-theme="paper"] .finder-document h3,
+body[data-theme="paper"] .finder-document h4,
+body[data-theme="paper"] .finder-document h5,
+body[data-theme="paper"] .finder-document h6,
+body[data-theme="paper"] .finder-paper-crest-monogram,
+body[data-theme="paper"] .finder-pane-intro::first-letter,
+body[data-theme="paper"] .finder-note p:first-of-type::first-letter,
+body[data-theme="paper"] .finder-document > p:first-of-type::first-letter,
+body[data-theme="paper"] a,
+body[data-theme="paper"] .finder-file-cell-name {
+  text-shadow: none;
+}
+
+body[data-theme="paper"] .finder-document img,
+body[data-theme="paper"] .finder-project-preview img,
+body[data-theme="paper"] .finder-gallery-window-body img {
+  box-shadow: none;
+}
+
+body[data-theme="paper"] .finder-app {
+  padding: 0;
+}
+
+body[data-theme="paper"] .finder-window,
+body[data-theme="paper"] .finder-window::before,
+body[data-theme="paper"] .finder-window::after {
+  border: 0;
+}
+
+body[data-theme="paper"] .finder-toolbar {
+  padding: 1rem 1.25rem 0.4rem;
+  border-bottom: 0;
+}
+
+body[data-theme="paper"] .finder-workspace {
+  display: block;
+}
+
+body[data-theme="paper"] .finder-sidebar,
+body[data-theme="paper"] .finder-main {
+  position: static;
+  min-height: auto;
+}
+
+body[data-theme="paper"] .finder-sidebar {
+  border-right: 0;
+}
+
+body[data-theme="paper"] .finder-sidebar::after {
+  display: none;
+}
+
+body[data-theme="paper"] .finder-sidebar-inner {
+  padding: 0.6rem 1.1rem 0;
+}
+
+body[data-theme="paper"] .finder-sidebar-header,
+body[data-theme="paper"] .finder-sidebar-footer,
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window,
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle {
+  border: 0;
+  border-radius: 0;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-gallery-window,
+body[data-theme="paper"] .finder-project-preview {
+  background: transparent;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stats,
+body[data-theme="paper"] .finder-gallery-grid,
+body[data-theme="paper"] .finder-sticker-grid,
+body[data-theme="paper"] .finder-captioned-grid,
+body[data-theme="paper"] .finder-inline-image-grid {
+  gap: 0.55rem;
+}
+
+body[data-theme="paper"] .finder-home-grid,
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-project-header {
+  grid-template-columns: 1fr;
+}
+
+body[data-theme="paper"] .finder-stats {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+body[data-theme="paper"] .finder-stat {
+  min-width: 0;
+  padding: 0;
+  background: transparent;
+}
+
+body[data-theme="paper"] .finder-card-header {
+  margin-bottom: 0.45rem;
+}
+
+body[data-theme="paper"] .finder-folder-grid,
+body[data-theme="paper"] .finder-sticker-grid,
+body[data-theme="paper"] .finder-captioned-grid {
+  grid-template-columns: 1fr;
+}
+
+body[data-theme="paper"] .finder-folder-card-top {
+  margin-bottom: 0.2rem;
+}
+
+body[data-theme="paper"] .finder-tree {
+  overflow: visible;
+  padding-top: 0.4rem;
+}
+
+body[data-theme="paper"] .finder-tree-section + .finder-tree-section {
+  margin-top: 0.7rem;
+}
+
+body[data-theme="paper"] .finder-tree-link,
+body[data-theme="paper"] .finder-folder-toggle,
+body[data-theme="paper"] .finder-file-link,
+body[data-theme="paper"] .finder-file-row,
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle {
+  padding: 0.18rem 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+body[data-theme="paper"] .finder-tree-link.is-active,
+body[data-theme="paper"] .finder-file-link.is-active,
+body[data-theme="paper"] .finder-theme-button.is-active,
+body[data-theme="paper"] .finder-theme-button:hover,
+body[data-theme="paper"] .finder-theme-button:focus,
+body[data-theme="paper"] .finder-mobile-toggle:hover,
+body[data-theme="paper"] .finder-mobile-toggle:focus,
+body[data-theme="paper"] .finder-folder-toggle:hover,
+body[data-theme="paper"] .finder-file-link:hover,
+body[data-theme="paper"] .finder-tree-link:hover,
+body[data-theme="paper"] .finder-file-row:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+body[data-theme="paper"] .finder-folder-items {
+  margin-left: 0.95rem;
+}
+
+body[data-theme="paper"] .finder-main {
+  padding: 0.2rem 1.1rem 1.2rem;
+}
+
+body[data-theme="paper"] .finder-file-table {
+  display: block;
+}
+
+body[data-theme="paper"] .finder-file-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto;
+  gap: 0.8rem;
+  border-bottom: 0;
+}
+
+body[data-theme="paper"] .finder-file-row:nth-child(2n) {
+  background: transparent;
+}
+
+body[data-theme="paper"] .finder-file-row::after {
+  left: 0;
+  right: 0;
+}
+
+body[data-theme="paper"] .finder-window-title,
+body[data-theme="paper"] .finder-pane-header h1,
+body[data-theme="paper"] .finder-document h1,
+body[data-theme="paper"] .finder-document h5,
+body[data-theme="paper"] .finder-paper-crest-ribbon-top {
+  color: #7b1d1d;
+}
+
+body[data-theme="paper"] .finder-card-header h2,
+body[data-theme="paper"] .finder-document h2,
+body[data-theme="paper"] .finder-paper-crest-monogram {
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-folder-card h3,
+body[data-theme="paper"] .finder-document h3,
+body[data-theme="paper"] .finder-paper-crest-ribbon-bottom {
+  color: #4d7a61;
+}
+
+body[data-theme="paper"] .finder-document h4,
+body[data-theme="paper"] .finder-document h6,
+body[data-theme="paper"] .finder-sidebar-label,
+body[data-theme="paper"] .finder-tree-heading {
+  color: #bf8d46;
+}
+
+body[data-theme="paper"] .finder-pane-header h1::first-letter,
+body[data-theme="paper"] .finder-window-title::first-letter,
+body[data-theme="paper"] .finder-document h1::first-letter {
+  color: #bf8d46;
+}
+
+body[data-theme="paper"] .finder-card-header h2::first-letter,
+body[data-theme="paper"] .finder-document h2::first-letter {
+  color: #4d7a61;
+}
+
+body[data-theme="paper"] .finder-folder-card h3::first-letter,
+body[data-theme="paper"] .finder-document h3::first-letter {
+  color: #bf8d46;
+}
+
+body[data-theme="paper"] .finder-document h4::first-letter,
+body[data-theme="paper"] .finder-document h6::first-letter {
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window {
+  position: relative;
+  border: 1px solid rgba(139, 72, 44, 0.72);
+}
+
+body[data-theme="paper"] .finder-pane-header::after,
+body[data-theme="paper"] .finder-card::after,
+body[data-theme="paper"] .finder-document::after,
+body[data-theme="paper"] .finder-folder-card::after,
+body[data-theme="paper"] .finder-note::after,
+body[data-theme="paper"] .finder-file-table::after,
+body[data-theme="paper"] .finder-stat::after,
+body[data-theme="paper"] .finder-gallery-item::after,
+body[data-theme="paper"] .finder-sticker-card::after,
+body[data-theme="paper"] .finder-captioned-card::after,
+body[data-theme="paper"] .finder-project-preview::after,
+body[data-theme="paper"] .finder-gallery-window::after {
+  content: "";
+  position: absolute;
+  inset: -1px 1px 1px -1px;
+  border: 1px solid rgba(139, 72, 44, 0.45);
+  pointer-events: none;
+}
+
+body[data-theme="paper"] .finder-pane-header:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-card:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-document:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-folder-card:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-note:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-file-table:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-stat:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-gallery-item:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-sticker-card:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-captioned-card:nth-of-type(2n)::after,
+body[data-theme="paper"] .finder-project-preview:nth-of-type(2n)::after {
+  inset: 1px -1px -1px 1px;
+}
+
+body[data-theme="paper"] .finder-pane-header:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-card:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-document:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-folder-card:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-note:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-file-table:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-stat:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-gallery-item:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-sticker-card:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-captioned-card:nth-of-type(3n)::after,
+body[data-theme="paper"] .finder-project-preview:nth-of-type(3n)::after {
+  inset: 0 2px -1px -1px;
+}
+
+body[data-theme="paper"] .finder-sidebar-header::before,
+body[data-theme="paper"] .finder-sidebar-header::after,
+body[data-theme="paper"] .finder-pane-header::before,
+body[data-theme="paper"] .finder-pane-header::after,
+body[data-theme="paper"] .finder-card-header::before,
+body[data-theme="paper"] .finder-card-header::after,
+body[data-theme="paper"] .finder-window-title::before,
+body[data-theme="paper"] .finder-window-title::after,
+body[data-theme="paper"] .finder-pane-header h1::before,
+body[data-theme="paper"] .finder-pane-header h1::after,
+body[data-theme="paper"] .finder-card-header h2::before,
+body[data-theme="paper"] .finder-card-header h2::after,
+body[data-theme="paper"] .finder-paper-crest::before,
+body[data-theme="paper"] .finder-paper-crest::after,
+body[data-theme="paper"] .finder-home-grid + .finder-card::before,
+body[data-theme="paper"] .finder-card + .finder-card::before,
+body[data-theme="paper"] .finder-tree-section + .finder-tree-section::before,
+body[data-theme="paper"] .finder-sidebar-footer::before,
+body[data-theme="paper"] .finder-document h2::before,
+body[data-theme="paper"] .finder-document h3::before {
+  content: none;
+  display: none;
+}
+
+body[data-theme="paper"] .finder-paper-crest-mark {
+  display: none;
+}
+
+body[data-theme="paper"] .finder-pane-intro::before,
+body[data-theme="paper"] .finder-note p::before,
+body[data-theme="paper"] .finder-folder-card p::before,
+body[data-theme="paper"] .finder-document p::before {
+  content: "❦";
+  display: inline-block;
+  margin-right: 0.45rem;
+  color: #7b1d1d;
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 0.9em;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+body[data-theme="paper"] .finder-pane-intro::before,
+body[data-theme="paper"] .finder-note p:first-of-type::before,
+body[data-theme="paper"] .finder-document > p:first-of-type::before {
+  color: #2f4f8f;
+}
+
+body[data-theme="paper"] .finder-sidebar-header,
+body[data-theme="paper"] .finder-tree-section,
+body[data-theme="paper"] .finder-sidebar-footer,
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window {
+  position: relative;
+  border: 1px solid rgba(139, 72, 44, 0.82) !important;
+  outline: 1px solid rgba(139, 72, 44, 0.46);
+  outline-offset: -5px;
+}
+
+body[data-theme="paper"] .finder-sidebar-header::after,
+body[data-theme="paper"] .finder-tree-section::after,
+body[data-theme="paper"] .finder-sidebar-footer::after,
+body[data-theme="paper"] .finder-pane-header::after,
+body[data-theme="paper"] .finder-card::after,
+body[data-theme="paper"] .finder-document::after,
+body[data-theme="paper"] .finder-folder-card::after,
+body[data-theme="paper"] .finder-note::after,
+body[data-theme="paper"] .finder-file-table::after,
+body[data-theme="paper"] .finder-stat::after,
+body[data-theme="paper"] .finder-project-preview::after,
+body[data-theme="paper"] .finder-gallery-window::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(139, 72, 44, 0.24);
+  pointer-events: none;
+}
+
+body[data-theme="paper"] .finder-tree-section,
+body[data-theme="paper"] .finder-sidebar-header,
+body[data-theme="paper"] .finder-sidebar-footer {
+  padding: 0.9rem;
+}
+
+body[data-theme="paper"] .finder-tree-section + .finder-tree-section {
+  margin-top: 0.9rem;
+}
+
+body.finder-home-page[data-theme="paper"] .finder-window-title {
+  display: none;
+}
+
+body.finder-home-page[data-theme="paper"] .finder-toolbar-center {
+  gap: 0;
+}
+
+body[data-theme="paper"] .finder-theme-button[data-theme-option="mac2000s"] {
+  color: #2f4f8f;
+  border-color: rgba(47, 79, 143, 0.75);
+  background: rgba(47, 79, 143, 0.08);
+}
+
+body[data-theme="paper"] .finder-theme-button[data-theme-option="amber"] {
+  color: #7b1d1d;
+  border-color: rgba(123, 29, 29, 0.75);
+  background: rgba(123, 29, 29, 0.08);
+}
+
+body[data-theme="paper"] .finder-theme-button[data-theme-option="green"] {
+  color: #4d7a61;
+  border-color: rgba(77, 122, 97, 0.78);
+  background: rgba(77, 122, 97, 0.08);
+}
+
+body[data-theme="paper"] .finder-theme-button[data-theme-option="paper"] {
+  color: #bf8d46;
+  border-color: rgba(191, 141, 70, 0.82);
+  background: rgba(191, 141, 70, 0.1);
+}
+
+body[data-theme="paper"] .finder-theme-button.is-active,
+body[data-theme="paper"] .finder-theme-button:hover,
+body[data-theme="paper"] .finder-theme-button:focus {
+  box-shadow: none;
+  filter: brightness(0.96);
+}
+
+body[data-theme="paper"] .finder-home-grid + .finder-card,
+body[data-theme="paper"] .finder-card + .finder-card,
+body[data-theme="paper"] .finder-tree-section + .finder-tree-section,
+body[data-theme="paper"] .finder-sidebar-footer,
+body[data-theme="paper"] .finder-document h2,
+body[data-theme="paper"] .finder-document h3 {
+  position: relative;
+}
+
+body[data-theme="paper"] .finder-home-grid + .finder-card::before,
+body[data-theme="paper"] .finder-card + .finder-card::before,
+body[data-theme="paper"] .finder-tree-section + .finder-tree-section::before,
+body[data-theme="paper"] .finder-sidebar-footer::before,
+body[data-theme="paper"] .finder-document h2::before,
+body[data-theme="paper"] .finder-document h3::before {
+  content: "❦  ✦  ❧  ✦  ❦";
+  display: block;
+  width: 100%;
+  margin: 0 auto 1rem;
+  color: #7b1d1d;
+  text-align: center;
+  font-family: "Pirata One", "UnifrakturCook", serif;
+  font-size: 1rem;
+  letter-spacing: 0.22em;
+  opacity: 0.92;
+}
+
+body[data-theme="paper"] .finder-tree-section + .finder-tree-section::before,
+body[data-theme="paper"] .finder-sidebar-footer::before {
+  margin-top: 0.65rem;
+}
+
+body[data-theme="paper"] .finder-document h2::before,
+body[data-theme="paper"] .finder-document h3::before {
+  margin-bottom: 0.55rem;
+  color: #2f4f8f;
+  font-size: 0.86rem;
+}
+
+body[data-theme="paper"] .finder-app {
+  padding: 18px;
+}
+
+body[data-theme="paper"] .finder-workspace {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+}
+
+body[data-theme="paper"] .finder-sidebar,
+body[data-theme="paper"] .finder-main {
+  position: relative;
+  min-height: 0;
+}
+
+body[data-theme="paper"] .finder-sidebar-inner {
+  padding: 1.1rem 0.9rem 1rem;
+}
+
+body[data-theme="paper"] .finder-main {
+  padding: 1rem;
+}
+
+body[data-theme="paper"] .finder-home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(280px, 1fr);
+  gap: 1rem;
+}
+
+body[data-theme="paper"] .finder-pane-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.35rem 1.45rem;
+}
+
+body[data-theme="paper"] .finder-card {
+  padding: 1.2rem 1.3rem;
+}
+
+body[data-theme="paper"] .finder-folder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table {
+  padding: 1rem;
+}
+
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table {
+  padding-top: 0.9rem;
+}
+
+body[data-theme="paper"] .finder-file-table {
+  display: flex;
+  flex-direction: column;
+}
+
+body[data-theme="paper"] .finder-file-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 0.85rem 0;
+}
+
+body[data-theme="paper"] .finder-stat {
+  padding: 0.85rem 1rem 0.85rem 0;
+}
+
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle {
+  padding: 0.42rem 0.72rem;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document,
+body[data-theme="paper"] .finder-folder-card,
+body[data-theme="paper"] .finder-note,
+body[data-theme="paper"] .finder-file-table,
+body[data-theme="paper"] .finder-stat,
+body[data-theme="paper"] .finder-gallery-item,
+body[data-theme="paper"] .finder-sticker-card,
+body[data-theme="paper"] .finder-captioned-card,
+body[data-theme="paper"] .finder-project-preview,
+body[data-theme="paper"] .finder-gallery-window,
+body[data-theme="paper"] .finder-theme-button,
+body[data-theme="paper"] .finder-mobile-toggle {
+  background: transparent;
+  border-color: transparent;
+}
+
+body[data-theme="paper"] .finder-pane-header,
+body[data-theme="paper"] .finder-card,
+body[data-theme="paper"] .finder-document {
+  overflow: visible;
+}
+
 body[data-theme="mac2000s"] .finder-captioned-card {
   border-radius: 12px;
   background: linear-gradient(180deg, #ffffff 0%, #eef3fa 100%);
+}
+
+.finder-tarot-experience {
+  --tarot-stage-bg: #120d0c;
+  --tarot-stage-bg-deep: #080605;
+  --tarot-stage-panel: rgba(19, 13, 11, 0.96);
+  --tarot-stage-glow: rgba(205, 128, 92, 0.2);
+  --tarot-stage-border: rgba(214, 155, 118, 0.34);
+  --tarot-stage-border-strong: rgba(235, 193, 168, 0.46);
+  --tarot-text: #f5f1eb;
+  --tarot-text-soft: rgba(245, 241, 235, 0.78);
+  --tarot-text-muted: rgba(222, 201, 188, 0.58);
+  --tarot-accent: #d69368;
+  --tarot-ascii-font: "Terminal Gothic", "IBM Plex Mono", "Fira Mono", "Consolas", "Courier New", monospace;
+  --tarot-ascii-scale: 1;
+  --tarot-reveal-display-width-ch: 64;
+  --tarot-reveal-display-height-em: 92;
+  gap: 1.25rem;
+}
+
+@font-face {
+  font-family: "Terminal Gothic";
+  src: url("/public/fonts/littlebitspace/TerminalGothic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ink Snare";
+  src: url("/public/fonts/littlebitspace/InkSnare.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tenebris";
+  src: url("/public/fonts/littlebitspace/Tenebris.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gairaigo";
+  src: url("/public/fonts/littlebitspace/Gairaigo.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skeletext";
+  src: url("/public/fonts/littlebitspace/Skeletext.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cultist Script";
+  src: url("/public/fonts/littlebitspace/CultistScript.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mycelium OG";
+  src: url("/public/fonts/littlebitspace/MyceliumOG.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "T64";
+  src: url("/public/fonts/littlebitspace/T64.ttf") format("truetype");
+  font-display: swap;
+}
+
+.tarot-standalone-body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "IBM Plex Mono", "Fira Mono", "Consolas", "Courier New", monospace;
+  color: #f5f1eb;
+  background: #0d0908;
+}
+
+.tarot-standalone-main {
+  width: min(960px, 100% - 2rem);
+  margin: 2rem auto;
+}
+
+.tarot-standalone-experience {
+  margin: 0;
+}
+
+.tarot-standalone-shell {
+  display: grid;
+  grid-template-columns: minmax(220px, 250px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.tarot-reading-sidebar {
+  padding: 1rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.tarot-reading-sidebar .finder-pane-eyebrow {
+  margin: 0 0 0.9rem;
+  color: var(--tarot-text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+}
+
+.finder-tarot-header,
+.finder-tarot-stage {
+  position: relative;
+  overflow: visible;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.finder-tarot-stage {
+  border: 0;
+  border-radius: 0;
+}
+
+.finder-tarot-header::before,
+.finder-tarot-stage::before {
+  content: none;
+}
+
+.finder-tarot-header {
+  grid-template-columns: 1fr;
+  padding-bottom: 1.55rem;
+}
+
+.finder-tarot-blackletter-title {
+  margin: 0 0 0.7rem;
+  color: rgba(245, 241, 235, 0.88);
+  font-size: clamp(0.84rem, 1.2vw, 1.08rem);
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.finder-tarot-sr-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.finder-tarot-title {
+  margin: 0;
+  color: var(--tarot-text);
+  font-size: clamp(0.44rem, 0.88vw, 0.82rem);
+  line-height: 1.1;
+  font-family: var(--tarot-ascii-font);
+  white-space: pre;
+  text-align: center;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.12), 0 0 30px rgba(214, 147, 104, 0.1);
+}
+
+.finder-tarot-intro,
+.finder-tarot-stage-label,
+.finder-tarot-status,
+.finder-tarot-label,
+.finder-tarot-query {
+  color: var(--tarot-text-soft);
+}
+
+.finder-tarot-stage {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: var(--tarot-stage-bg);
+}
+
+.finder-tarot-stage-label,
+.finder-tarot-status,
+.finder-tarot-label {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.finder-tarot-stage-label {
+  color: var(--tarot-text-muted);
+  text-align: center;
+}
+
+.finder-tarot-spread-label,
+.finder-tarot-progress-label {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  color: var(--tarot-text-muted);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.finder-tarot-spread-art {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0.75rem 0.9rem;
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.18);
+  color: var(--tarot-text-soft);
+  font-size: clamp(0.56rem, 1.06vw, 0.84rem);
+  line-height: 1.1;
+  white-space: pre;
+  text-align: left;
+}
+
+.finder-tarot-controls-panel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0.8rem 0.9rem;
+  border: 0;
+  background: transparent;
+}
+
+.finder-tarot-viewport {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  min-height: 34rem;
+  padding: 1rem;
+  border: 0;
+  background: transparent;
+}
+
+.finder-tarot-viewport::after {
+  content: "";
+  position: absolute;
+  inset: auto 12% 0.9rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.56), transparent 74%);
+  filter: blur(10px);
+  pointer-events: none;
+}
+
+.finder-tarot-deck-button {
+  position: relative;
+  z-index: 1;
+  display: inline-grid;
+  place-items: center;
+  width: min(100%, 34rem);
+  padding: 1rem;
+  border: 0;
+  background: transparent;
+  color: var(--tarot-text);
+  cursor: pointer;
+  overflow: visible;
+  transition: opacity 120ms linear;
+}
+
+.finder-tarot-deck-button:hover,
+.finder-tarot-deck-button:focus-visible,
+.finder-tarot-deck-button.is-ready {
+  border-color: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+.finder-tarot-deck-button:hover {
+  transform: none;
+}
+
+.finder-tarot-art {
+  margin: 0;
+  min-height: 20em;
+  height: auto;
+  width: 43ch;
+  max-width: 100%;
+  overflow: visible;
+  color: var(--tarot-text);
+  font-family: var(--tarot-ascii-font);
+  font-size: calc(clamp(0.6rem, 1.14vw, 0.94rem) * var(--tarot-ascii-scale));
+  line-height: 1;
+  white-space: pre;
+  text-align: center;
+  text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.12),
+    0 0 18px rgba(214, 147, 104, 0.08);
+  transform-origin: center center;
+  transition: color 70ms linear, transform 90ms linear, opacity 70ms linear;
+}
+
+.finder-tarot-experience.is-revealed .finder-tarot-deck-button,
+.finder-tarot-experience.is-revealing .finder-tarot-deck-button {
+  width: min(100%, calc(var(--tarot-reveal-display-width-ch) * 1ch));
+}
+
+.finder-tarot-experience.is-revealed .finder-tarot-viewport,
+.finder-tarot-experience.is-revealing .finder-tarot-viewport {
+  min-height: 0;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.finder-tarot-experience.is-revealed .finder-tarot-art,
+.finder-tarot-experience.is-revealing .finder-tarot-art {
+  width: calc(var(--tarot-reveal-display-width-ch) * 1ch);
+  max-width: 100%;
+  min-height: 0;
+  height: auto;
+  font-size: calc(clamp(0.22rem, 0.5vw, 0.34rem) * var(--tarot-ascii-scale));
+}
+
+.finder-tarot-experience.is-revealed .finder-tarot-deck-button,
+.finder-tarot-experience.is-revealing .finder-tarot-deck-button {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.finder-tarot-status,
+.finder-tarot-query {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.finder-tarot-query {
+  margin: -0.3rem 0 0;
+  color: var(--tarot-accent);
+}
+
+.finder-tarot-reading {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.3rem;
+  padding: 1rem;
+  border: 0;
+  background: transparent;
+}
+
+.finder-tarot-reading-title {
+  margin: 0;
+  color: var(--tarot-text);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.finder-tarot-reading-position,
+.finder-tarot-reading-card {
+  margin: 0;
+  color: var(--tarot-accent);
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+}
+
+.finder-tarot-reading-text,
+.finder-tarot-reading-context {
+  margin: 0;
+  color: var(--tarot-text-soft);
+  font-size: clamp(0.96rem, 1.5vw, 1.04rem);
+  line-height: 1.75;
+}
+
+.finder-tarot-form {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.75rem;
+  width: min(100%, 44rem);
+  margin: 0 auto;
+}
+
+.finder-tarot-form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem;
+}
+
+.finder-tarot-input,
+.finder-tarot-submit {
+  border: 1px solid var(--tarot-stage-border);
+  background: rgba(4, 3, 3, 0.62);
+  color: var(--tarot-text);
+  font: inherit;
+}
+
+.finder-tarot-input {
+  min-width: 0;
+  padding: 0.9rem 1rem;
+}
+
+.finder-tarot-input::placeholder {
+  color: rgba(245, 241, 235, 0.38);
+}
+
+.finder-tarot-input:focus,
+.finder-tarot-submit:hover,
+.finder-tarot-submit:focus-visible {
+  border-color: var(--tarot-stage-border-strong);
+  box-shadow: 0 0 18px rgba(214, 147, 104, 0.14);
+  outline: none;
+}
+
+.finder-tarot-submit {
+  padding: 0.9rem 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+}
+
+.finder-tarot-experience.is-awake .finder-tarot-stage-label,
+.finder-tarot-experience.is-awake .finder-tarot-status {
+  color: var(--tarot-text);
+}
+
+.finder-tarot-experience.is-awake .finder-tarot-art {
+  text-shadow:
+    0 0 12px rgba(255, 255, 255, 0.2),
+    0 0 28px rgba(214, 147, 104, 0.18);
+}
+
+.finder-tarot-experience.is-awake .finder-tarot-viewport {
+  box-shadow: none;
+}
+
+.finder-tarot-experience.is-pulsing .finder-tarot-art {
+  animation: finder-tarot-pulse 0.62s steps(1, end) 1;
+}
+
+.finder-tarot-experience.is-revealing .finder-tarot-art {
+  letter-spacing: 0.02em;
+  transform: scale(1.02);
+}
+
+.finder-tarot-experience.is-revealed .finder-tarot-art {
+  color: #fff8ee;
+}
+
+.finder-tarot-sidebar-controls {
+  padding: 0.8rem 0.55rem;
+  border: 1px solid var(--theme-border);
+  background: var(--theme-panel-secondary);
+}
+
+.finder-tarot-sidebar-label,
+.finder-tarot-sidebar-status {
+  display: block;
+  margin: 0;
+  color: var(--tarot-text-soft);
+  font-size: 0.77rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.finder-tarot-sidebar-label {
+  margin-bottom: 0.45rem;
+}
+
+.finder-tarot-sidebar-select {
+  width: 100%;
+  margin-bottom: 0.55rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--tarot-stage-border);
+  background: transparent;
+  color: var(--tarot-text);
+  font: inherit;
+  letter-spacing: 0.04em;
+}
+
+.finder-tarot-sidebar-select option {
+  color: #f5f1eb;
+  background: #110c0b;
+}
+
+.finder-tarot-sidebar-select:focus {
+  border-color: var(--tarot-stage-border-strong);
+  outline: none;
+  box-shadow: 0 0 10px rgba(214, 147, 104, 0.18);
+}
+
+@keyframes finder-tarot-pulse {
+  0%,
+  100% {
+    color: var(--tarot-text);
+    opacity: 1;
+  }
+
+  8%,
+  24%,
+  38%,
+  54%,
+  72%,
+  88% {
+    color: var(--tarot-stage-bg);
+    opacity: 0.04;
+  }
+
+  16%,
+  30%,
+  46%,
+  62%,
+  80%,
+  94% {
+    color: var(--tarot-text);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 520px) {
@@ -1510,6 +3872,71 @@ body[data-theme="mac2000s"] .finder-captioned-card {
 
   .finder-captioned-grid {
     grid-template-columns: 1fr;
+  }
+
+  .tarot-standalone-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .tarot-reading-sidebar {
+    order: -1;
+  }
+
+  .finder-tarot-title {
+    font-size: 0.34rem;
+  }
+
+  .finder-tarot-stage {
+    padding: 1rem;
+  }
+
+  .tarot-standalone-main {
+    width: min(100% - 1rem, 1000px);
+    margin-top: 0.5rem;
+  }
+
+  .finder-tarot-blackletter-title {
+    letter-spacing: 0.04em;
+  }
+
+  .finder-tarot-viewport {
+    min-height: 28rem;
+    padding: 0.6rem;
+  }
+
+  .finder-tarot-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .finder-tarot-submit {
+    width: 100%;
+  }
+
+  .finder-tarot-art {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+
+  .finder-tarot-experience.is-revealed .finder-tarot-art,
+  .finder-tarot-experience.is-revealing .finder-tarot-art {
+    min-height: 120em;
+    height: auto;
+    width: 100%;
+    font-size: 0.16rem;
+  }
+
+  .finder-tarot-spread-art {
+    font-size: 0.5rem;
+  }
+
+  .finder-tarot-reading {
+    padding: 0.8rem;
+  }
+
+  .finder-tarot-reading-text,
+  .finder-tarot-reading-context {
+    font-size: 0.95rem;
+    line-height: 1.65;
   }
 }
 
@@ -1566,3 +3993,525 @@ body[data-theme="mac2000s"] .finder-icon-drive::before {
   border-radius: 999px;
   background: rgba(40, 90, 159, 0.32);
 }
+
+body.finder-home-page {
+  --home-bg: #ffffff;
+  --home-fg: #101010;
+  --home-border: #171717;
+  --home-muted: #484848;
+  --home-highlight: #efefef;
+  --home-circuit-bg: #f9fbff;
+  --home-circuit-trace: #3b66a7;
+  --home-circuit-node: #7fa4db;
+  --home-circuit-pad: #5f84bf;
+  --home-circuit-outline: #4f72b0;
+  --home-circuit-coffin: #b4485a;
+  --home-circuit-keyhole: #121212;
+  --home-circuit-battery: #c9daf6;
+  --theme-bg: #f7f7f7;
+  --theme-bg-secondary: #ececec;
+  --theme-window: #ffffff;
+  --theme-panel: #ffffff;
+  --theme-panel-secondary: #f8f8f8;
+  --theme-border: #202020;
+  --theme-border-strong: #111111;
+  --theme-text: #111111;
+  --theme-text-soft: rgba(17, 17, 17, 0.82);
+  --theme-text-muted: rgba(17, 17, 17, 0.6);
+  --theme-highlight: #efefef;
+  --theme-highlight-strong: #e2e2e2;
+  --theme-glow: rgba(17, 17, 17, 0.08);
+  --theme-shadow: rgba(0, 0, 0, 0.1);
+  --theme-scanline: transparent;
+  --theme-link: #1b1b1b;
+  background: var(--home-bg);
+  color: var(--home-fg);
+  letter-spacing: 0;
+  text-shadow: none;
+}
+
+body.finder-home-page.home-dark {
+  --home-bg: #0f1422;
+  --home-fg: #e5eeff;
+  --home-border: #8a9fc4;
+  --home-muted: #b4c0d8;
+  --home-highlight: #18243a;
+  --home-circuit-bg: #0d1a2f;
+  --home-circuit-trace: #84a4d8;
+  --home-circuit-node: #97b2df;
+  --home-circuit-pad: #5f84bf;
+  --home-circuit-outline: #7c99ca;
+  --home-circuit-coffin: #8a2f3d;
+  --home-circuit-keyhole: #0d1a2f;
+  --home-circuit-battery: #2f436a;
+  --theme-bg: #0f1422;
+  --theme-bg-secondary: #151d30;
+  --theme-window: #0f1422;
+  --theme-panel: #121c30;
+  --theme-panel-secondary: #18243a;
+  --theme-border: #8a9fc4;
+  --theme-border-strong: #a7bde4;
+  --theme-text: #e5eeff;
+  --theme-text-soft: rgba(229, 238, 255, 0.82);
+  --theme-text-muted: rgba(210, 225, 250, 0.62);
+  --theme-highlight: rgba(55, 93, 181, 0.18);
+  --theme-highlight-strong: rgba(55, 93, 181, 0.35);
+  --theme-glow: rgba(138, 159, 196, 0.2);
+  --theme-shadow: rgba(0, 0, 0, 0.45);
+  --theme-scanline: rgba(138, 159, 196, 0.08);
+  --theme-link: #c9d9ff;
+}
+
+body.finder-home-page::before,
+body.finder-home-page::after {
+  display: none;
+}
+
+body.finder-home-page .finder-desktop-easter-egg {
+  display: none;
+}
+
+.finder-home-shell {
+  min-height: 100vh;
+  width: min(100% - 2rem, 1180px);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.finder-home-shell,
+.home-name-banner,
+.home-explorer,
+.home-explorer *,
+.finder-app,
+.finder-window,
+.finder-sidebar,
+.finder-main,
+.finder-toolbar,
+.finder-toolbar * {
+  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
+}
+
+.home-explorer {
+  display: grid;
+  grid-template-columns: minmax(280px, 420px) 1fr;
+  gap: 1.2rem;
+  min-height: calc(100vh - 2rem);
+}
+
+.home-name-banner {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border: 0;
+  background: var(--home-bg);
+  padding: 0.35rem 0.55rem;
+  margin-bottom: 0.8rem;
+}
+
+.home-topbar-name {
+  color: var(--home-fg);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: clamp(1.2rem, 1rem + 0.9vw, 1.8rem);
+  line-height: 1.1;
+}
+
+.home-topbar-name-hover {
+  display: none;
+}
+
+.home-topbar-name:hover .home-topbar-name-default {
+  display: none;
+}
+
+.home-topbar-name:hover .home-topbar-name-hover {
+  display: inline;
+}
+
+body.finder-home-page.home-dark {
+  --home-dark-inverted-copper: #375db5;
+}
+
+body.finder-home-page.home-dark .home-topbar-name:hover .home-topbar-name-hover {
+  color: var(--home-dark-inverted-copper);
+}
+
+.home-explorer-column,
+.home-preview {
+  border: 1px solid var(--home-border);
+  background: var(--home-bg);
+}
+
+.home-explorer-toolbar {
+  border-bottom: 1px solid var(--home-border);
+  padding: 0.35rem 0.45rem;
+}
+
+.home-theme-toggle {
+  border: 1px solid var(--home-border);
+  background: var(--home-bg);
+  color: var(--home-fg);
+  font: inherit;
+  cursor: pointer;
+  padding: 0.15rem 0.35rem;
+  text-transform: lowercase;
+}
+
+.home-tree {
+  padding: 0.5rem 0.4rem 0.8rem;
+  font-size: 0.92rem;
+}
+
+.home-folder {
+  margin: 0;
+}
+
+.home-folder summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-folder-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  cursor: pointer;
+  padding: 0.2rem 0.25rem;
+}
+
+.home-folder-summary:hover,
+.home-file-link:hover {
+  background: var(--home-highlight);
+}
+
+body.finder-home-page.home-dark .home-folder-summary:hover,
+body.finder-home-page.home-dark .home-folder-summary:focus-visible,
+body.finder-home-page.home-dark .home-file-link:hover,
+body.finder-home-page.home-dark .home-file-link:focus-visible {
+  background: rgba(55, 93, 181, 0.18);
+  color: var(--home-dark-inverted-copper);
+}
+
+.home-folder[open] > .home-folder-summary::before,
+.home-folder > .home-folder-summary::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid var(--home-fg);
+  transform: rotate(-90deg);
+  transform-origin: 50% 40%;
+}
+
+.home-folder[open] > .home-folder-summary::before {
+  transform: rotate(0);
+}
+
+.home-folder-items {
+  margin-left: 1.25rem;
+  border-left: 1px dashed var(--home-border);
+  padding-left: 0.45rem;
+}
+
+.home-folder-nested {
+  margin-top: 0.1rem;
+}
+
+.home-file-link {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--home-fg);
+  font-weight: 400;
+  padding: 0.18rem 0.25rem;
+  text-decoration: none;
+}
+
+.home-icon {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home-icon-folder {
+  border: 1px solid var(--home-fg);
+}
+
+.home-icon-folder::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: -3px;
+  width: 6px;
+  height: 3px;
+  border: 1px solid var(--home-fg);
+  background: var(--home-bg);
+}
+
+.home-icon-file {
+  border: 1px solid var(--home-fg);
+}
+
+.home-icon-file::before {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 4px;
+  height: 4px;
+  border-left: 1px solid var(--home-fg);
+  border-bottom: 1px solid var(--home-fg);
+  background: var(--home-bg);
+}
+
+.home-preview {
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.home-preview-document {
+  min-height: calc(100vh - 8rem);
+}
+
+.home-preview-document .finder-pane {
+  margin: 0;
+  gap: 1rem;
+}
+
+.home-preview-document .finder-pane-header,
+.home-preview-document .finder-document,
+.home-preview-document .finder-card,
+.home-preview-document .finder-folder-card,
+.home-preview-document .finder-note,
+.home-preview-document .finder-file-table,
+.home-preview-document .finder-stat {
+  border: 1px solid var(--home-border);
+  background: var(--home-bg);
+  box-shadow: none;
+}
+
+.home-preview-document .finder-pane-header,
+.home-preview-document .finder-card,
+.home-preview-document .finder-document {
+  color: var(--home-fg);
+}
+
+.home-circuit-panel {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+
+.home-circuit-stage {
+  position: relative;
+  width: min(100%, 22rem);
+  aspect-ratio: 50.9 / 89;
+}
+
+.home-circuit-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  aspect-ratio: 50.9 / 89;
+  max-height: 100%;
+  object-fit: contain;
+  transform-origin: center center;
+}
+
+.home-circuit-image-base {
+  transform: rotate(90deg);
+}
+
+.home-circuit-image-overlay {
+  transform: rotate(90deg) scaleX(-1);
+  opacity: 0.92;
+  mix-blend-mode: multiply;
+  filter: none;
+}
+
+body.finder-home-page.home-dark .home-circuit-image-base,
+body.finder-home-page.home-dark .home-circuit-image-overlay {
+  filter: invert(1);
+}
+
+body.finder-home-page.home-dark .home-circuit-image-overlay {
+  mix-blend-mode: normal;
+}
+
+.home-circuit-bg {
+  fill: var(--home-circuit-bg);
+}
+
+.home-circuit-trace,
+.home-circuit-plus {
+  stroke: var(--home-circuit-trace);
+  stroke-width: 2;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.home-circuit-node {
+  fill: var(--home-circuit-node);
+  opacity: 0.9;
+}
+
+.home-circuit-pad {
+  fill: var(--home-circuit-pad);
+  opacity: 0.92;
+}
+
+.home-circuit-outline {
+  fill: none;
+  stroke: var(--home-circuit-outline);
+  stroke-width: 2;
+}
+
+.home-circuit-coffin {
+  fill: var(--home-circuit-coffin);
+  opacity: 0.9;
+}
+
+.home-circuit-component {
+  fill: var(--home-circuit-node);
+  opacity: 0.55;
+}
+
+.home-circuit-keyhole-top,
+.home-circuit-keyhole-stem {
+  fill: var(--home-circuit-keyhole);
+}
+
+.home-circuit-battery {
+  fill: var(--home-circuit-battery);
+  stroke: var(--home-circuit-trace);
+  stroke-width: 2;
+}
+
+.home-circuit-plus-ring {
+  fill: none;
+  stroke: var(--home-circuit-trace);
+  stroke-width: 1.6;
+}
+
+.home-circuit-label {
+  fill: rgba(240, 245, 255, 0.8);
+  font-size: 20px;
+  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
+  text-anchor: middle;
+}
+
+.home-circuit-label-large {
+  font-size: 58px;
+  fill: rgba(240, 245, 255, 0.72);
+}
+
+.home-circuit-label-small {
+  font-size: 40px;
+  fill: rgba(240, 245, 255, 0.78);
+}
+
+.home-preview-art {
+  margin: 0;
+  min-height: 11rem;
+  border: 1px dashed var(--home-border);
+  padding: 0.7rem;
+  white-space: pre;
+  overflow-x: auto;
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+
+.home-preview-caption {
+  margin: 0;
+  color: var(--home-muted);
+  min-height: 1.1rem;
+  font-size: 0.85rem;
+}
+
+.home-contact-shell {
+  border-top: 1px solid var(--home-border);
+  padding-top: 0.75rem;
+}
+
+.home-contact-title {
+  margin: 0 0 0.5rem;
+  text-transform: lowercase;
+}
+
+.home-contact-name {
+  display: inline-block;
+  min-width: 8.5rem;
+}
+
+.home-contact-name-hover {
+  display: none;
+}
+
+.home-contact-name:hover .home-contact-name-default {
+  display: none;
+}
+
+.home-contact-name:hover .home-contact-name-hover {
+  display: inline;
+}
+
+.home-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.home-contact-label {
+  font-size: 0.85rem;
+}
+
+.home-contact-form textarea {
+  resize: vertical;
+  min-height: 7rem;
+  border: 1px solid var(--home-border);
+  background: var(--home-bg);
+  color: var(--home-fg);
+  padding: 0.55rem;
+  font: inherit;
+}
+
+.home-contact-submit {
+  width: fit-content;
+  border: 1px solid var(--home-border);
+  background: var(--home-bg);
+  color: var(--home-fg);
+  font: inherit;
+  cursor: pointer;
+  padding: 0.2rem 0.6rem;
+  text-transform: lowercase;
+}
+
+.home-contact-status {
+  min-height: 1.1rem;
+  font-size: 0.82rem;
+  color: var(--home-muted);
+  margin: 0.4rem 0 0;
+}
+
+@media (max-width: 900px) {
+  .finder-home-shell {
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+  }
+
+  .home-explorer {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+}
+
