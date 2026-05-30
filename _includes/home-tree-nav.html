@@ -7,20 +7,20 @@
   </div>
 
   <nav class="home-tree" aria-label="Homepage explorer">
-    <details class="home-folder" open>
+    <details class="home-folder" data-home-folder-id="home-root" open>
       <summary class="home-folder-summary" data-home-preview="rootDirectory">
         <span class="home-icon home-icon-folder" aria-hidden="true"></span>
         <span>home:/</span>
       </summary>
       <div class="home-folder-items">
-        <a class="home-file-link" href="{{ site.baseurl }}/about/" data-home-preview="aboutPage">
+        <a class="home-file-link{% if page.url == '/about/' %} is-active{% endif %}" href="{{ site.baseurl }}/about/" data-home-preview="aboutPage">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>about.md</span>
         </a>
       </div>
     </details>
 
-    <details class="home-folder" open>
+    <details class="home-folder" data-home-folder-id="projects-root" open>
       <summary class="home-folder-summary" data-home-preview="projectsDirectory">
         <span class="home-icon home-icon-folder" aria-hidden="true"></span>
         <span>projects/</span>
@@ -28,14 +28,14 @@
       <div class="home-folder-items">
         {% for category in project_categories %}
         {% assign folder_projects = published_projects | where: "category", category %}
-        <details class="home-folder home-folder-nested">
+        <details class="home-folder home-folder-nested" data-home-folder-id="projects-{{ category | slugify }}">
           <summary class="home-folder-summary" data-home-preview="projectCategory">
             <span class="home-icon home-icon-folder" aria-hidden="true"></span>
             <span>{{ category }}</span>
           </summary>
           <div class="home-folder-items">
             {% for project in folder_projects %}
-            <a class="home-file-link" href="{{ project.url }}" data-home-preview="projectFile">
+            <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile">
               <span class="home-icon home-icon-file" aria-hidden="true"></span>
               <span>{{ project.title }}</span>
             </a>
@@ -46,7 +46,7 @@
       </div>
     </details>
 
-    <details class="home-folder" open>
+    <details class="home-folder" data-home-folder-id="connect-root" open>
       <summary class="home-folder-summary" data-home-preview="connectDirectory">
         <span class="home-icon home-icon-folder" aria-hidden="true"></span>
         <span>connect/</span>
@@ -67,17 +67,17 @@
       </div>
     </details>
 
-    <details class="home-folder" open>
+    <details class="home-folder" data-home-folder-id="misc-root" open>
       <summary class="home-folder-summary" data-home-preview="rootDirectory">
         <span class="home-icon home-icon-folder" aria-hidden="true"></span>
         <span>misc/</span>
       </summary>
       <div class="home-folder-items">
-        <a class="home-file-link" href="{{ site.baseurl }}/tarot/" data-home-preview="tarotPage">
+        <a class="home-file-link{% if page.url == '/tarot/' %} is-active{% endif %}" href="{{ site.baseurl }}/tarot/" data-home-preview="tarotPage">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>tarot.md</span>
         </a>
-        <a class="home-file-link" href="{{ site.baseurl }}/bygone-archive/" data-home-preview="archivePage">
+        <a class="home-file-link{% if page.url == '/bygone-archive/' %} is-active{% endif %}" href="{{ site.baseurl }}/bygone-archive/" data-home-preview="archivePage">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>bygone-archive.md</span>
         </a>

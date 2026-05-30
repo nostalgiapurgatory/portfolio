@@ -6,7 +6,7 @@
 
 :root {
   --site-cursor-default: url("../cursors/cursorpointing.cur"), auto;
-  --site-cursor-pointer: url("../cursors/cursorpointing.cur"), pointer;
+  --site-cursor-pointer: url("../cursors/cursorpointing.cur"), auto;
   --theme-bg: #050402;
   --theme-bg-secondary: #0d0904;
   --theme-window: #060402;
@@ -163,6 +163,24 @@ summary,
 [role="button"],
 input[type="button"],
 input[type="submit"] {
+  cursor: var(--site-cursor-pointer);
+}
+
+a:hover,
+a:focus,
+a:active,
+button:hover,
+button:focus,
+button:active,
+summary:hover,
+summary:focus,
+summary:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
   cursor: var(--site-cursor-pointer);
 }
 
@@ -4527,12 +4545,26 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
   }
 
   /* Avoid aggressive crop/ratio rules on small screens. */
+  .home-preview-document .finder-project-preview {
+    width: 100%;
+    max-width: 100%;
+    overflow: visible;
+  }
+
+  .home-preview-document .finder-gallery-item,
+  .home-preview-document .finder-sticker-card,
+  .home-preview-document .finder-captioned-card {
+    min-width: 0;
+  }
+
+  .home-preview-document img,
   .finder-project-preview img,
   .finder-gallery-item img,
   .finder-sticker-card img,
   .finder-captioned-card img,
   .finder-inline-image-grid img,
   .home-preview-document .finder-document img {
+    display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
