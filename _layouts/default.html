@@ -4,12 +4,6 @@
   {% include head.html %}
 
   <body class="finder-body finder-home-page" data-disable-theme-sync="true">
-    <script>
-      (function () {
-        var theme = window.__portfolioTheme || "amber";
-        document.body.setAttribute("data-theme", theme);
-      })();
-    </script>
     {% if page.url == '/' %}
     <main class="finder-home-shell" id="finder-main">
       {{ content }}

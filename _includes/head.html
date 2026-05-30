@@ -13,20 +13,6 @@
     {% endif %}
   </title>
 
-  <script>
-    (function () {
-      var theme = "amber";
-
-      try {
-        theme = window.localStorage.getItem("portfolio-theme") || theme;
-      } catch (error) {
-        theme = "amber";
-      }
-
-      window.__portfolioTheme = theme;
-    })();
-  </script>
-
   <!-- CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
