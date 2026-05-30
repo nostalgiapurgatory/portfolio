@@ -5,6 +5,8 @@
 }
 
 :root {
+  --site-cursor-default: url("../cursors/cursorpointing.cur"), auto;
+  --site-cursor-pointer: url("../cursors/cursorpointing.cur"), pointer;
   --theme-bg: #050402;
   --theme-bg-secondary: #0d0904;
   --theme-window: #060402;
@@ -146,12 +148,22 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
+  cursor: var(--site-cursor-default);
   font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
   color: var(--theme-text);
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.05), transparent 30%),
     linear-gradient(180deg, var(--theme-bg-secondary), var(--theme-bg));
   letter-spacing: 0.01em;
+}
+
+a,
+button,
+summary,
+[role="button"],
+input[type="button"],
+input[type="submit"] {
+  cursor: var(--site-cursor-pointer);
 }
 
 body.finder-gallery-open {
@@ -283,7 +295,7 @@ img {
 .finder-document img,
 .finder-project-preview img,
 .finder-gallery-item {
-  cursor: zoom-in;
+  cursor: var(--site-cursor-pointer);
 }
 
 p,
@@ -463,7 +475,7 @@ body[data-theme="green"] .finder-stat-label {
   font: inherit;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
 }
 
 .finder-mobile-toggle {
@@ -626,7 +638,7 @@ body[data-theme="green"] .finder-stat-label {
   background: transparent;
   font: inherit;
   text-align: left;
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
 }
 
 .finder-folder-toggle:hover,
@@ -1167,7 +1179,7 @@ body[data-theme="green"] .finder-gallery-window-control-zoom {
   border: 1px solid var(--theme-border);
   background: var(--theme-panel-secondary);
   box-shadow: 0 0 16px var(--theme-glow);
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
 }
 
 .finder-gallery-item:hover,
@@ -1236,7 +1248,7 @@ body[data-theme="green"] .finder-gallery-window-control-zoom {
   border: 1px solid var(--theme-border);
   background: transparent;
   box-shadow: 0 0 10px var(--theme-glow);
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
 }
 
 .finder-gallery-window-control-zoom {
@@ -3605,7 +3617,7 @@ body[data-theme="mac2000s"] .finder-captioned-card {
   border: 0;
   background: transparent;
   color: var(--tarot-text);
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
   overflow: visible;
   transition: opacity 120ms linear;
 }
@@ -3760,7 +3772,7 @@ body[data-theme="mac2000s"] .finder-captioned-card {
   padding: 0.9rem 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
 }
 
 .finder-tarot-experience.is-awake .finder-tarot-stage-label,
@@ -4152,7 +4164,7 @@ body.finder-home-page.home-dark .home-topbar-name:hover .home-topbar-name-hover 
   background: var(--home-bg);
   color: var(--home-fg);
   font: inherit;
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
   padding: 0.15rem 0.35rem;
   text-transform: lowercase;
 }
@@ -4175,7 +4187,7 @@ body.finder-home-page.home-dark .home-topbar-name:hover .home-topbar-name-hover 
   display: flex;
   align-items: center;
   gap: 0.45rem;
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
   padding: 0.2rem 0.25rem;
 }
 
@@ -4491,7 +4503,7 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
   background: var(--home-bg);
   color: var(--home-fg);
   font: inherit;
-  cursor: pointer;
+  cursor: var(--site-cursor-pointer);
   padding: 0.2rem 0.6rem;
   text-transform: lowercase;
 }
@@ -4512,6 +4524,20 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
   .home-explorer {
     grid-template-columns: 1fr;
     min-height: auto;
+  }
+
+  /* Avoid aggressive crop/ratio rules on small screens. */
+  .finder-project-preview img,
+  .finder-gallery-item img,
+  .finder-sticker-card img,
+  .finder-captioned-card img,
+  .finder-inline-image-grid img,
+  .home-preview-document .finder-document img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
   }
 }
 
