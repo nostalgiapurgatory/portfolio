@@ -3,6 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 pane_intro: RISD Sculpture and Interior Architecture alum, Immersive Entertainment Art Director and Artist
+resume_pdf_url: /assets/resume/Jaden-Andrea-Resume.pdf
 ---
 
 ## Contact

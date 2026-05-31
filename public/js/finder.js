@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var galleryDismissControls = document.querySelectorAll("[data-gallery-dismiss]");
   var galleryImage = document.querySelector("[data-gallery-image]");
   var galleryTitle = document.querySelector("[data-gallery-title]");
-  var clickableContentImages = document.querySelectorAll(".finder-document img, .finder-project-preview img");
+  var galleryPrevControl = document.querySelector("[data-gallery-prev]");
+  var galleryNextControl = document.querySelector("[data-gallery-next]");
+  var clickableContentImages = document.querySelectorAll(".finder-document img, .finder-project-preview img, .home-preview img");
+  var gallerySequence = [];
+  var galleryIndex = -1;
   var shouldSyncTheme = body.getAttribute("data-disable-theme-sync") !== "true";
   var paperHeaderSelector = [
     ".finder-window-title",
@@ -293,31 +297,9 @@ document.addEventListener("DOMContentLoaded", function () {
     galleryWindow.hidden = true;
     galleryImage.setAttribute("src", "");
     galleryImage.setAttribute("alt", "");
+    gallerySequence = [];
+    galleryIndex = -1;
     body.classList.remove("finder-gallery-open");
-  }
-
-  function openGalleryWindow(trigger) {
-    if (!galleryWindow || !galleryImage) {
-      return;
-    }
-
-    var imageSrc = trigger.getAttribute("data-gallery-src");
-    var imageTitle = trigger.getAttribute("data-gallery-title") || "Artwork Preview";
-
-    galleryImage.setAttribute("src", imageSrc);
-    galleryImage.setAttribute("alt", imageTitle);
-
-    if (galleryTitle) {
-      galleryTitle.textContent = imageTitle;
-
-      if (galleryTitle.firstChild) {
-        delete galleryTitle.firstChild.__paperOriginalText;
-      }
-    }
-
-    galleryWindow.hidden = false;
-    body.classList.add("finder-gallery-open");
-    updatePaperThemeText();
   }
 
   function getImageTitle(imageElement) {
@@ -338,14 +320,123 @@ document.addEventListener("DOMContentLoaded", function () {
     return document.title || "Artwork Preview";
   }
 
+  function getImageSource(imageElement) {
+    if (!imageElement) {
+      return "";
+    }
+
+    return imageElement.currentSrc || imageElement.getAttribute("src") || "";
+  }
+
+  function buildGallerySequence() {
+    return Array.prototype.slice.call(clickableContentImages).filter(function (image) {
+      if (!image || image.closest("[data-gallery-window]") || image.closest(".instagram-media")) {
+        return false;
+      }
+
+      return Boolean(getImageSource(image));
+    }).map(function (image) {
+      return {
+        element: image,
+        src: getImageSource(image),
+        title: getImageTitle(image)
+      };
+    });
+  }
+
+  function updateGalleryNavigation() {
+    var hasMultipleImages = gallerySequence.length > 1;
+
+    [galleryPrevControl, galleryNextControl].forEach(function (control) {
+      if (!control) {
+        return;
+      }
+
+      control.disabled = !hasMultipleImages;
+    });
+  }
+
+  function setGalleryEntry(index) {
+    if (!gallerySequence.length || !galleryImage) {
+      return;
+    }
+
+    var normalizedIndex = ((index % gallerySequence.length) + gallerySequence.length) % gallerySequence.length;
+    var entry = gallerySequence[normalizedIndex];
+    galleryIndex = normalizedIndex;
+
+    galleryImage.setAttribute("src", entry.src);
+    galleryImage.setAttribute("alt", entry.title || "Artwork Preview");
+
+    if (galleryTitle) {
+      galleryTitle.textContent = entry.title || "Artwork Preview";
+
+      if (galleryTitle.firstChild) {
+        delete galleryTitle.firstChild.__paperOriginalText;
+      }
+    }
+
+    updateGalleryNavigation();
+    updatePaperThemeText();
+  }
+
+  function stepGallery(offset) {
+    if (gallerySequence.length < 2) {
+      return;
+    }
+
+    setGalleryEntry(galleryIndex + offset);
+  }
+
+  function openGalleryWindow(trigger, sourceImageElement) {
+    if (!galleryWindow || !galleryImage || !trigger) {
+      return;
+    }
+
+    var imageSrc = trigger.getAttribute("data-gallery-src");
+    var imageTitle = trigger.getAttribute("data-gallery-title") || "Artwork Preview";
+    gallerySequence = buildGallerySequence();
+    galleryIndex = -1;
+
+    if (sourceImageElement) {
+      galleryIndex = gallerySequence.findIndex(function (entry) {
+        return entry.element === sourceImageElement;
+      });
+    }
+
+    if (galleryIndex === -1 && imageSrc) {
+      galleryIndex = gallerySequence.findIndex(function (entry) {
+        return entry.src === imageSrc;
+      });
+    }
+
+    if (galleryIndex === -1 && imageSrc) {
+      gallerySequence.push({
+        element: null,
+        src: imageSrc,
+        title: imageTitle
+      });
+      galleryIndex = gallerySequence.length - 1;
+    }
+
+    if (!gallerySequence.length) {
+      return;
+    }
+
+    setGalleryEntry(galleryIndex);
+    galleryWindow.hidden = false;
+    body.classList.add("finder-gallery-open");
+  }
+
   galleryItems.forEach(function (item) {
     item.addEventListener("click", function () {
-      openGalleryWindow(item);
+      var itemImage = item.querySelector("img");
+      openGalleryWindow(item, itemImage);
     });
   });
 
   clickableContentImages.forEach(function (image) {
-    if (image.closest("[data-gallery-window]") || image.closest(".instagram-media")) {
+    if (image.closest("[data-gallery-window]") || image.closest(".instagram-media") || image.closest("[data-gallery-item]")) {
       return;
     }
 
@@ -362,7 +453,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           return null;
         }
-      });
+      }, image);
     });
   });
 
@@ -371,6 +462,18 @@ document.addEventListener("DOMContentLoaded", function () {
       closeGalleryWindow();
     });
   });
+
+  if (galleryPrevControl) {
+    galleryPrevControl.addEventListener("click", function () {
+      stepGallery(-1);
+    });
+  }
+
+  if (galleryNextControl) {
+    galleryNextControl.addEventListener("click", function () {
+      stepGallery(1);
+    });
+  }
 
   sidebarCloseControls.forEach(function (control) {
     control.addEventListener("click", function () {
@@ -1803,6 +1906,19 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
       closeGalleryWindow();
+      return;
+    }
+
+    if (!galleryWindow || galleryWindow.hidden) {
+      return;
+    }
+
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      stepGallery(-1);
+    } else if (event.key === "ArrowRight") {
+      event.preventDefault();
+      stepGallery(1);
     }
   });
 });

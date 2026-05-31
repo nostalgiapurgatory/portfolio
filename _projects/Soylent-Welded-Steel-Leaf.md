@@ -3,7 +3,7 @@ layout: post
 title: Gas Welding
 image: /assets/sculpture/Leaf_Bathing2.jpg
 permalink: /weldedleaf/
-category: Fine Art & Fabrication
+category: Fine Art
 time: 2016-01-01
 order: 19
 ---

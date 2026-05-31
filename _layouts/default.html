@@ -15,6 +15,7 @@
           <span class="home-topbar-name-default">Jaden Andrea</span>
           <span class="home-topbar-name-hover">Gadget</span>
         </a>
+        <a class="home-resume-button" href="{{ site.baseurl }}/resume/" aria-label="Open resume">[Resume]</a>
       </header>
 
       <section class="home-explorer" data-home-explorer>
@@ -24,8 +25,29 @@
         </section>
       </section>
     </main>
-    <script src="{{ site.baseurl }}/public/js/finder.js" defer></script>
     {% endif %}
+
+    <section class="finder-gallery-window-shell" data-gallery-window hidden aria-hidden="true">
+      <button class="finder-gallery-window-backdrop" type="button" data-gallery-dismiss aria-label="Close image preview"></button>
+      <article class="finder-gallery-window" role="dialog" aria-modal="true" aria-label="Image preview">
+        <header class="finder-gallery-window-toolbar">
+          <div class="finder-gallery-window-controls" aria-hidden="true">
+            <button class="finder-gallery-window-control finder-gallery-window-control-close" type="button" data-gallery-dismiss tabindex="-1"></button>
+            <button class="finder-gallery-window-control finder-gallery-window-control-minimize" type="button" data-gallery-dismiss tabindex="-1"></button>
+            <span class="finder-gallery-window-control finder-gallery-window-control-zoom"></span>
+          </div>
+          <p class="finder-gallery-window-title" data-gallery-title>Artwork Preview</p>
+          <button class="finder-theme-button" type="button" data-gallery-dismiss>Close</button>
+        </header>
+        <div class="finder-gallery-window-body">
+          <button class="finder-gallery-nav finder-gallery-nav-prev" type="button" data-gallery-prev aria-label="Previous image">‹</button>
+          <img data-gallery-image src="" alt="">
+          <button class="finder-gallery-nav finder-gallery-nav-next" type="button" data-gallery-next aria-label="Next image">›</button>
+        </div>
+      </article>
+    </section>
+
+    <script src="{{ site.baseurl }}/public/js/finder.js" defer></script>
     <script src="{{ site.baseurl }}/public/js/home-explorer.js" defer></script>
   </body>
 </html>

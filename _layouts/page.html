@@ -7,7 +7,13 @@ layout: default
     <div>
       <p class="finder-pane-eyebrow">Reference File</p>
       <h1>{{ page.title }}</h1>
-      <p class="finder-pane-intro">{{ page.pane_intro | default: "General information and context, opened inside the portfolio explorer." }}</p>
+      <p class="finder-pane-intro">
+        {{ page.pane_intro | default: "General information and context, opened inside the portfolio explorer." }}
+        {% if page.resume_pdf_url %}
+        <span class="finder-pane-intro-divider">|</span>
+        <a class="finder-pane-download" href="{{ page.resume_pdf_url }}" download>DOWNLOAD RESUME</a>
+        {% endif %}
+      </p>
     </div>
   </header>
 

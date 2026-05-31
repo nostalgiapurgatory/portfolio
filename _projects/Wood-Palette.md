@@ -2,7 +2,7 @@
 layout: post
 title: Wood "Palette"
 permalink: /wood-palette/
-category: Fine Art & Fabrication
+category: Fine Art
 time: 2018
 order: 22
 status: archive

@@ -3,7 +3,7 @@ layout: post
 title: Metal Casting
 image: /assets/img/byop-knoll.png
 permalink: /bronzecasting/
-category: Fine Art & Fabrication
+category: Fine Art
 time: 2016-01-01
 order: 21
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Burning Man: Blunderwood Portable"
 image: /assets/burningman/blunderwoodteam.jpeg
 permalink: /blunderwood/
-category: Immersive Art Design and Fabrication
+category: Immersive Art Design & Fabrication
 time: 2015
 order: 6
 status: publish

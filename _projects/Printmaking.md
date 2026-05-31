@@ -3,7 +3,7 @@ layout: post
 title: Printmaking
 image: /assets/printmaking/heromotel.jpg
 permalink: /printmaking/
-category: Fine Art & Fabrication
+category: Fine Art
 time: 2016-01-01
 gallery_mode: desktop-grid
 order: 27

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Sculpture & Installation
+title: Sculpture
 image: /assets/sculpture/sculpturethumbnail.png
 permalink: /sculpture/
-category: Fine Art & Fabrication
-time: 2015 - 2018
+category: Fine Art
+time: 2015 - 2026
 order: 7
 status: publish
 ---
@@ -13,7 +13,54 @@ status: publish
 
 Personal instruction from Alba Corrado at RISD in 2017-18. Sculpting from life included standing and seated figures, portrait studies, and sculptural studies from gathered reference images.
 
+<img class="neo-fullwidth-photo" src="/assets/sculpture/andrea,j-iProject-1.jpg" alt="Reference Sculpture Study 01">
+
 <div class="finder-gallery-grid">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-2.jpg" data-gallery-title="Reference Sculpture Study 02">
+    <img src="/assets/sculpture/andrea,j-iProject-2.jpg" alt="Reference Sculpture Study 02">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-3.jpg" data-gallery-title="Reference Sculpture Study 03">
+    <img src="/assets/sculpture/andrea,j-iProject-3.jpg" alt="Reference Sculpture Study 03">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-4.jpg" data-gallery-title="Reference Sculpture Study 04">
+    <img src="/assets/sculpture/andrea,j-iProject-4.jpg" alt="Reference Sculpture Study 04">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-6.jpg" data-gallery-title="Reference Sculpture Study 05">
+    <img src="/assets/sculpture/andrea,j-iProject-6.jpg" alt="Reference Sculpture Study 05">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-10.jpg" data-gallery-title="Reference Sculpture Study 06">
+    <img src="/assets/sculpture/andrea,j-iProject-10.jpg" alt="Reference Sculpture Study 06">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-1.jpg" data-gallery-title="Film Still Study 01">
+    <img src="/assets/sculpture/andrea,j-iProject2-1.jpg" alt="Film Still Study 01">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-2.jpg" data-gallery-title="Film Still Study 02">
+    <img src="/assets/sculpture/andrea,j-iProject2-2.jpg" alt="Film Still Study 02">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-3.jpg" data-gallery-title="Film Still Study 03">
+    <img src="/assets/sculpture/andrea,j-iProject2-3.jpg" alt="Film Still Study 03">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-4.jpg" data-gallery-title="Film Still Study 04">
+    <img src="/assets/sculpture/andrea,j-iProject2-4.jpg" alt="Film Still Study 04">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-5.jpg" data-gallery-title="Film Still Study 05">
+    <img src="/assets/sculpture/andrea,j-iProject2-5.jpg" alt="Film Still Study 05">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-6.jpg" data-gallery-title="Film Still Study 06">
+    <img src="/assets/sculpture/andrea,j-iProject2-6.jpg" alt="Film Still Study 06">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-7.jpg" data-gallery-title="Film Still Study 07">
+    <img src="/assets/sculpture/andrea,j-iProject2-7.jpg" alt="Film Still Study 07">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-8.jpg" data-gallery-title="Film Still Study 08">
+    <img src="/assets/sculpture/andrea,j-iProject2-8.jpg" alt="Film Still Study 08">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-9.jpg" data-gallery-title="Film Still Study 09">
+    <img src="/assets/sculpture/andrea,j-iProject2-9.jpg" alt="Film Still Study 09">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-10.jpg" data-gallery-title="Film Still Study 10">
+    <img src="/assets/sculpture/andrea,j-iProject2-10.jpg" alt="Film Still Study 10">
+  </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-standingFigure-1.jpg" data-gallery-title="Standing Figure 01">
     <img src="/assets/sculpture/andrea,j-standingFigure-1.jpg" alt="Standing Figure 01">
   </button>
@@ -86,72 +133,120 @@ Personal instruction from Alba Corrado at RISD in 2017-18. Sculpting from life i
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-cranium-3.jpg" data-gallery-title="Cranium Study 03">
     <img src="/assets/sculpture/andrea,j-cranium-3.jpg" alt="Cranium Study 03">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-1.jpg" data-gallery-title="Reference Sculpture Study 01">
-    <img src="/assets/sculpture/andrea,j-iProject-1.jpg" alt="Reference Sculpture Study 01">
+</div>
+
+## Character Modeling
+
+Oil clay fictional character concept modeling. One part anime figurine, one part part Betty Boop, and an exploration of what "Miss Baby" would look like if taken from the 2D illustrated form to a 3D form. WIP. Time put in 8-10 hours. This character is "Miss Baby, Employee of the Year".
+
+<div class="finder-gallery-grid">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-01.jpg" data-gallery-title="Character Modeling 01">
+    <img src="/assets/sculpture/character-modeling/character-modeling-01.jpg" alt="Character Modeling 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-2.jpg" data-gallery-title="Reference Sculpture Study 02">
-    <img src="/assets/sculpture/andrea,j-iProject-2.jpg" alt="Reference Sculpture Study 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-02.jpg" data-gallery-title="Character Modeling 02">
+    <img src="/assets/sculpture/character-modeling/character-modeling-02.jpg" alt="Character Modeling 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-3.jpg" data-gallery-title="Reference Sculpture Study 03">
-    <img src="/assets/sculpture/andrea,j-iProject-3.jpg" alt="Reference Sculpture Study 03">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-03.jpg" data-gallery-title="Character Modeling 03">
+    <img src="/assets/sculpture/character-modeling/character-modeling-03.jpg" alt="Character Modeling 03">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-4.jpg" data-gallery-title="Reference Sculpture Study 04">
-    <img src="/assets/sculpture/andrea,j-iProject-4.jpg" alt="Reference Sculpture Study 04">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-04.jpg" data-gallery-title="Character Modeling 04">
+    <img src="/assets/sculpture/character-modeling/character-modeling-04.jpg" alt="Character Modeling 04">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-6.jpg" data-gallery-title="Reference Sculpture Study 05">
-    <img src="/assets/sculpture/andrea,j-iProject-6.jpg" alt="Reference Sculpture Study 05">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-05.jpg" data-gallery-title="Character Modeling 05">
+    <img src="/assets/sculpture/character-modeling/character-modeling-05.jpg" alt="Character Modeling 05">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject-10.jpg" data-gallery-title="Reference Sculpture Study 06">
-    <img src="/assets/sculpture/andrea,j-iProject-10.jpg" alt="Reference Sculpture Study 06">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-06.jpg" data-gallery-title="Character Modeling 06">
+    <img src="/assets/sculpture/character-modeling/character-modeling-06.jpg" alt="Character Modeling 06">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-1.jpg" data-gallery-title="Film Still Study 01">
-    <img src="/assets/sculpture/andrea,j-iProject2-1.jpg" alt="Film Still Study 01">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-07.jpg" data-gallery-title="Character Modeling 07">
+    <img src="/assets/sculpture/character-modeling/character-modeling-07.jpg" alt="Character Modeling 07">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-2.jpg" data-gallery-title="Film Still Study 02">
-    <img src="/assets/sculpture/andrea,j-iProject2-2.jpg" alt="Film Still Study 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-08.jpg" data-gallery-title="Character Modeling 08">
+    <img src="/assets/sculpture/character-modeling/character-modeling-08.jpg" alt="Character Modeling 08">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-3.jpg" data-gallery-title="Film Still Study 03">
-    <img src="/assets/sculpture/andrea,j-iProject2-3.jpg" alt="Film Still Study 03">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-09.jpg" data-gallery-title="Character Modeling 09">
+    <img src="/assets/sculpture/character-modeling/character-modeling-09.jpg" alt="Character Modeling 09">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-4.jpg" data-gallery-title="Film Still Study 04">
-    <img src="/assets/sculpture/andrea,j-iProject2-4.jpg" alt="Film Still Study 04">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-10.jpg" data-gallery-title="Character Modeling 10">
+    <img src="/assets/sculpture/character-modeling/character-modeling-10.jpg" alt="Character Modeling 10">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-5.jpg" data-gallery-title="Film Still Study 05">
-    <img src="/assets/sculpture/andrea,j-iProject2-5.jpg" alt="Film Still Study 05">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-11.jpg" data-gallery-title="Character Modeling 11">
+    <img src="/assets/sculpture/character-modeling/character-modeling-11.jpg" alt="Character Modeling 11">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-6.jpg" data-gallery-title="Film Still Study 06">
-    <img src="/assets/sculpture/andrea,j-iProject2-6.jpg" alt="Film Still Study 06">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-12.jpg" data-gallery-title="Character Modeling 12">
+    <img src="/assets/sculpture/character-modeling/character-modeling-12.jpg" alt="Character Modeling 12">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-7.jpg" data-gallery-title="Film Still Study 07">
-    <img src="/assets/sculpture/andrea,j-iProject2-7.jpg" alt="Film Still Study 07">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-13.jpg" data-gallery-title="Character Modeling 13">
+    <img src="/assets/sculpture/character-modeling/character-modeling-13.jpg" alt="Character Modeling 13">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-8.jpg" data-gallery-title="Film Still Study 08">
-    <img src="/assets/sculpture/andrea,j-iProject2-8.jpg" alt="Film Still Study 08">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-14.jpg" data-gallery-title="Character Modeling 14">
+    <img src="/assets/sculpture/character-modeling/character-modeling-14.jpg" alt="Character Modeling 14">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-9.jpg" data-gallery-title="Film Still Study 09">
-    <img src="/assets/sculpture/andrea,j-iProject2-9.jpg" alt="Film Still Study 09">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-15.jpg" data-gallery-title="Character Modeling 15">
+    <img src="/assets/sculpture/character-modeling/character-modeling-15.jpg" alt="Character Modeling 15">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/andrea,j-iProject2-10.jpg" data-gallery-title="Film Still Study 10">
-    <img src="/assets/sculpture/andrea,j-iProject2-10.jpg" alt="Film Still Study 10">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-16.jpg" data-gallery-title="Character Modeling 16">
+    <img src="/assets/sculpture/character-modeling/character-modeling-16.jpg" alt="Character Modeling 16">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-17.jpg" data-gallery-title="Character Modeling 17">
+    <img src="/assets/sculpture/character-modeling/character-modeling-17.jpg" alt="Character Modeling 17">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-18.jpg" data-gallery-title="Character Modeling 18">
+    <img src="/assets/sculpture/character-modeling/character-modeling-18.jpg" alt="Character Modeling 18">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-19.jpg" data-gallery-title="Character Modeling 19">
+    <img src="/assets/sculpture/character-modeling/character-modeling-19.jpg" alt="Character Modeling 19">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-20.jpg" data-gallery-title="Character Modeling 20">
+    <img src="/assets/sculpture/character-modeling/character-modeling-20.jpg" alt="Character Modeling 20">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-21.jpg" data-gallery-title="Character Modeling 21">
+    <img src="/assets/sculpture/character-modeling/character-modeling-21.jpg" alt="Character Modeling 21">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-22.jpg" data-gallery-title="Character Modeling 22">
+    <img src="/assets/sculpture/character-modeling/character-modeling-22.jpg" alt="Character Modeling 22">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-23.jpg" data-gallery-title="Character Modeling 23">
+    <img src="/assets/sculpture/character-modeling/character-modeling-23.jpg" alt="Character Modeling 23">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-24.jpg" data-gallery-title="Character Modeling 24">
+    <img src="/assets/sculpture/character-modeling/character-modeling-24.jpg" alt="Character Modeling 24">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-25.jpg" data-gallery-title="Character Modeling 25">
+    <img src="/assets/sculpture/character-modeling/character-modeling-25.jpg" alt="Character Modeling 25">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-26.jpg" data-gallery-title="Character Modeling 26">
+    <img src="/assets/sculpture/character-modeling/character-modeling-26.jpg" alt="Character Modeling 26">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/character-modeling/character-modeling-28.jpg" data-gallery-title="Character Modeling 28">
+    <img src="/assets/sculpture/character-modeling/character-modeling-28.jpg" alt="Character Modeling 28">
   </button>
 </div>
 
-## Smelling Wallflowers
+<img class="neo-fullwidth-photo" src="/assets/sculpture/character-modeling/character-modeling-27.jpg" alt="Character Modeling 27">
 
-This piece was made from deconstructed belle époque wallpaper, cut and arranged over a figure drawing. This work was shown in Rome as a sensory installation. The shelf held a brewed combination of nuts, dried fruit, and flowers encapsulated in a tea infuser, which filled the surrounding space with the aroma of fruit and honey.
+## Bronze Lost Wax Casting
+
+Process of bronze casting and accelerated patina.
 
 <div class="finder-gallery-grid">
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers1.jpg" data-gallery-title="Smelling Wallflowers 01">
-    <img src="/assets/sculpture/wallflowers1.jpg" alt="Smelling Wallflowers 01">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_223716.jpg" data-gallery-title="Bronze Lost Wax Casting 01">
+    <img src="/assets/sculpture/20160306_223716.jpg" alt="Bronze Lost Wax Casting 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers2.jpg" data-gallery-title="Smelling Wallflowers 02">
-    <img src="/assets/sculpture/wallflowers2.jpg" alt="Smelling Wallflowers 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_234148.jpg" data-gallery-title="Bronze Lost Wax Casting 02">
+    <img src="/assets/sculpture/20160306_234148.jpg" alt="Bronze Lost Wax Casting 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers3.jpg" data-gallery-title="Smelling Wallflowers 03">
-    <img src="/assets/sculpture/wallflowers3.jpg" alt="Smelling Wallflowers 03">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" data-gallery-title="Bronze Lost Wax Casting 03">
+    <img src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" alt="Bronze Lost Wax Casting 03">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers4.jpg" data-gallery-title="Smelling Wallflowers 04">
-    <img src="/assets/sculpture/wallflowers4.jpg" alt="Smelling Wallflowers 04">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160307_135316.jpg" data-gallery-title="Bronze Lost Wax Casting 04">
+    <img src="/assets/sculpture/20160307_135316.jpg" alt="Bronze Lost Wax Casting 04">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/snapchat-1476402055609385577.jpg" data-gallery-title="Bronze Lost Wax Casting 05">
+    <img src="/assets/sculpture/snapchat-1476402055609385577.jpg" alt="Bronze Lost Wax Casting 05">
+  </button>
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" data-gallery-title="Bronze Lost Wax Casting 06">
+    <img src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" alt="Bronze Lost Wax Casting 06">
   </button>
 </div>
 
@@ -205,33 +300,6 @@ I tried to recreate a "dusty miller" leaf out of steel through methods of weldin
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/2015-07-2515.43.47.jpg" data-gallery-title="Steel Leaf Early View 01">
     <img src="/assets/sculpture/2015-07-2515.43.47.jpg" alt="Steel Leaf Early View 01">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_122022.jpg" data-gallery-title="Steel Leaf Process 01">
-    <img src="/assets/sculpture/20160508_122022.jpg" alt="Steel Leaf Process 01">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_122027.jpg" data-gallery-title="Steel Leaf Process 02">
-    <img src="/assets/sculpture/20160508_122027.jpg" alt="Steel Leaf Process 02">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_131906.jpg" data-gallery-title="Steel Leaf Process 03">
-    <img src="/assets/sculpture/20160508_131906.jpg" alt="Steel Leaf Process 03">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132753.jpg" data-gallery-title="Steel Leaf Process 04">
-    <img src="/assets/sculpture/20160508_132753.jpg" alt="Steel Leaf Process 04">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132758.jpg" data-gallery-title="Steel Leaf Process 06">
-    <img src="/assets/sculpture/20160508_132758.jpg" alt="Steel Leaf Process 06">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132800.jpg" data-gallery-title="Steel Leaf Process 07">
-    <img src="/assets/sculpture/20160508_132800.jpg" alt="Steel Leaf Process 07">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_132802.jpg" data-gallery-title="Steel Leaf Process 08">
-    <img src="/assets/sculpture/20160508_132802.jpg" alt="Steel Leaf Process 08">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_134749.jpg" data-gallery-title="Steel Leaf Process 09">
-    <img src="/assets/sculpture/20160508_134749.jpg" alt="Steel Leaf Process 09">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_134751.jpg" data-gallery-title="Steel Leaf Process 10">
-    <img src="/assets/sculpture/20160508_134751.jpg" alt="Steel Leaf Process 10">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160508_140153.jpg" data-gallery-title="Steel Leaf Process 11">
     <img src="/assets/sculpture/20160508_140153.jpg" alt="Steel Leaf Process 11">
@@ -372,27 +440,21 @@ I made an installation about memory spaces and fantasy doors. For this, I design
   </button>
 </div>
 
-## Bronze Lost Wax Casting
+## Smelling Wallflowers
 
-Process of bronze casting and accelerated patina.
+This piece was made from deconstructed belle époque wallpaper, cut and arranged over a figure drawing. This work was shown in Rome as a sensory installation. The shelf held a brewed combination of nuts, dried fruit, and flowers encapsulated in a tea infuser, which filled the surrounding space with the aroma of fruit and honey.
 
 <div class="finder-gallery-grid">
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_223716.jpg" data-gallery-title="Bronze Lost Wax Casting 01">
-    <img src="/assets/sculpture/20160306_223716.jpg" alt="Bronze Lost Wax Casting 01">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers1.jpg" data-gallery-title="Smelling Wallflowers 01">
+    <img src="/assets/sculpture/wallflowers1.jpg" alt="Smelling Wallflowers 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160306_234148.jpg" data-gallery-title="Bronze Lost Wax Casting 02">
-    <img src="/assets/sculpture/20160306_234148.jpg" alt="Bronze Lost Wax Casting 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers2.jpg" data-gallery-title="Smelling Wallflowers 02">
+    <img src="/assets/sculpture/wallflowers2.jpg" alt="Smelling Wallflowers 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" data-gallery-title="Bronze Lost Wax Casting 03">
-    <img src="/assets/sculpture/12516924_10205856825121657_2105784359_o.jpg" alt="Bronze Lost Wax Casting 03">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers3.jpg" data-gallery-title="Smelling Wallflowers 03">
+    <img src="/assets/sculpture/wallflowers3.jpg" alt="Smelling Wallflowers 03">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/20160307_135316.jpg" data-gallery-title="Bronze Lost Wax Casting 04">
-    <img src="/assets/sculpture/20160307_135316.jpg" alt="Bronze Lost Wax Casting 04">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/snapchat-1476402055609385577.jpg" data-gallery-title="Bronze Lost Wax Casting 05">
-    <img src="/assets/sculpture/snapchat-1476402055609385577.jpg" alt="Bronze Lost Wax Casting 05">
-  </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" data-gallery-title="Bronze Lost Wax Casting 06">
-    <img src="/assets/sculpture/b07bea45-7315-4869-96dd-9b5414f1277e.jpg" alt="Bronze Lost Wax Casting 06">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/wallflowers4.jpg" data-gallery-title="Smelling Wallflowers 04">
+    <img src="/assets/sculpture/wallflowers4.jpg" alt="Smelling Wallflowers 04">
   </button>
 </div>

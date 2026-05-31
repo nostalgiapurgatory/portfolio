@@ -3,9 +3,10 @@ layout: post
 title: Escape New Haven
 image: /assets/escapeindustries/escapethumbnail.png
 permalink: /escaperooms/
-category: Immersive Art Design and Fabrication
+category: Immersive Art Design & Fabrication
 time: 2020-01-01
 order: 12
+status: publish
 ---
 
 page under construction

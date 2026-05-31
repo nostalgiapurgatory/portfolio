@@ -2,7 +2,7 @@
 layout: post
 title: Incense Thicket
 permalink: /incense-thicket/
-category: Fine Art & Fabrication
+category: Fine Art
 time: 2018
 order: 23
 status: archive

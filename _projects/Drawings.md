@@ -3,7 +3,7 @@ layout: post
 title: Drawings
 image: /assets/fineart/drawingsthumbnail.jpg
 permalink: /drawings/
-category: Fine Art & Fabrication
+category: Fine Art
 gallery_mode: desktop-grid
 order: 16
 status: publish

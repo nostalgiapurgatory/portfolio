@@ -7,7 +7,7 @@ category: Digital Illustration
 time: 2015 - 2024
 gallery_mode: desktop-grid
 order: 6
-status: publish
+status: hidden
 ---
 
 These are examples of various digital illustration projects I've done.

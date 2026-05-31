@@ -3,7 +3,7 @@ layout: post
 title: Oil Painting
 image: /assets/fineart/2017CampoDeFioreRomeItaly.png
 permalink: /painting/
-category: Fine Art & Fabrication
+category: Fine Art
 time: 2002-2024
 gallery_mode: desktop-grid
 order: 5

@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "  <div class=\"home-featured-grid\">",
         "    <a class=\"home-featured-project\" href=\"/sculpture/\">",
         "      <img src=\"/assets/sculpture/sculpturethumbnail.png\" alt=\"Alfred Hitchcock sculpture thumbnail\">",
-        "      <span>SCULPTURE &amp; INSTALLATION</span>",
+        "      <span>SCULPTURE</span>",
         "    </a>",
         "    <a class=\"home-featured-project\" href=\"/neotropolis/\">",
         "      <img src=\"/assets/neotropolis/2026/20260429_230355.jpg\" alt=\"Neotropolis thumbnail\">",
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "  </div>",
         "</div>"
       ].join("\n"),
-      caption: "Open a featured page."
+      caption: ""
     },
     projectsDirectory: {
       art: [
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "  <div class=\"home-featured-grid\">",
         "    <a class=\"home-featured-project\" href=\"/sculpture/\">",
         "      <img src=\"/assets/sculpture/sculpturethumbnail.png\" alt=\"Alfred Hitchcock sculpture thumbnail\">",
-        "      <span>SCULPTURE &amp; INSTALLATION</span>",
+        "      <span>SCULPTURE</span>",
         "    </a>",
         "    <a class=\"home-featured-project\" href=\"/neotropolis/\">",
         "      <img src=\"/assets/neotropolis/2026/20260429_230355.jpg\" alt=\"Neotropolis thumbnail\">",
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "  </div>",
         "</div>"
       ].join("\n"),
-      caption: "Open a featured page."
+      caption: ""
     },
     tarotPage: {
       art: [
@@ -126,6 +126,14 @@ document.addEventListener("DOMContentLoaded", function () {
       ].join("\n"),
       caption: "External profile links."
     },
+    mediaDirectory: {
+      art: [
+        "media/",
+        "|-- Shaping the Fictional Reality",
+        "`-- No Proscenium interview with Jaden Andrea"
+      ].join("\n"),
+      caption: "Articles and press links."
+    },
     socialLink: {
       art: [
         "external_link.url",
@@ -133,6 +141,14 @@ document.addEventListener("DOMContentLoaded", function () {
         "opens in a new tab"
       ].join("\n"),
       caption: "External social destination."
+    },
+    mediaLink: {
+      art: [
+        "media_link.url",
+        "",
+        "opens in a new tab"
+      ].join("\n"),
+      caption: "External media feature."
     }
   };
 
@@ -150,6 +166,40 @@ document.addEventListener("DOMContentLoaded", function () {
       previewArt.classList.remove("home-preview-art-rich");
     }
     previewCaption.textContent = item.caption || previews.defaultCaption;
+  }
+
+  function isInternalPreviewLink(trigger) {
+    var href = trigger.getAttribute("href") || "";
+    return trigger.classList.contains("home-file-link") && href.charAt(0) === "/";
+  }
+
+  function getFileLabel(trigger) {
+    var label = trigger.querySelector("span:last-child");
+    return label ? label.textContent.trim() : "page";
+  }
+
+  function setLinkPreview(trigger) {
+    var href = trigger.getAttribute("href") || "/";
+    var title = getFileLabel(trigger);
+    var thumbnail = trigger.getAttribute("data-home-thumbnail") || "/assets/jaden.jpg";
+    var html = [
+      "<div class=\"home-featured-preview\">",
+      "  <a class=\"home-featured-title\" href=\"" + href + "\">",
+      "    <span class=\"home-icon home-icon-folder\" aria-hidden=\"true\"></span>",
+      "    <span>PAGE PREVIEW</span>",
+      "  </a>",
+      "  <div class=\"home-featured-grid\">",
+      "    <a class=\"home-featured-project\" href=\"" + href + "\">",
+      "      <img src=\"" + thumbnail + "\" alt=\"" + title.replace(/\"/g, "&quot;") + " thumbnail\">",
+      "      <span>" + title + "</span>",
+      "    </a>",
+      "  </div>",
+      "</div>"
+    ].join("\n");
+
+    previewArt.innerHTML = html;
+    previewArt.classList.add("home-preview-art-rich");
+    previewCaption.textContent = "";
   }
 
   function applyTheme(themeName) {
@@ -280,9 +330,17 @@ document.addEventListener("DOMContentLoaded", function () {
   previewTriggers.forEach(function (trigger) {
     var key = trigger.getAttribute("data-home-preview");
     trigger.addEventListener("mouseenter", function () {
+      if (isInternalPreviewLink(trigger)) {
+        setLinkPreview(trigger);
+        return;
+      }
       setPreview(key);
     });
     trigger.addEventListener("focus", function () {
+      if (isInternalPreviewLink(trigger)) {
+        setLinkPreview(trigger);
+        return;
+      }
       setPreview(key);
     });
   });

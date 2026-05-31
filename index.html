@@ -11,12 +11,18 @@ title: Home
     <span class="home-topbar-name-default">Jaden Andrea</span>
     <span class="home-topbar-name-hover">Gadget</span>
   </a>
+  <a class="home-resume-button" href="{{ site.baseurl }}/resume/" aria-label="Open resume">[Resume]</a>
 </header>
 
 <section class="home-explorer" data-home-explorer>
   {% include home-tree-nav.html %}
 
   <section class="home-preview" aria-live="polite">
+    <div class="home-preview-art" data-home-preview-art>
+.
+    </div>
+    <p class="home-preview-caption" data-home-preview-caption>Hover a folder or file to preview.</p>
+
     <div class="home-circuit-panel" aria-label="Circuit logo illustration">
       <div class="home-circuit-stage">
         <img
@@ -32,11 +38,6 @@ title: Home
         >
       </div>
     </div>
-
-    <div class="home-preview-art" data-home-preview-art>
-.
-    </div>
-    <p class="home-preview-caption" data-home-preview-caption>Hover a folder or file to preview.</p>
     <div class="home-contact-shell" id="home-contact">
       <p class="home-contact-title">
         contact
