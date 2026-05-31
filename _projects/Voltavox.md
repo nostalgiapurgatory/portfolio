@@ -13,7 +13,7 @@ Voltavox is a PCB-based phonograph!
 
 ![](/assets/voltavox/hero-with-record.jpg)
 
-Made primarially from PCBs, you can take a tiny PCB record, place it on the platter, place the needle on the record, and a song begins to play! Put a different record on, and as expected, you'll get a different song.
+Made primarily from PCBs, you can take a tiny PCB record, place it on the platter, place the needle on the record, and a song begins to play! Put a different record on, and as expected, you'll get a different song.
 
 ![](/assets/voltavox/double-hero.jpg)
 
@@ -30,17 +30,17 @@ Before ordering any PCBs, we wanted to make sure all our dimensions were correct
 
 ## PCBs
 
-There are no fewer than five custom PCBs in Voltavox. Two for the horn structure, one for the needle, the record, and the record platten.
+There are no fewer than five custom PCBs in Voltavox. Two for the horn structure, one for the needle, the record, and the record turntable.
 
-On the outer rim of panels for the horn, I designed a rose inlay pattern in KiCAD, mimicing the classic location for phonagraph artwork.
+On the outer rim of panels for the horn, I designed a rose inlay pattern in KiCAD, mimicking the classic location for phonograph artwork.
 
 ![](/assets/voltavox/rose-artwork.jpg)
 *Outermost horn panel with rose artwork*
 
-Next is the platten! This board connects mostly everything together. It hosts the Adafruit sound board, battery connection, a pin for the needle, and spots to mount the FlexyPins.
+Next is the turntable! This board connects mostly everything together. It hosts the Adafruit sound board, battery connection, a pin for the needle, and spots to mount the FlexyPins.
 
 ![](/assets/voltavox/platten-top.jpg)
-*The top of the platten, which will receive the record PCB*
+*The top of the turntable, which will receive the record PCB*
 
 ![](/assets/voltavox/platten-bottom.jpg)
 *The bottom is where everything gets connected*
@@ -62,22 +62,22 @@ Easily the hardest part about assembly was soldering together the horn. We plate
 ![](/assets/voltavox/half-horn.jpg)
 *I designed a jig to hold the panels together at the correct angle for soldering, which helped tremendously*
 
-Then was the base. All the brown parts are printed in a wood-fill PLA filament. The base has a Voltavox logo I designed inlayed into the print, and an integrated drawer to hold a small record collection.
+Then was the base. All the brown parts are printed in a wood-fill PLA filament. The base has a Voltavox logo I designed inlaid into the print, and an integrated drawer to hold a small record collection.
 
-Most of the soldering was required on the platten PCB. I mounted the SMT headers for attaching the Adafruit sound board and the battery manager.
+Most of the soldering was required on the turntable PCB. I mounted the SMT headers for attaching the Adafruit sound board and the battery manager.
 
-I also tacked on a wire to snake up through the neck of the gramaphone to the needle PCB. A pogo pin soldered onto the tip of the needle PCB touches the pad on the record, sending a signal to the sound effect board to play a certain file.
+I also tacked on a wire to snake up through the neck of the gramophone to the needle PCB. A pogo pin soldered onto the tip of the needle PCB touches the pad on the record, sending a signal to the sound effect board to play a certain file.
 
 ![](/assets/voltavox/without-horn.jpg)
 *Completed base without the horn attached*
 
-I glued a speaker to the print at the base of the horn, and attached it to the sound effect board as well. I also cut out and adhered a thin green felt to the platten under where the record would sit, to simulate the look of a real phonograph.
+I glued a speaker to the print at the base of the horn, and attached it to the sound effect board as well. I also cut out and adhered a thin green felt to the turntable under where the record would sit, to simulate the look of a real phonograph.
 
 The last step was the tricky task of soldering the two halves of the horn together while being clamped onto the horn base print.
 
 ## Complete
 
-And there it is, a PCB-based skeumorphism of a phonograph!
+And there it is, a PCB-based skeuomorphism of a phonograph!
 
 ![](/assets/voltavox/just-completed.jpg)
 *Shortly after completion*
@@ -85,4 +85,4 @@ And there it is, a PCB-based skeumorphism of a phonograph!
 ![](/assets/voltavox/jaden-finished.jpg)
 *On the way to Colorado for the Denver Immersive Gathering*
 
-You can find all the source files for Voltavox in this [Github repo](https://github.com/sphawes/voltavox).
+You can find all the source files for Voltavox in this [GitHub repo](https://github.com/sphawes/voltavox).

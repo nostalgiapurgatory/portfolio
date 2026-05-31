@@ -2,10 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-pane_intro: RISD Sculpture and Interior Architecture alum, Immersive Etertainment Art Director and Artist
+pane_intro: RISD Sculpture and Interior Architecture alum, Immersive Entertainment Art Director and Artist
 ---
 
-I am an immersive artist, designer, and classicaly trained sculptor. I've art directed software used by millions, was instrumental in designing and fabricating a Burning Man Honoraria Grant project, and have consulted with design firms such as [IDEO](https://www.ideo.com/). I'm comfortable with anything from long hours welding in the desert, to optimizing a user onboarding journey, to designing circuit boards, 3D models, and embedded firmware.
+I am an immersive artist, designer, and classically trained sculptor. I've art directed software used by millions, was instrumental in designing and fabricating a Burning Man Honoraria Grant project, and have consulted with design firms such as [IDEO](https://www.ideo.com/). I'm comfortable with anything from long hours welding in the desert, to optimizing a user onboarding journey, to designing circuit boards, 3D models, and embedded firmware.
 
 ![Jaden Andrea](/assets/jaden.jpg){:width="70%"}
 

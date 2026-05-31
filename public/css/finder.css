@@ -4034,6 +4034,7 @@ body[data-theme="mac2000s"] .finder-icon-drive::before {
 body.finder-home-page {
   --home-bg: #ffffff;
   --home-fg: #101010;
+  --home-copper-accent: #c8a24a;
   --home-border: #171717;
   --home-muted: #484848;
   --home-highlight: #efefef;
@@ -4165,6 +4166,10 @@ body.finder-home-page .finder-desktop-easter-egg {
   display: inline;
 }
 
+body.finder-home-page:not(.home-dark) .home-topbar-name:hover .home-topbar-name-hover {
+  color: var(--home-copper-accent);
+}
+
 body.finder-home-page.home-dark {
   --home-dark-inverted-copper: #375db5;
 }
@@ -4219,6 +4224,15 @@ body.finder-home-page.home-dark .home-topbar-name:hover .home-topbar-name-hover 
 .home-folder-summary:hover,
 .home-file-link:hover {
   background: var(--home-highlight);
+}
+
+body.finder-home-page:not(.home-dark) .home-folder-summary:hover,
+body.finder-home-page:not(.home-dark) .home-folder-summary:focus-visible,
+body.finder-home-page:not(.home-dark) .home-file-link:hover,
+body.finder-home-page:not(.home-dark) .home-file-link:focus-visible,
+body.finder-home-page:not(.home-dark) .home-preview a:hover,
+body.finder-home-page:not(.home-dark) .home-preview a:focus-visible {
+  color: var(--home-copper-accent);
 }
 
 body.finder-home-page.home-dark .home-folder-summary:hover,

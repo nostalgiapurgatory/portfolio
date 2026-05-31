@@ -8,4 +8,4 @@ time: 2016-01-01
 order: 27
 ---
 
-I made an installation about memory spaces and fantasy doors. For this, I designed and carved a ouija board doormat out of a block of mahogany wood. 
+I made an installation about memory spaces and fantasy doors. For this, I designed and carved a Ouija board doormat out of a block of mahogany wood. 

@@ -194,7 +194,7 @@ In this work, I drilled into a piece of reclaimed wood board and used wood reed 
 
 ## SOYLENT: Welded Steel Leaf
 
-I tried to recreate a "dusty miller" leaf out of steel though methods of welding and metalworking. The leaf sculpture is finished in Paint, Spray Adhesive, Wood Flour, and Soylent (food powder) for texture. To make the leaf body from steel I used a diacro metal bending tool, plasma cutter by hand, and MIG and OxyAcetylene gas welding.
+I tried to recreate a "dusty miller" leaf out of steel through methods of welding and metalworking. The leaf sculpture is finished in Paint, Spray Adhesive, Wood Flour, and Soylent (food powder) for texture. To make the leaf body from steel I used a diacro metal bending tool, plasma cutter by hand, and MIG and OxyAcetylene gas welding.
 
 <div class="finder-gallery-grid">
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/MetalLeafPose.png" data-gallery-title="Steel Leaf Pose">
@@ -361,7 +361,7 @@ With this wood sculpture, I incorporated smell as the main point of the sculptur
 
 ## Gateway Installation
 
-I made an installation about memory spaces and fantasy doors. For this, I designed and carved a ouija board doormat out of a block of mahogany wood.
+I made an installation about memory spaces and fantasy doors. For this, I designed and carved a Ouija board doormat out of a block of mahogany wood.
 
 <div class="finder-gallery-grid">
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sculpture/a67c716b-f5e6-4118-b3ac-1b137fbfd0e4.jpeg" data-gallery-title="Gateway Installation 01">

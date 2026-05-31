@@ -2,25 +2,51 @@
 layout: page
 title: Resume
 permalink: /resume/
-pane_intro: Structured resume page designed for both human and AI parsing.
+pane_intro: RISD Sculpture and Interior Architecture alum, Immersive Entertainment Art Director and Artist
 ---
 
 ## Contact
 
 - Name: Jaden Andrea
-- Title: Art Team Manager, Art Director
+- Title: Art Director, Art Team Manager, Sculptor
 - Location: Portland, OR
 - Phone: 714.337.1028
-- Email: [jadenandrea@gmail.com](mailto:jadenandrea@gmail.com)
+- Email: [nostalgiapurgatory@gmail.com](mailto:nostalgiapurgatory@gmail.com)
 - LinkedIn: [linkedin.com/in/jadenandrea](https://www.linkedin.com/in/jadenandrea)
 - Portfolio: [jadenandrea.com](https://www.jadenandrea.com/)
 - GitHub: [github.com/nostalgiapurgatory](https://github.com/nostalgiapurgatory)
 
 ## Professional Summary
 
-Innovative Art Director and Art Manager with 8+ years of experience bringing immersive and interactive experiences to life. Proficient in driving concept development, visual design, and execution of compelling creative products through strong team leadership. Brings a highly educated and experienced degree of technical expertise and cross-department communication that results in thoughtful synthesis of multidisciplinary collaboration.
+Innovative Art Director and Multidisciplinary Artist with 10+ years of experience bringing immersive and interactive experiences to life. Excels in driving concept development, visual design, and execution of compelling creative products through strong team leadership. Brings a highly educated and experienced degree of technical expertise and cross-department communication that results in thoughtful synthesis of multidisciplinary collaboration.
 
 ## Professional Experience
+
+### [Unannounced Project] -- Los Angeles, CA
+
+**Character Sculptor, Creative Figurine & Product Concepts**  
+Dates: May 2026 -- Ongoing  
+- Assisting with developing the 3D concept for an illustrated character for an upcoming product series and immersive entertainment experience, under a Creative Director/Founder.
+- Iterated on concepts through collaborative mood boards, sketches, prior art, and round table discussion.
+
+### Bloomsbury Fine Art & Antiques -- Portland, OR
+
+**Painting & Sculpture Restorer & Conservationist**  
+Dates: January 2025 -- Ongoing  
+- Handled, cleaned, repaired, and restored antique paintings, ornate plaster and compo frames, and sculptures with a mix of materials both historic and contemporary.
+- Takes great and detailed care in patching, gluing, filling, and color/texture matching areas of damage so that imperfections are vastly undetectable.
+- Highly effective at style matching, from classic and masters' artworks to impressionist and modern art techniques. Is very practiced in blending style to match an existing canvas.
+- Proficient in historical material repair, oil paint color matching, and appropriate use of solvents for delicate but effective cleaning and varnish removal.
+- Skilled at sculpting completely missing areas of sculptures and frames, where educated guesswork and historical context lead to creating believable form from next to nothing.
+
+### Hi-Orbit Games (Wild Heart Ranch) -- 29 Palms, CA
+
+**Creative Technologist, Engineer, & Fabricator**  
+Dates: May 2024 - Nov 2024  
+- Designed circuits and Arduino code as well as designed and fabricated creative interactive housing for a number of escape room games and immersive interactive props, puzzles, and set dressing.
+- Collaborated with other contracted engineers to create complex projects, where some would design the electronics and send a partially built circuit by mail long distance, to have that circuit rebuilt, reflashed, and housed in a creative and 'to-theme' manner.
+- Designed custom PCBs (circuit boards) to control switches, sensors, LEDs, and programmed logic. Conducted playtesting, made design revisions, and ordered those custom designed boards from board shops to make streamlined one-of-a-kind escape room solutions.
+- Integrated custom circuits and code to a proprietary show control system used to activate dozens of effects and puzzles for throughput of thousands of guests.
 
 ### Gather (gather.town) - Fully Remote
 

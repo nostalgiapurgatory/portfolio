@@ -17,7 +17,7 @@ Gather is retro-RPG aesthetic proximity chat platform that runs in-browser. I wo
 
 !["Everything was closed for the pandemic"](/assets/gather/everything_is_closed.png)
 
-In 2020, many creative theatrical productions moved online out due to necessity from the COVID-19 lockdowns. Some creatives made use of Zoom, but others used smaller platorms that allowed for more creative liberties. Gather became a popular choice among colleagues of mine who were previously making live experiences and immersive artwork. I was first introduced to Gather at an "Everything Immersive" industry conference, and began to create work within the platform during the period of time where much of the world was in lockdown. The company took notice, and by the end of 2020, I was hired as their first full time artist. 
+In 2020, many creative theatrical productions moved online due to necessity from the COVID-19 lockdowns. Some creatives made use of Zoom, but others used smaller platforms that allowed for more creative liberties. Gather became a popular choice among colleagues of mine who were previously making live experiences and immersive artwork. I was first introduced to Gather at an "Everything Immersive" industry conference, and began to create work within the platform during the period of time where much of the world was in lockdown. The company took notice, and by the end of 2020, I was hired as their first full time artist. 
 
 !["gather in 2020-3"](/assets/gather/avatars.png){: width="50%"}
 *Four of the original Gather avatars, before avatar style changes I lead*
@@ -50,7 +50,7 @@ I kept the space open on my laptop while I was in my room, using it as if I were
 !["gather cafe 2"](/assets/gather/CoffeeShop_nofloor.png)
 *An asset I made three years later is an homage to that early Gather-ing place.*
 
-Shortly after that evening, I applied to Gather and began working there full time. I was employee number 20. I started by working with the Art Director Mark Carpenter to develop Gather's visual style and color pallete. I also worked on a small team of other pixel artists to make thousands of assets for the platform.
+Shortly after that evening, I applied to Gather and began working there full time. I was employee number 20. I started by working with the Art Director Mark Carpenter to develop Gather's visual style and color palette. I also worked on a small team of other pixel artists to make thousands of assets for the platform.
 
 !["Style Guide"](/assets/gather/Gather_design_principles.png)
 !["Style Guide"](/assets/gather/Gather_design_principles2.png)
@@ -131,7 +131,7 @@ The result was a more professional and uniquely Gather style. This was comprised
 !["Smoothing"](/assets/gather/smoother.png)
 !["Future Forward"](/assets/gather/ArtboardHero.png)
 
-I was able to contribute a number of blue sky ideas with other department heads and executive leadership at Gather, and delighted in the opportunity to help pull this start-up to profitibility and reknown. 
+I was able to contribute a number of blue sky ideas with other department heads and executive leadership at Gather, and delighted in the opportunity to help pull this start-up to profitability and renown. 
 
 !["Documents"](/assets/gather/documents.png)
 !["Sophisticated"](/assets/gather/image (75).png)
