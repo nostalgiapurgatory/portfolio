@@ -9,7 +9,7 @@ resume_pdf_url: /assets/resume/Jaden-Andrea-Resume.pdf
 ## Contact
 
 - Name: Jaden Andrea
-- Title: Art Director, Art Team Manager, Sculptor
+- Title: Art Director, Art Team Manager, Sculptor, Creative Technologist
 - Location: Portland, OR
 - Phone: 714.337.1028
 - Email: [nostalgiapurgatory@gmail.com](mailto:nostalgiapurgatory@gmail.com)
@@ -95,6 +95,14 @@ Dates: May 2020 - Aug 2020
 - Supported full stack from concept design through fabrication and on-site installation.
 - Designed for build feasibility, schedule, and material constraints while preserving show aesthetic and interaction goals.
 
+### Bluebird Graphic Solutions - Woburn, MA
+
+**Sign Shop Fabricator, Graphic Design & Production**  
+Dates: July 2019 - Feb 2020  
+- Operated CNC equipment, laser cutters, band saws, table saws, Mimaki flatbed digital printers, large-format printers, 3D printers, and vinyl cutters in a high-output sign production environment.
+- Produced, printed, and applied graphics to signage substrates across multiple materials and scales, from handheld pieces to architectural installations.
+- Supported end-to-end production workflow across design, machining, painting, welding, and assembly teams while maintaining shop safety, quality standards, and delivery timelines.
+
 ## Education
 
 ### Bachelor of Fine Arts
@@ -116,15 +124,16 @@ Dates: May 2020 - Aug 2020
 
 ## Skills
 
-- Adobe Photoshop, Illustrator, InDesign, Firefly, Procreate, Aseprite, Pixaki
-- Autodesk Fusion 360, AutoCAD, KiCAD, Notion, Figma
-- Scale drafting, orthographic views, fabrication drawing standards
-- Modelmaking and maquette workflows
-- Mold making, casting, armature integration
-- Production file prep for CNC and laser cutting
-- 3D printing workflows
-- Google Drive, Sheets, Docs, Slides
-- GitHub, Linear
-- Cross-functional collaboration
-- Timeline and project management
-- Strategic planning
+- Adobe Creative Suite (Photoshop, Illustrator, InDesign), Firefly, Procreate, Aseprite, Pixaki
+- 3D modeling and technical design in Autodesk Fusion 360 and AutoCAD
+- Woodworking and welding for sculpture, props, and set fabrication
+- Physical modelmaking, maquette development, mold making, casting, and armature integration
+- 3D printing workflows from concept to production-ready parts
+- Circuit board (PCB) design in KiCad
+- Programming lights, sound, sensors, and interactive effects on electronic circuits
+- Integrating technology with sculpture to create pieces that move, light up, and react to people
+- Production file preparation for CNC machining and laser cutting
+- Scale drafting, orthographic views, and fabrication drawing standards
+- Collaboration and communication across Art, Production, and Engineering teams
+- Timeline management, project planning, and delivery under deadlines
+- Workflow and documentation tools: Notion, Figma, Google Drive, Sheets, Docs, Slides, GitHub, Linear

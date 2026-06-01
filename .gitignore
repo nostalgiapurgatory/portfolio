@@ -5,3 +5,18 @@ _site
 vendor
 node_modules
 applications/
+
+# Job application tooling and temporary uploaded assets
+scripts/export-application-cvs-pdf.py
+scripts/export-cover-letters-pdf.py
+scripts/generate-role-portfolio-pdfs.py
+assets/c__Users_Jaden_Andrea_AppData_Roaming_Cursor_User_workspaceStorage_15f20a196152e26b017af5dbeeab7dd3_images_*
+
+# Private/local-only workspaces and drafts
+private/
+applications-private/
+job-applications/
+
+# Local Python environments
+.venv/
+.venv*/
