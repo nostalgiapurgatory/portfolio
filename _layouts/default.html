@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="finder-body finder-home-page" data-disable-theme-sync="true">
+  <body class="finder-body finder-home-page{% if page.permalink == '/pixelart/' %} finder-page-pixel-art{% endif %}" data-disable-theme-sync="true">
     {% if page.url == '/' %}
     <main class="finder-home-shell" id="finder-main">
       {{ content }}

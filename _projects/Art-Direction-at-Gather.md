@@ -11,6 +11,7 @@ status: publish
 
 
 !["gather ad asset"](/assets/gather/previewimage.png)
+!["gather office map"](/assets/gather/gather-office-map.png)
 
 
 Gather is retro-RPG aesthetic proximity chat platform that runs in-browser. I worked for this company first as an early employee and their first full time artist hire. I was promoted a few times within the company, to senior level artist and team lead,  manager of the two teams in the department, and by the last year I was employed there I was heading the department in a leadership role as the Art Director. I loved each position along the way, grew in my own abilities and also significantly shaped the way Gather looked and felt.  

@@ -1427,6 +1427,10 @@ body.finder-home-page.home-dark .finder-pane-download {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.finder-inline-image-grid-four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .finder-inline-image-grid-two {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -4456,6 +4460,32 @@ body.finder-home-page.home-dark .home-file-link:focus-visible {
 .home-preview-document .finder-card,
 .home-preview-document .finder-document {
   color: var(--home-fg);
+}
+
+/* Pixel Art page-only background treatment */
+body.finder-home-page.finder-page-pixel-art {
+  background-image: url("/assets/digitalart/pixel-cloud-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.finder-home-page.finder-page-pixel-art .finder-home-shell {
+  background: transparent;
+}
+
+body.finder-home-page.finder-page-pixel-art .home-name-banner,
+body.finder-home-page.finder-page-pixel-art .home-explorer-column,
+body.finder-home-page.finder-page-pixel-art .home-preview,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-pane-header,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-document,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-card,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-folder-card,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-note,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-file-table,
+body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-stat {
+  background: #fff;
 }
 
 .home-circuit-panel {

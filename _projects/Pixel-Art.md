@@ -7,7 +7,7 @@ category: Digital Illustration
 time: 2015 - 2024
 gallery_mode: desktop-grid
 order: 4
-status: hidden
+status: publish
 ---
 
 These are examples of pixel art studies, character work, and small-format illustrations from my digital illustration practice.
