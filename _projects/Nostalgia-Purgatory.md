@@ -65,3 +65,85 @@ At the end of this short hallway, the final room of the experience reveals itsel
 !["Nostalgia Purgatory 2026 photo 32"](/assets/nostalgiapurgatory/new-additions-2026/nostalgia-purgatory-2026-32.png)
 !["Nostalgia Purgatory 2026 photo 35"](/assets/nostalgiapurgatory/new-additions-2026/nostalgia-purgatory-2026-35.png)
 !["Nostalgia Purgatory 2026 photo 30"](/assets/nostalgiapurgatory/new-additions-2026/nostalgia-purgatory-2026-30.png)
+
+## Presented on Social Media as...
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BpatCPelBvY.jpg)
+*Caption:* Nostalgia Purgatory, 2018. An #immersivetheater and #setdesign project, with Jen Valentino playing the ethereal fortune reader who sits beyond the #thresholdofdeath . Photo documentation by Dana Tarr @danatarrphotography Finally, images of my thesis project exhibited in Spring among my graduating peers from the #RISD #sculpture department. #mementomori #tarot #archetype #storytelling #risdsculpture #somethingworthstealing #uraniumglass #cardreading #phonograph #gramophone #vintage #purgatory #nostalgia #environmentdesign
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BpatCPelBvY/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BjpjK-nlk1Z.jpg)
+*Caption:* I am a painter and a sculptor. I work in #setdesign and #immersivetheater. I took the advice of the late #RandyPausch --achieving my childhood dreams. I always wanted to be an #imagineer , whether or not I worked for the Mouse. Now I'm starting an installation art bar and lounge, I make themed AirB&Bs, immersive theater, #installationart , and am working on an #augmentedreality mobile game. For 23 years, 10 years since having that dream, I'm well on my way. I'm happy to be making in 2019. #wynnthorn #risd #graduate #disney #castmember #providence #bones #jadeite #jadenandrea #comcaac #seripeople
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BjpjK-nlk1Z/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BjKa3uWlKkB.jpg)
+*Caption:* THANK YOU! To my awesome friends, my great help, I don't know where I'd be without you. Especially to my reader and ethereal hostess of nostalgia purgatory Jen Valentino, and the "backstage" help from @dudeitsdemetri and @chanceboas who stayed up with me until the dead of night building things, and @fred_manke10 and Karen who drove down to help me put together walls and pull the strings together on this installation, and of course my housemate @yoyo_dubois who was down to help me screw together walls and move furniture around throughout this whole process. And @theviennagram for donating their coffin to the cause-- THANK YOU! ⚰ I couldn't, I couldn't possibly, complete this kind of immersive set without the help and support of these awesome people and the encouragement of friends. I'm bubbling over with gratitude and happiness. I'm graduating. It's been a ride!
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BjKa3uWlKkB/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BjI2CKVlLu2.jpg)
+*Caption:* On the outside looking in... #thresholdofdeath #nostalgiapurgatory #yourfuneral #immersivetheater #immersivetheatre #tarot #coffin #uraniumglass #setdesign #interactiveart #installationart
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BjI2CKVlLu2/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-Bi4TWb8lnbA.jpg)
+*Caption:* Something Worth Stealing" TONIGHT! The RISD Sculpture Senior Exhibition at 130 Point Street, Providence RI. 7:30 - 9:30 PM Live band performance by .2 in the loading dock, as well as my thesis exhibition and #immersivetheater project, with readings by Jen Valentino. Find many pathways before you, and a gifted fortuna who will advise you in your journey. Come one, come all! Discover #yourfuneral , Cross the #thresholdofdeath , and find yourself in #nostalgiapurgatory ...
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/Bi4TWb8lnbA/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BhjePPflkxd.jpg)
+*Caption:* #fridaythethirteenth #thresholdofdeath #nostalgiapurgatory #installationart #workinprogress #wip #impermanence #luck #chance #fate #fortuna
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BhjePPflkxd/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BhIzYlflCQr.jpg)
+*Caption:* My babies. 🕸🍀 #phonograph #victrola #gramophone #edison #morningglory #cygnet #antique #setdesign #vintage #degreeproject #immersivetheater #immersivetheatre #installationart
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BhIzYlflCQr/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BhE4XYUlYIe.jpg)
+*Caption:* #uraniumglass #vaselineglass #depressionera #depressionglass #vintage #immersivetheater #immersivetheatre #installationart #degreeproject #risdsculpture #risd #curiocabinet #blacklight #thresholdofdeath #nostalgiapurgatory
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BhE4XYUlYIe/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BejqIcWlTd2.jpg)
+*Caption:* #RISD #sculpture #risdsculpture #triennale #curio #curiocabinet #setdesign #themedenvironment #curiosities #rarities #oddities
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BejqIcWlTd2/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-Bejo_VWlZFv.jpg)
+*Caption:* My contribution to the RISD Sculpture Triennial show 2018. Collaboration with two other sculpture students, Amber and Emily. #RISD #risdsculpture #sculpture #triennale #curio #curiocabinet #oddities #rarities #curiosities #environmentdesign
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/Bejo_VWlZFv/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BaPa3IzlgLY.jpg)
+*Caption:* The lovely @hauntingghostaesthetic Friday the 13th
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BaPa3IzlgLY/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BaKoXTrFrpy.jpg)
+*Caption:* Nostalgia Purgatory", Chapter 1... Here's what I've been up to: My #installation, critiqued today at RISD. Interactive in that I played a character, wound up the #phonograph to play a #liberace 78, and there were glass photo slides of memories to gaze at through a viewfinder. Many hidden objects to find! Version one of many to come. #sculpture #risdsculpture #immersivetheatre #nostalgia #purgatory #happyfridaythe13th
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BaKoXTrFrpy/)
+
+
+
+![Instagram post](/assets/nostalgiapurgatory/instagram/instagram-BaIblIcl3Au.jpg)
+*Caption:* In progress...
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BaIblIcl3Au/)
+
+
+
+

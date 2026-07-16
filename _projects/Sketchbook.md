@@ -183,3 +183,25 @@ status: publish
     <img src="/assets/sketchbook/sculpture_sketchbookscan4.jpg" alt="Sculpture Sketchbook Scan 4">
   </button>
 </div>
+
+## Presented on Social Media as...
+
+![Instagram post](/assets/sketchbook/instagram/instagram-BB0g744iMrV.jpg)
+*Caption:* #storybook #sketch. #sketchbook
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BB0g744iMrV/)
+
+
+
+![Instagram post](/assets/sketchbook/instagram/instagram-BB0gtkgCMq2.jpg)
+*Caption:* Mermaid bed #sketch. #sketchbook
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BB0gtkgCMq2/)
+
+
+
+![Instagram post](/assets/sketchbook/instagram/instagram-BB0gTgviMqF.jpg)
+*Caption:* Daisy shelter #sketch. #sketchbook
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BB0gTgviMqF/)
+
+
+
+

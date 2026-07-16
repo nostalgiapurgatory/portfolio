@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   var body = document.body;
   var themeToggle = document.querySelector("[data-home-theme-toggle]");
+  var navToggle = document.querySelector("[data-home-nav-toggle]");
+  var navPanel = document.querySelector("[data-home-nav-panel]");
+  var navCloseControls = document.querySelectorAll("[data-home-nav-close]");
   var previewArt = document.querySelector("[data-home-preview-art]");
   var previewCaption = document.querySelector("[data-home-preview-caption]");
   var previewTriggers = document.querySelectorAll("[data-home-preview]");
@@ -13,6 +16,38 @@ document.addEventListener("DOMContentLoaded", function () {
   var themeClass = "home-dark";
   var navFolders = document.querySelectorAll(".home-tree .home-folder[data-home-folder-id]");
   var navLinks = document.querySelectorAll(".home-tree .home-file-link[href]");
+  var mobileNavBreakpoint = 900;
+  function setHomeNavOpen(isOpen) {
+    body.classList.toggle("home-nav-open", isOpen);
+    if (navToggle) {
+      navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    }
+    if (navPanel) {
+      var shouldHidePanel = window.innerWidth <= mobileNavBreakpoint && !isOpen;
+      navPanel.setAttribute("aria-hidden", shouldHidePanel ? "true" : "false");
+    }
+  }
+
+  if (navToggle) {
+    navToggle.addEventListener("click", function () {
+      setHomeNavOpen(!body.classList.contains("home-nav-open"));
+    });
+  }
+
+  navCloseControls.forEach(function (control) {
+    control.addEventListener("click", function () {
+      setHomeNavOpen(false);
+    });
+  });
+
+  navLinks.forEach(function (link) {
+    link.addEventListener("click", function () {
+      if (window.innerWidth <= mobileNavBreakpoint) {
+        setHomeNavOpen(false);
+      }
+    });
+  });
+
   var previews = {
     defaultArt: [
       "  .",
@@ -358,6 +393,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   hydrateFolderState();
   bindFolderPersistence();
+  setHomeNavOpen(false);
 
   previewTriggers.forEach(function (trigger) {
     var key = trigger.getAttribute("data-home-preview");
@@ -388,6 +424,25 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > mobileNavBreakpoint) {
+      setHomeNavOpen(false);
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape") {
+      return;
+    }
+
+    if (body.classList.contains("home-nav-open")) {
+      setHomeNavOpen(false);
+      if (navToggle) {
+        navToggle.focus();
+      }
+    }
+  });
 
   if (contactForm && contactMessage) {
     contactForm.addEventListener("submit", function (event) {

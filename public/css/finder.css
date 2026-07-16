@@ -3534,8 +3534,8 @@ body[data-theme="mac2000s"] .finder-captioned-card {
 }
 
 .tarot-standalone-main {
-  width: min(960px, 100% - 2rem);
-  margin: 2rem auto;
+  width: 100%;
+  margin: 0;
 }
 
 .tarot-standalone-experience {
@@ -3544,13 +3544,15 @@ body[data-theme="mac2000s"] .finder-captioned-card {
 
 .tarot-standalone-shell {
   display: grid;
-  grid-template-columns: minmax(220px, 250px) minmax(0, 1fr);
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
   align-items: start;
 }
 
 .tarot-reading-sidebar {
-  padding: 1rem;
+  width: min(100% - 2rem, 1080px);
+  margin: 0 auto 1.4rem;
+  padding: 0.9rem 0.8rem;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -3621,6 +3623,10 @@ body[data-theme="mac2000s"] .finder-captioned-card {
   text-shadow: 0 0 14px rgba(255, 255, 255, 0.12), 0 0 30px rgba(214, 147, 104, 0.1);
 }
 
+.finder-tarot-experience.tarot-bg-active .finder-tarot-title {
+  visibility: hidden;
+}
+
 .finder-tarot-intro,
 .finder-tarot-stage-label,
 .finder-tarot-status,
@@ -3632,8 +3638,44 @@ body[data-theme="mac2000s"] .finder-captioned-card {
 .finder-tarot-stage {
   display: grid;
   gap: 1rem;
-  padding: 1.5rem;
+  width: 100%;
+  min-height: calc(100vh - 2.2rem);
+  padding: 1.4rem 1rem 1.6rem;
   background-color: var(--tarot-stage-bg);
+}
+
+.finder-tarot-background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.finder-tarot-background-art {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(247, 231, 219, 0.72);
+  font-family: "Web437 IBM MDA", "IBM Plex Mono", "Fira Mono", "Consolas", "Courier New", monospace;
+  font-size: clamp(0.5rem, 0.95vw, 0.8rem);
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: pre;
+  user-select: none;
+  text-shadow:
+    0 0 10px rgba(214, 147, 104, 0.36),
+    0 0 20px rgba(214, 147, 104, 0.24);
+  filter: contrast(1.2);
+  opacity: 1;
+}
+
+.finder-tarot-stage > :not(.finder-tarot-background) {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 1100px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .finder-tarot-stage-label,
@@ -3837,7 +3879,7 @@ body[data-theme="mac2000s"] .finder-captioned-card {
   z-index: 1;
   display: grid;
   gap: 0.75rem;
-  width: min(100%, 44rem);
+  width: min(100%, 46rem);
   margin: 0 auto;
 }
 
@@ -3990,14 +4032,6 @@ body[data-theme="mac2000s"] .finder-captioned-card {
     grid-template-columns: 1fr;
   }
 
-  .tarot-standalone-shell {
-    grid-template-columns: 1fr;
-  }
-
-  .tarot-reading-sidebar {
-    order: -1;
-  }
-
   .finder-tarot-title {
     font-size: 0.34rem;
   }
@@ -4007,8 +4041,8 @@ body[data-theme="mac2000s"] .finder-captioned-card {
   }
 
   .tarot-standalone-main {
-    width: min(100% - 1rem, 1000px);
-    margin-top: 0.5rem;
+    width: 100%;
+    margin-top: 0;
   }
 
   .finder-tarot-blackletter-title {
@@ -4262,6 +4296,46 @@ body.finder-home-page .finder-desktop-easter-egg {
   font-weight: 700;
   letter-spacing: 0.02em;
   cursor: var(--site-cursor-pointer);
+}
+
+.home-nav-toggle,
+.home-nav-close {
+  display: none;
+  border: 1px solid var(--home-border);
+  background: var(--home-bg);
+  color: var(--home-fg);
+  font: inherit;
+  cursor: var(--site-cursor-pointer);
+  padding: 0.08rem 0.3rem;
+  text-transform: lowercase;
+}
+
+.home-nav-toggle {
+  transition: transform 0.14s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.mobile-touch-cursor {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #c1262f;
+  border-radius: 50%;
+  background: rgba(193, 38, 47, 0.2);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.65), 0 0 10px rgba(193, 38, 47, 0.35);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.mobile-touch-cursor.is-visible {
+  display: block;
+}
+
+.home-nav-overlay {
+  display: none;
 }
 
 .home-resume-button:hover,
@@ -4745,14 +4819,151 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
 }
 
 @media (max-width: 900px) {
+  :root {
+    --home-mobile-sidebar-width: min(86vw, 360px);
+  }
+
   .finder-home-shell {
     width: calc(100% - 1rem);
-    padding: 0.5rem;
+    padding: 0 0.5rem 0.5rem;
   }
 
   .home-explorer {
     grid-template-columns: 1fr;
     min-height: auto;
+  }
+
+  .home-nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: auto;
+    bottom: 0.65rem;
+    margin: 0;
+    width: 6.8rem;
+    height: 2.3rem;
+    border-color: #c1262f;
+    background: #c1262f;
+    color: #ffffff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    padding: 0.25rem 1.05rem 0.25rem 0.7rem;
+    border-radius: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 70% 50%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 70% 50%, 100% 100%, 0 100%);
+    box-shadow: none;
+    touch-action: manipulation;
+    user-select: none;
+    transform: none;
+    transform-origin: center;
+    z-index: 60;
+    transition: left 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .home-nav-toggle:active {
+    box-shadow: none;
+  }
+
+  body.home-nav-open .home-nav-toggle {
+    left: calc(var(--home-mobile-sidebar-width) - 1px);
+  }
+
+  .home-nav-close {
+    display: inline-flex;
+    margin-right: auto;
+  }
+
+  .home-name-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .home-topbar-name {
+    font-size: clamp(1.25rem, 1.05rem + 1.3vw, 1.8rem);
+  }
+
+  .home-resume-button {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  .home-tree,
+  .home-preview,
+  .home-file-link,
+  .home-folder-summary,
+  .finder-document {
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+
+  .home-explorer-column {
+    position: fixed;
+    top: 3.4rem;
+    left: 0;
+    bottom: 0.5rem;
+    width: var(--home-mobile-sidebar-width);
+    z-index: 25;
+    overflow: auto;
+    box-shadow: none;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease;
+  }
+
+  body.home-nav-open .home-explorer-column {
+    transform: translateX(0);
+  }
+
+  .home-preview {
+    min-width: 0;
+  }
+
+  .home-preview-art,
+  .home-preview-art-rich {
+    min-height: calc(100vh - 7.5rem);
+    height: calc(100vh - 7.5rem);
+    min-height: calc(100dvh - 7.5rem);
+    height: calc(100dvh - 7.5rem);
+    overflow-y: auto;
+  }
+
+  .home-featured-preview {
+    height: 100%;
+  }
+
+  .home-featured-grid {
+    height: 100%;
+    overflow-y: auto;
+    align-content: start;
+  }
+
+  .home-nav-overlay {
+    position: fixed;
+    top: 3.4rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    border: 0;
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+  body.home-nav-open .home-nav-overlay {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  body.home-nav-open {
+    overflow: hidden;
   }
 
   /* Avoid aggressive crop/ratio rules on small screens. */

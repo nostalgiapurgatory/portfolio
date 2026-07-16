@@ -72,3 +72,13 @@ An even smaller core group of builders was invited to recreate the sculpture at 
 https://vimeo.com/408598940
 
  !["Blunderwood Portable progress"](/assets/burningman/Moviecrew.jpg)
+
+## Presented on Social Media as...
+
+![Instagram post](/assets/burningman/instagram/instagram-BinN1Vrlx6R.jpg)
+*Caption:* #wynnthorn #firstarticle #2016 #thevirginunderground #ronlawson #jadenandrea #themeparkdesign #disneyland #imagineering #burningman #burningmanart #blunderwoodportable #gianttypewriter #catandthecockroachcollective @jason.turgeon #thevoid #virtualreality #augmentedreality @voidvr #sleepnomore #immersivetheater @no_proscenium #multisensory #fullsensory #themedenvironmentdesign #risd #risdsculpture @risd1877 #ochsa #ocsa #orangecountyschoolofthearts @weareocsa
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/BinN1Vrlx6R/)
+
+
+
+

@@ -36,7 +36,7 @@ The proposed structure is a series of  13 revolving alcoves, each with a unique
 !["Revit 1"](/assets/revolutionarylabyrinth/RevLab2020_1.png)
 !["Revit 2"](/assets/revolutionarylabyrinth/RevLab2020_2.png)
 !["Revit 3"](/assets/revolutionarylabyrinth/RevLabRevit_TestFirstPersonview.png)
-!["top"](/assets/revolutionarylabyrinth/top.jpg)!["iso"](/assets/revolutionarylabyrinth/iso.jpg)!["corner"](/assets/revolutionarylabyrinth/corner.jpg)
+!["top"](/assets/revolutionarylabyrinth/top.JPG)!["iso"](/assets/revolutionarylabyrinth/Iso.jpg)!["corner"](/assets/revolutionarylabyrinth/corner.JPG)
 
 
 Special thanks to my friend Carl Gruesz for his help with electrical engineering solutions!

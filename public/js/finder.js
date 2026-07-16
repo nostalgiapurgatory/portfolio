@@ -264,12 +264,101 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function initializeInstagramEmbeds() {
+    var embeds = document.querySelectorAll(".instagram-media");
+    var existingScript;
+    var scriptTag;
+    var fallbackTimerId;
+
+    if (!embeds.length) {
+      return;
+    }
+
+    function injectFallbackLinks() {
+      embeds.forEach(function (embed) {
+        var permalink = embed.getAttribute("data-instgrm-permalink");
+
+        if (!permalink || embed.querySelector("iframe") || embed.querySelector(".instagram-fallback-link")) {
+          return;
+        }
+
+        embed.innerHTML = "<p class=\"instagram-fallback-link\"><a href=\"" + permalink + "\" target=\"_blank\" rel=\"noreferrer\">View Instagram post</a></p>";
+      });
+    }
+
+    function processEmbeds() {
+      if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === "function") {
+        window.instgrm.Embeds.process();
+      }
+    }
+
+    if (window.instgrm && window.instgrm.Embeds) {
+      processEmbeds();
+      return;
+    }
+
+    existingScript = document.querySelector("script[data-instgrm-embed-script]");
+    if (existingScript) {
+      existingScript.addEventListener("load", processEmbeds, { once: true });
+      existingScript.addEventListener("error", injectFallbackLinks, { once: true });
+      return;
+    }
+
+    scriptTag = document.createElement("script");
+    scriptTag.async = true;
+    scriptTag.src = "https://www.instagram.com/embed.js";
+    scriptTag.setAttribute("data-instgrm-embed-script", "true");
+    scriptTag.addEventListener("load", processEmbeds, { once: true });
+    scriptTag.addEventListener("error", injectFallbackLinks, { once: true });
+    document.body.appendChild(scriptTag);
+
+    fallbackTimerId = window.setTimeout(function () {
+      processEmbeds();
+      if (!document.querySelector(".instagram-media iframe")) {
+        injectFallbackLinks();
+      }
+      window.clearTimeout(fallbackTimerId);
+    }, 6000);
+  }
+
   function getSavedTheme() {
     try {
       return window.localStorage.getItem(themeStorageKey);
     } catch (error) {
       return null;
     }
+  }
+
+  function initializeMobileTouchCursor() {
+    var supportsCoarsePointer = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+    var touchCursor;
+
+    if (!supportsCoarsePointer) {
+      return;
+    }
+
+    touchCursor = document.createElement("div");
+    touchCursor.className = "mobile-touch-cursor";
+    touchCursor.setAttribute("aria-hidden", "true");
+    document.body.appendChild(touchCursor);
+
+    function updateTouchCursorPosition(event) {
+      if (!event) {
+        return;
+      }
+
+      touchCursor.style.left = event.clientX + "px";
+      touchCursor.style.top = event.clientY + "px";
+      touchCursor.classList.add("is-visible");
+    }
+
+    document.addEventListener("pointerdown", function (event) {
+      if (event.pointerType !== "touch") {
+        return;
+      }
+
+      updateTouchCursorPosition(event);
+    }, { passive: true });
   }
 
   if (shouldSyncTheme) {
@@ -591,6 +680,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var tarotReadingCard = tarotRoot.querySelector("[data-tarot-reading-card]");
     var tarotReadingText = tarotRoot.querySelector("[data-tarot-reading-text]");
     var tarotReadingContext = tarotRoot.querySelector("[data-tarot-reading-context]");
+    var tarotStage = tarotRoot.querySelector(".finder-tarot-stage");
+    var tarotTitle = tarotRoot.querySelector(".finder-tarot-title");
+    var tarotBackgroundArt = tarotRoot.querySelector("[data-tarot-bg-art]");
     var deckRenderWidth = 43;
     var deckRenderHeight = 16;
     var rwsAspectWidth = 3;
@@ -606,6 +698,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var rwsAsciiCardsPromise = null;
     var tarotTargetCardRatio = 3 / 5;
     var tarotVisualGlyphWidthBias = 0.62;
+    var tarotBackgroundChars = " .:-=+*#%@MWXO80123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var tarotBackgroundRafId = null;
+    var tarotBackgroundLastFrame = 0;
+    var tarotLogoAscii = [];
     var tarotFontStacks = {
       "terminal-gothic": "\"Terminal Gothic\", \"IBM Plex Mono\", \"Fira Mono\", \"Consolas\", \"Courier New\", monospace",
       "ink-snare": "\"Ink Snare\", \"Terminal Gothic\", \"IBM Plex Mono\", \"Consolas\", monospace",
@@ -816,6 +912,211 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateTarotArt(value) {
       updateDynamicText(tarotArt, normalizeAsciiFrame(value, tarotState.artWidth, tarotState.artHeight));
+    }
+
+    function getTarotBackgroundDimensions() {
+      var source = tarotStage || tarotRoot;
+      var width = source ? source.clientWidth : window.innerWidth;
+      var height = source ? source.clientHeight : Math.round(window.innerHeight * 0.78);
+      var cols = Math.max(72, Math.floor(width / 8));
+      var rows = Math.max(26, Math.floor(height / 13));
+      return { cols: cols, rows: rows };
+    }
+
+    function getTarotTitleMask(cols, rows) {
+      var stageRect;
+      var titleRect;
+      var colScale;
+      var rowScale;
+      var paddingCols;
+      var paddingRows;
+
+      if (!tarotStage || !tarotTitle) {
+        return null;
+      }
+
+      stageRect = tarotStage.getBoundingClientRect();
+      titleRect = tarotTitle.getBoundingClientRect();
+
+      if (!stageRect.width || !stageRect.height || !titleRect.width || !titleRect.height) {
+        return null;
+      }
+
+      colScale = cols / stageRect.width;
+      rowScale = rows / stageRect.height;
+      paddingCols = 0;
+      paddingRows = 0;
+
+      return {
+        left: Math.max(0, Math.floor((titleRect.left - stageRect.left) * colScale) - paddingCols),
+        right: Math.min(cols - 1, Math.ceil((titleRect.right - stageRect.left) * colScale) + paddingCols),
+        top: Math.max(0, Math.floor((titleRect.top - stageRect.top) * rowScale) - paddingRows),
+        bottom: Math.min(rows - 1, Math.ceil((titleRect.bottom - stageRect.top) * rowScale) + paddingRows)
+      };
+    }
+
+    function getTitleAsciiLines() {
+      var raw;
+      var lines;
+      var minIndent = Infinity;
+
+      if (!tarotTitle) {
+        return [];
+      }
+
+      raw = tarotTitle.textContent || "";
+      lines = raw.split("\n").map(function (line) {
+        return line.replace(/\r/g, "");
+      }).filter(function (line) {
+        return line.trim().length > 0;
+      });
+
+      if (!lines.length) {
+        return [];
+      }
+
+      lines.forEach(function (line) {
+        var leading = (line.match(/^ +/) || [""])[0].length;
+        if (line.trim().length > 0) {
+          minIndent = Math.min(minIndent, leading);
+        }
+      });
+
+      if (!Number.isFinite(minIndent)) {
+        minIndent = 0;
+      }
+
+      return lines.map(function (line) {
+        return line.slice(minIndent).replace(/\s+$/g, "");
+      });
+    }
+
+    function logoCharAt(x, y, mask) {
+      var logoHeight = tarotLogoAscii.length;
+      var logoWidth = tarotLogoAscii.reduce(function (maxWidth, line) {
+        return Math.max(maxWidth, line.length);
+      }, 0);
+      var logoStartX = mask.left;
+      var logoStartY = mask.top;
+      var localX = x - logoStartX;
+      var localY = y - logoStartY;
+      var line;
+
+      if (localY < 0 || localY >= logoHeight) {
+        return " ";
+      }
+
+      line = tarotLogoAscii[localY] || "";
+      if (localX < 0 || localX >= line.length) {
+        return " ";
+      }
+
+      return line.charAt(localX) || " ";
+    }
+
+    function hasLogoGlyphNearby(x, y, mask, radius) {
+      var dy;
+      var dx;
+      for (dy = -radius; dy <= radius; dy += 1) {
+        for (dx = -radius; dx <= radius; dx += 1) {
+          if (logoCharAt(x + dx, y + dy, mask) !== " ") {
+            return true;
+          }
+        }
+      }
+      return false;
+    }
+
+    function generateTarotBackgroundFrame(timeSeconds) {
+      var dimensions = getTarotBackgroundDimensions();
+      var cols = dimensions.cols;
+      var rows = dimensions.rows;
+      var lines = [];
+      var cx = cols * 0.5;
+      var cy = rows * 0.23;
+      var titleMask = getTarotTitleMask(cols, rows) || {
+        left: Math.max(0, Math.floor(cols * 0.39)),
+        right: Math.min(cols - 1, Math.floor(cols * 0.61)),
+        top: Math.max(0, Math.floor(rows * 0.085)),
+        bottom: Math.min(rows - 1, Math.floor(rows * 0.19))
+      };
+      var y;
+
+      for (y = 0; y < rows; y += 1) {
+        var x;
+        var row = "";
+        for (x = 0; x < cols; x += 1) {
+          var nx = (x - cx) / Math.max(1, cols * 0.5);
+          var ny = (y - cy) / Math.max(1, rows * 0.5);
+          var radius = Math.sqrt(nx * nx + ny * ny) + 0.0001;
+          var theta = Math.atan2(ny, nx);
+          var swirl = Math.sin(theta * 8.2 - timeSeconds * 1.35 + radius * 30);
+          var rings = Math.cos(radius * 46 - timeSeconds * 2.1);
+          var drift = Math.sin((nx * 11.5) + (ny * 10.2) + timeSeconds * 2.35);
+          var value = (swirl * 0.5) + (rings * 0.34) + (drift * 0.16);
+          var normalized = Math.max(0, Math.min(1, (value + 1) / 2));
+          var index = Math.floor(normalized * (tarotBackgroundChars.length - 1));
+          var character = tarotBackgroundChars.charAt(index);
+          var inTitleSafeZone = titleMask && y >= titleMask.top && y <= titleMask.bottom && x >= titleMask.left && x <= titleMask.right;
+
+          if (inTitleSafeZone) {
+            var targetLogoCharacter = logoCharAt(x, y, titleMask);
+            if (targetLogoCharacter !== " ") {
+              character = " ";
+            }
+          }
+
+          row += character;
+        }
+        lines.push(row);
+      }
+
+      return lines.join("\n");
+    }
+
+    function drawTarotBackgroundFrame(timestamp) {
+      var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var minFrameDuration = reducedMotion ? 250 : 70;
+
+      if (!tarotBackgroundArt) {
+        return;
+      }
+
+      if (document.visibilityState !== "visible") {
+        tarotBackgroundRafId = window.requestAnimationFrame(drawTarotBackgroundFrame);
+        return;
+      }
+
+      if (!tarotBackgroundLastFrame || timestamp - tarotBackgroundLastFrame >= minFrameDuration) {
+        tarotBackgroundLastFrame = timestamp;
+        tarotBackgroundArt.textContent = generateTarotBackgroundFrame(timestamp * 0.001);
+      }
+
+      tarotBackgroundRafId = window.requestAnimationFrame(drawTarotBackgroundFrame);
+    }
+
+    function startTarotBackgroundAnimation() {
+      if (!tarotBackgroundArt || tarotBackgroundRafId) {
+        return;
+      }
+
+      tarotLogoAscii = getTitleAsciiLines();
+      tarotBackgroundLastFrame = 0;
+      try {
+        tarotBackgroundArt.textContent = generateTarotBackgroundFrame(0);
+      } catch (error) {
+        tarotBackgroundArt.textContent = Array(32).join("MWX08#@*+=-:.").slice(0, 320);
+      }
+      if (tarotTitle) {
+        tarotTitle.style.color = "";
+        tarotTitle.style.textShadow = "";
+      }
+      tarotBackgroundRafId = window.requestAnimationFrame(drawTarotBackgroundFrame);
+      window.setTimeout(function () {
+        if (tarotBackgroundArt && !tarotBackgroundArt.textContent.trim()) {
+          tarotBackgroundArt.textContent = "MWX08#@*+=-:. ".repeat(260);
+        }
+      }, 120);
     }
 
     function applyAsciiTypography() {
@@ -1885,6 +2186,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
+    startTarotBackgroundAnimation();
     setSpread(tarotSidebarSpreadSelect ? tarotSidebarSpreadSelect.value : "single");
     applyAsciiTypography();
     tarotState.deckPool = shuffleDeck(buildTarotDeck());
@@ -1896,6 +2198,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   createTarotExperience();
+  initializeInstagramEmbeds();
+  initializeMobileTouchCursor();
 
   window.addEventListener("resize", function () {
     if (window.innerWidth > 960) {

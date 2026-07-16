@@ -5,8 +5,9 @@
 {% assign blue_sky_projects = published_projects | where: "category", "Blue Sky & Concept Art" %}
 {% assign sketchbook_projects = published_projects | where: "category", "Sketchbook" %}
 
-<div class="home-explorer-column">
+<div class="home-explorer-column" id="home-nav-panel" data-home-nav-panel aria-label="Site navigation">
   <div class="home-explorer-toolbar">
+    <button type="button" class="home-nav-close" data-home-nav-close aria-label="Close navigation drawer">[Close]</button>
     <button type="button" class="home-theme-toggle" data-home-theme-toggle aria-pressed="false">dark mode: off</button>
   </div>
 

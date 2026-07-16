@@ -6,45 +6,14 @@ permalink: /tarot/
 
 <section class="finder-tarot-experience tarot-standalone-experience" data-tarot-root>
   <div class="tarot-standalone-shell">
-    <aside class="tarot-reading-sidebar" aria-label="Tarot controls">
-      <p class="finder-pane-eyebrow">Divination Terminal</p>
-      <div class="finder-tarot-controls-panel">
-        <label class="finder-tarot-sidebar-label" for="finder-tarot-spread-select">Choose spread</label>
-        <select class="finder-tarot-sidebar-select" id="finder-tarot-spread-select" data-tarot-spread-select>
-          <option value="single">Single card</option>
-          <option value="three-card">Three-card spread</option>
-          <option value="celtic-cross">Celtic Cross spread</option>
-        </select>
-        <label class="finder-tarot-sidebar-label" for="finder-tarot-font-select">ASCII font</label>
-        <select class="finder-tarot-sidebar-select" id="finder-tarot-font-select" data-tarot-font-select>
-          <option value="terminal-gothic">Terminal Gothic</option>
-          <option value="ink-snare">Ink Snare</option>
-          <option value="tenebris">Tenebris</option>
-          <option value="gairaigo">Gairaigo</option>
-          <option value="skeletext">Skeletext</option>
-          <option value="t64">T64</option>
-          <option value="cultist-script">Cultist Script</option>
-          <option value="mycelium-og">Mycelium OG</option>
-          <option value="ibm-mda">Web437 IBM MDA</option>
-          <option value="system-mono">System monospace</option>
-        </select>
-        <label class="finder-tarot-sidebar-label" for="finder-tarot-font-size-select">ASCII size</label>
-        <select class="finder-tarot-sidebar-select" id="finder-tarot-font-size-select" data-tarot-font-size-select>
-          <option value="0.75">0.75x</option>
-          <option value="0.9">0.9x</option>
-          <option value="1" selected>1x</option>
-          <option value="1.15">1.15x</option>
-          <option value="1.3">1.3x</option>
-        </select>
-        <p class="finder-tarot-sidebar-status" data-tarot-sidebar-status>Ready for a new reading.</p>
-      </div>
-    </aside>
-
     <section class="finder-tarot-stage" aria-labelledby="finder-tarot-prompt">
+      <div class="finder-tarot-background" aria-hidden="true">
+        <pre class="finder-tarot-background-art" data-tarot-bg-art></pre>
+      </div>
       <header class="finder-tarot-header">
         <div>
           <h1 class="finder-tarot-sr-title">Oracle Card</h1>
-          <pre class="finder-tarot-title" aria-hidden="true">
+          <pre class="finder-tarot-title" data-tarot-logo-source aria-hidden="true">
   ___   ____      _    ____ _     _____    ____    _    ____  ____
  / _ \ |  _ \    / \  / ___| |   | ____|  / ___|  / \  |  _ \|  _ \
 | | | || |_) |  / _ \| |   | |   |  _|   | |     / _ \ | |_) | | | |
@@ -104,6 +73,40 @@ permalink: /tarot/
         </p>
       </section>
     </section>
+
+    <aside class="tarot-reading-sidebar" aria-label="Tarot controls">
+      <p class="finder-pane-eyebrow">Divination Terminal</p>
+      <div class="finder-tarot-controls-panel">
+        <label class="finder-tarot-sidebar-label" for="finder-tarot-spread-select">Choose spread</label>
+        <select class="finder-tarot-sidebar-select" id="finder-tarot-spread-select" data-tarot-spread-select>
+          <option value="single">Single card</option>
+          <option value="three-card">Three-card spread</option>
+          <option value="celtic-cross">Celtic Cross spread</option>
+        </select>
+        <label class="finder-tarot-sidebar-label" for="finder-tarot-font-select">ASCII font</label>
+        <select class="finder-tarot-sidebar-select" id="finder-tarot-font-select" data-tarot-font-select>
+          <option value="terminal-gothic">Terminal Gothic</option>
+          <option value="ink-snare">Ink Snare</option>
+          <option value="tenebris">Tenebris</option>
+          <option value="gairaigo">Gairaigo</option>
+          <option value="skeletext">Skeletext</option>
+          <option value="t64">T64</option>
+          <option value="cultist-script">Cultist Script</option>
+          <option value="mycelium-og">Mycelium OG</option>
+          <option value="ibm-mda">Web437 IBM MDA</option>
+          <option value="system-mono">System monospace</option>
+        </select>
+        <label class="finder-tarot-sidebar-label" for="finder-tarot-font-size-select">ASCII size</label>
+        <select class="finder-tarot-sidebar-select" id="finder-tarot-font-size-select" data-tarot-font-size-select>
+          <option value="0.75">0.75x</option>
+          <option value="0.9">0.9x</option>
+          <option value="1" selected>1x</option>
+          <option value="1.15">1.15x</option>
+          <option value="1.3">1.3x</option>
+        </select>
+        <p class="finder-tarot-sidebar-status" data-tarot-sidebar-status>Ready for a new reading.</p>
+      </div>
+    </aside>
   </div>
 </section>
 

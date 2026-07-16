@@ -30,3 +30,25 @@ My next step after sanding them completely smooth (a process spend up with an an
 !["Installed 1"](/assets/sculpture/2015nightmushroooms1.jpg)
 
 !["Installed 2"](/assets/sculpture/2015glowresinmushrooms6.jpg)
+
+## Presented on Social Media as...
+
+![Instagram post](/assets/sculpture/instagram/instagram--6-sgQiMql.jpg)
+*Caption:* #bioluminescent #mushrooms #night #glow #sculpture #RISD #wynnthorn
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/-6-sgQiMql/)
+
+
+
+![Instagram post](/assets/sculpture/instagram/instagram--6-Z5RCMp8.jpg)
+*Caption:* #mushrooms #sculpture #RISD #wynnthorn
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/-6-Z5RCMp8/)
+
+
+
+![Instagram post](/assets/sculpture/instagram/instagram--6-CqfCMpL.jpg)
+*Caption:* #mushrooms #sculpture #RISD #installation #wynnthorn
+[View original post](https://www.instagram.com/nostalgiapurgatory/p/-6-CqfCMpL/)
+
+
+
+

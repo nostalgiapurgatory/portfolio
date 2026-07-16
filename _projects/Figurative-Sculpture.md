@@ -458,3 +458,13 @@ This piece was made from deconstructed belle époque wallpaper, cut and arranged
     <img src="/assets/sculpture/wallflowers4.jpg" alt="Smelling Wallflowers 04">
   </button>
 </div>
+
+## Instagram Reel: Ouija
+
+![Instagram post](/assets/sculpture/instagram/instagram-BCv7nKBCMs-.jpg)
+*Caption:* #ouija #yesnogoodbye #mementomori
+[View original post](https://www.instagram.com/nostalgiapurgatory/reel/BCv7nKBCMs-/)
+
+
+
+
