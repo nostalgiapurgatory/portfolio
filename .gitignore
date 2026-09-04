@@ -13,6 +13,7 @@ scripts/generate-role-portfolio-pdfs.py
 scripts/export-buried-giant-fabricator-set.py
 scripts/export-tbg-art-direction-portfolio-pdf.py
 assets/c__Users_Jaden_Andrea_AppData_Roaming_Cursor_User_workspaceStorage_15f20a196152e26b017af5dbeeab7dd3_images_*
+assets/_cursor-staging/
 
 # Private/local-only workspaces and drafts
 private/

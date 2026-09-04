@@ -4367,6 +4367,11 @@ body.finder-home-page.home-dark .home-resume-button:focus-visible {
   background: var(--home-bg);
 }
 
+.home-explorer-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .home-explorer-toolbar {
   border-bottom: 1px solid var(--home-border);
   padding: 0.35rem 0.45rem;
@@ -4383,8 +4388,22 @@ body.finder-home-page.home-dark .home-resume-button:focus-visible {
 }
 
 .home-tree {
+  flex: 1 1 auto;
   padding: 0.5rem 0.4rem 0.8rem;
   font-size: 0.92rem;
+}
+
+.home-sidebar-circuit {
+  flex: 0 0 auto;
+  margin-top: auto;
+  width: 100%;
+  padding: 0;
+  border-top: 1px solid var(--home-border);
+}
+
+.home-sidebar-circuit .home-pcb-window {
+  width: 100%;
+  margin: 0;
 }
 
 .home-folder {
@@ -4562,128 +4581,226 @@ body.finder-home-page.finder-page-pixel-art .home-preview-document .finder-stat 
   background: #fff;
 }
 
-.home-circuit-panel {
-  border: 0;
-  background: transparent;
-  padding: 0;
-  display: grid;
-  place-items: center;
+.home-pcb-window {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aeb8c8;
+  background: #ffffff;
+  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
 }
 
-.home-circuit-stage {
+body.finder-home-page:not(.home-dark) .home-pcb-window,
+body.finder-home-page:not(.home-dark) .home-pcb-canvas {
+  background: #ffffff;
+}
+
+.home-pcb-titlebar {
+  padding: 0.3rem 0.45rem;
+  border-bottom: 1px solid #aeb8c8;
+  background: #f2f5f9;
+  color: #25334a;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-pcb-tabs {
+  display: flex;
+  gap: 0.22rem;
+  padding: 0.3rem 0.34rem 0;
+  background: #f7f9fc;
+}
+
+.home-pcb-tab {
+  font: inherit;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  color: #596a83;
+  background: #e8edf4;
+  border: 1px solid #aeb8c8;
+  border-bottom: none;
+  padding: 0.24rem 0.7rem;
+  cursor: var(--site-cursor-pointer);
+}
+
+.home-pcb-tab.is-active {
+  color: #152238;
+  background: #ffffff;
+  border-color: #8999af;
+}
+
+.home-pcb-canvas {
   position: relative;
-  width: min(100%, 22rem);
-  aspect-ratio: 50.9 / 89;
+  width: 100%;
+  aspect-ratio: 68.9 / 104.7;
+  overflow: hidden;
+  user-select: none;
+  border-top: 1px solid #8999af;
+  background: #ffffff;
+  cursor: grab;
+  touch-action: none;
 }
 
-.home-circuit-image {
+.home-pcb-canvas:active,
+.home-pcb-canvas.is-panning {
+  cursor: grabbing;
+}
+
+/*
+ * The dot grid sits on the canvas instead of inside the board SVG so it covers
+ * the panel edge to edge no matter how far the stage is panned. home-explorer.js
+ * keeps the size and origin in step with the stage transform.
+ */
+.home-pcb-canvas::before {
+  content: "";
   position: absolute;
   inset: 0;
-  display: block;
-  width: 100%;
-  aspect-ratio: 50.9 / 89;
-  max-height: 100%;
-  object-fit: contain;
+  pointer-events: none;
+  opacity: 0;
+  background-image: radial-gradient(circle, var(--home-pcb-grid-dot, #848484) 0.6px, transparent 0.6px);
+  background-size: var(--home-pcb-grid-size, 30px) var(--home-pcb-grid-size, 30px);
+  background-position: var(--home-pcb-grid-x, 0px) var(--home-pcb-grid-y, 0px);
+  /* Matches .home-pcb-stage so the dots and the board ease together on zoom. */
+  transition: background-position 0.06s linear, background-size 0.06s linear;
+}
+
+.home-pcb-canvas.has-grid::before {
+  opacity: 1;
+}
+
+.home-pcb-stage {
+  position: absolute;
+  inset: 0;
   transform-origin: center center;
+  transition: transform 0.06s linear;
 }
 
-.home-circuit-image-base {
-  transform: rotate(90deg);
+/* A drag has to track the cursor exactly, so drop the zoom easing mid-gesture. */
+.home-pcb-canvas.is-panning .home-pcb-stage,
+.home-pcb-canvas.is-panning::before {
+  transition: none;
 }
 
-.home-circuit-image-overlay {
-  transform: rotate(90deg) scaleX(-1);
-  opacity: 0.92;
-  mix-blend-mode: multiply;
-  filter: none;
+.home-pcb-view {
+  position: absolute;
+  inset: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* Stops the browser hijacking a pan with a native image drag. */
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
-body.finder-home-page.home-dark .home-circuit-image-base,
-body.finder-home-page.home-dark .home-circuit-image-overlay {
-  filter: invert(1);
+.home-pcb-view.is-active {
+  display: block;
 }
 
-body.finder-home-page.home-dark .home-circuit-image-overlay {
-  mix-blend-mode: normal;
+/*
+ * The renders ship with KiCad's baked rectangular shadow stripped (see
+ * scripts/tone-pcb-copper.py), so depth comes from here instead: a tight
+ * contact shadow plus a wide ambient one, both tracing the board's real alpha
+ * edge. The flat pcbnew view is a schematic, so it stays unlit.
+ */
+.home-pcb-view[data-pcb-view^="render"] {
+  filter:
+    drop-shadow(0 1px 1px rgba(10, 14, 24, 0.32))
+    drop-shadow(0 9px 16px rgba(10, 14, 24, 0.24));
 }
 
-.home-circuit-bg {
-  fill: var(--home-circuit-bg);
+.home-pcb-hint {
+  margin: 0;
+  padding: 0.32rem 0.3rem;
+  border-top: 1px solid #aeb8c8;
+  background: #f7f9fc;
+  color: #596a83;
+  font-size: 0.7rem;
+  text-align: center;
 }
 
-.home-circuit-trace,
-.home-circuit-plus {
-  stroke: var(--home-circuit-trace);
-  stroke-width: 2;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+/* Keep the download phrase intact so a narrow panel breaks before "[click]"
+   rather than stranding "gerbers" on a line of its own. */
+.home-pcb-hint-action {
+  white-space: nowrap;
 }
 
-.home-circuit-node {
-  fill: var(--home-circuit-node);
-  opacity: 0.9;
+.home-pcb-download {
+  font: inherit;
+  color: #c1262f;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: var(--site-cursor-pointer);
 }
 
-.home-circuit-pad {
-  fill: var(--home-circuit-pad);
-  opacity: 0.92;
+.home-pcb-download:hover,
+.home-pcb-download:focus-visible {
+  text-decoration: underline;
 }
 
-.home-circuit-outline {
-  fill: none;
-  stroke: var(--home-circuit-outline);
-  stroke-width: 2;
+body.finder-home-page.home-dark .home-pcb-window {
+  border-color: #536b93;
+  background: #0f1422;
 }
 
-.home-circuit-coffin {
-  fill: var(--home-circuit-coffin);
-  opacity: 0.9;
+body.finder-home-page.home-dark .home-pcb-titlebar {
+  border-color: #536b93;
+  background: #151d30;
+  color: #c9d9f5;
 }
 
-.home-circuit-component {
-  fill: var(--home-circuit-node);
-  opacity: 0.55;
+body.finder-home-page.home-dark .home-pcb-tabs,
+body.finder-home-page.home-dark .home-pcb-hint {
+  background: #121c30;
 }
 
-.home-circuit-keyhole-top,
-.home-circuit-keyhole-stem {
-  fill: var(--home-circuit-keyhole);
+body.finder-home-page.home-dark .home-pcb-tab {
+  color: #9fb2d3;
+  background: #18243a;
+  border-color: #536b93;
 }
 
-.home-circuit-battery {
-  fill: var(--home-circuit-battery);
-  stroke: var(--home-circuit-trace);
-  stroke-width: 2;
+body.finder-home-page.home-dark .home-pcb-tab.is-active {
+  color: #e5eeff;
+  background: #0f1422;
+  border-color: #8a9fc4;
 }
 
-.home-circuit-plus-ring {
-  fill: none;
-  stroke: var(--home-circuit-trace);
-  stroke-width: 1.6;
+body.finder-home-page.home-dark .home-pcb-canvas {
+  border-color: #8a9fc4;
+  background: #0f1422;
 }
 
-.home-circuit-label {
-  fill: rgba(240, 245, 255, 0.8);
-  font-size: 20px;
-  font-family: "Web437 IBM MDA", "Courier New", Courier, monospace;
-  text-anchor: middle;
+/* A dark shadow reads as nothing against the navy, so lift the matte black off
+   the background with a faint rim in the panel's own border colour instead. */
+body.finder-home-page.home-dark .home-pcb-view[data-pcb-view^="render"] {
+  filter:
+    drop-shadow(0 0 1px rgba(138, 159, 196, 0.5))
+    drop-shadow(0 12px 24px rgba(0, 0, 0, 0.55));
 }
 
-.home-circuit-label-large {
-  font-size: 58px;
-  fill: rgba(240, 245, 255, 0.72);
+body.finder-home-page.home-dark .home-pcb-hint {
+  border-color: #536b93;
+  color: #9fb2d3;
 }
 
-.home-circuit-label-small {
-  font-size: 40px;
-  fill: rgba(240, 245, 255, 0.78);
+body.finder-home-page.home-dark .home-pcb-download {
+  color: #ff6b6b;
 }
 
+/* Fixed height, shared with the rich variant below, so the contact form does
+   not jump as the preview swaps between ASCII art and the thumbnail grid.
+   Sized to the largest category (Immersive Art Design & Fabrication, eight
+   projects) at three columns, so no preview has to scroll. */
 .home-preview-art {
   margin: 0;
-  min-height: 10.2rem;
-  height: 10.2rem;
+  min-height: 41rem;
+  height: 41rem;
   border: 1px dashed var(--home-border);
   padding: 0.7rem;
   white-space: pre;
@@ -4695,8 +4812,8 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
 
 .home-preview-art-rich {
   white-space: normal;
-  min-height: 10.2rem;
-  height: 10.2rem;
+  min-height: 41rem;
+  height: 41rem;
   padding: 0.45rem;
 }
 
@@ -4706,9 +4823,11 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
   gap: 0.45rem;
 }
 
+/* auto-fill rather than a fixed three, so the tracks drop to two or one as the
+   preview column narrows instead of crushing the thumbnails. */
 .home-featured-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 0.6rem;
 }
 
@@ -4725,20 +4844,32 @@ body.finder-home-page.home-dark .home-circuit-image-overlay {
   font-weight: bold;
 }
 
+/* Image above the label rather than beside it, so the thumbnail gets the full
+   card width instead of competing with the title for horizontal space. */
 .home-featured-project {
   width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
   border: 1px solid var(--home-border);
   padding: 0.3rem;
 }
 
 .home-featured-project img {
-  width: 46px;
-  height: 46px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border: 1px solid var(--home-border);
 }
 
-.home-featured-title:hover,
+/* Gallery tiles carry no label, so they hug their image rather than stretching
+   to match the taller labelled card sharing their row. */
+.home-featured-tile {
+  align-self: start;
+}
+
+/* The category preview's heading is a plain span, so only highlight real links. */
+a.home-featured-title:hover,
 .home-featured-project:hover {
   background: var(--home-highlight);
 }

@@ -7,7 +7,7 @@ pane_intro: RISD Sculpture and Interior Architecture alum, Immersive Entertainme
 
 I am an immersive artist, designer, and classically trained sculptor. I have art directed software used by millions, was instrumental in designing and fabricating **[Burning Man](/blunderwood/)** Honoraria work, and consult repeatedly with design firms such as **[IDEO](https://www.ideo.com/)**. I am equally comfortable with long hours welding in the desert, building scenic environments, or designing circuit boards, 3D models, and embedded firmware.
 
-![Jaden Andrea](/assets/jaden.jpg){:width="70%"}
+![Jaden Andrea](/assets/img/jaden.jpg){:width="70%"}
 
 I graduated from **RISD** with a BFA in Sculpture, where I built the foundation of my [figurative](/sculpture/) and [metal](/weldedleaf/) practice, including my thesis project [Nostalgia Purgatory](/nostalgiapurgatory/). Today, I continue that same build-first approach across immersive environments, from **[custom electronics](/voltavox/)** and PCB integration to scenic fabrication and systems-level creative direction.
 

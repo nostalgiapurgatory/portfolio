@@ -18,11 +18,11 @@
         <span>home:/</span>
       </summary>
       <div class="home-folder-items">
-        <a class="home-file-link{% if page.url == '/about/' %} is-active{% endif %}" href="{{ site.baseurl }}/about/" data-home-preview="aboutPage" data-home-thumbnail="{{ '/assets/jaden.jpg' | relative_url }}">
+        <a class="home-file-link{% if page.url == '/about/' %} is-active{% endif %}" href="{{ site.baseurl }}/about/" data-home-preview="aboutPage" data-home-thumbnail="{{ '/assets/img/jaden.jpg' | relative_url }}">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>about.md</span>
         </a>
-        <a class="home-file-link{% if page.url == '/resume/' %} is-active{% endif %}" href="{{ site.baseurl }}/resume/" data-home-preview="resumePage" data-home-thumbnail="{{ '/assets/jaden.jpg' | relative_url }}">
+        <a class="home-file-link{% if page.url == '/resume/' %} is-active{% endif %}" href="{{ site.baseurl }}/resume/" data-home-preview="resumePage" data-home-thumbnail="{{ '/assets/img/jaden.jpg' | relative_url }}">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>resume.md</span>
         </a>
@@ -62,7 +62,7 @@
           </summary>
           <div class="home-folder-items">
             {% for project in folder_projects %}
-            <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/jaden.jpg' | relative_url }}">
+            <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/img/jaden.jpg' | relative_url }}">
               <span class="home-icon home-icon-file" aria-hidden="true"></span>
               <span>{{ project.title }}</span>
             </a>
@@ -75,7 +75,7 @@
               </summary>
               <div class="home-folder-items">
                 {% for project in blue_sky_projects %}
-                <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/jaden.jpg' | relative_url }}">
+                <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/img/jaden.jpg' | relative_url }}">
                   <span class="home-icon home-icon-file" aria-hidden="true"></span>
                   <span>{{ project.title }}</span>
                 </a>
@@ -91,7 +91,7 @@
               </summary>
               <div class="home-folder-items">
                 {% for project in digital_illustration_projects %}
-                <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/jaden.jpg' | relative_url }}">
+                <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/img/jaden.jpg' | relative_url }}">
                   <span class="home-icon home-icon-file" aria-hidden="true"></span>
                   <span>{{ project.title }}</span>
                 </a>
@@ -107,7 +107,7 @@
               </summary>
               <div class="home-folder-items">
                 {% for project in sketchbook_projects %}
-                <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/jaden.jpg' | relative_url }}">
+                <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/img/jaden.jpg' | relative_url }}">
                   <span class="home-icon home-icon-file" aria-hidden="true"></span>
                   <span>{{ project.title }}</span>
                 </a>
@@ -131,7 +131,7 @@
           </summary>
           <div class="home-folder-items">
             {% for project in folder_projects %}
-            <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/jaden.jpg' | relative_url }}">
+            <a class="home-file-link{% if page.url == project.url %} is-active{% endif %}" href="{{ project.url }}" data-home-preview="projectFile" data-home-thumbnail="{{ project.image | default: '/assets/img/jaden.jpg' | relative_url }}">
               <span class="home-icon home-icon-file" aria-hidden="true"></span>
               <span>{{ project.title }}</span>
             </a>
@@ -171,15 +171,67 @@
         <span>misc/</span>
       </summary>
       <div class="home-folder-items">
-        <a class="home-file-link{% if page.url == '/tarot/' %} is-active{% endif %}" href="{{ site.baseurl }}/tarot/" data-home-preview="tarotPage" data-home-thumbnail="{{ '/assets/jaden.jpg' | relative_url }}">
+        <a class="home-file-link{% if page.url == '/tarot/' %} is-active{% endif %}" href="{{ site.baseurl }}/tarot/" data-home-preview="tarotPage" data-home-thumbnail="{{ '/assets/img/jaden.jpg' | relative_url }}">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>tarot.md</span>
         </a>
-        <a class="home-file-link{% if page.url == '/bygone-archive/' %} is-active{% endif %}" href="{{ site.baseurl }}/bygone-archive/" data-home-preview="archivePage" data-home-thumbnail="{{ '/assets/jaden.jpg' | relative_url }}">
+        <a class="home-file-link{% if page.url == '/bygone-archive/' %} is-active{% endif %}" href="{{ site.baseurl }}/bygone-archive/" data-home-preview="archivePage" data-home-thumbnail="{{ '/assets/img/jaden.jpg' | relative_url }}">
           <span class="home-icon home-icon-file" aria-hidden="true"></span>
           <span>bygone-archive.md</span>
         </a>
       </div>
     </details>
   </nav>
+  {% if page.url == '/' %}
+  <div class="home-sidebar-circuit">
+    <div
+      class="home-pcb-window"
+      data-pcb-viewer
+      data-pcb-download="{{ site.baseurl }}/assets/pcb/downloads/jadenandrea_designs_boards_too_rev00.zip"
+      data-pcb-download-name="jadenandrea_designs_boards_too_rev00.zip"
+    >
+      <div class="home-pcb-titlebar">
+        <span class="home-pcb-title">jadenandrea_designs_boards_too_rev00</span>
+      </div>
+      <div class="home-pcb-tabs" role="tablist" aria-label="Board views">
+        <button type="button" class="home-pcb-tab is-active" role="tab" aria-selected="true" data-pcb-tab="pcbnew">pcbnew</button>
+        <button type="button" class="home-pcb-tab" role="tab" aria-selected="false" data-pcb-tab="render">3d</button>
+        <button type="button" class="home-pcb-tab" role="tab" aria-selected="false" data-pcb-tab="render-reverse">3d reverse</button>
+      </div>
+      <div
+        class="home-pcb-canvas"
+        data-pcb-canvas
+        role="img"
+        aria-label="Board viewer. Scroll or pinch to zoom, drag to pan."
+      >
+        <div class="home-pcb-stage" data-pcb-stage>
+          <img
+            class="home-pcb-view is-active"
+            data-pcb-view="pcbnew"
+            draggable="false"
+            src="{{ site.baseurl }}/assets/pcb/business-card-rev00-pcbnew.svg?v=20260902-pcb12"
+            alt="KiCad board editor view of the business card PCB, showing copper traces, pads and the coffin keyhole zone"
+          >
+          <img
+            class="home-pcb-view"
+            data-pcb-view="render"
+            draggable="false"
+            src="{{ site.baseurl }}/assets/pcb/business-card-rev00-3d-top.png?v=20260902-pcb14"
+            alt="Fabricated matte-black business card PCB with polished copper and a routed keyhole cutout"
+            loading="lazy"
+          >
+          <img
+            class="home-pcb-view"
+            data-pcb-view="render-reverse"
+            draggable="false"
+            src="{{ site.baseurl }}/assets/pcb/business-card-rev00-3d-bottom.png?v=20260902-pcb14"
+            alt="Matte-black reverse of the fabricated business card PCB with a keyhole cutout, components, polished copper, and white company-name silkscreen"
+            loading="lazy"
+          >
+        </div>
+      </div>
+      <p class="home-pcb-hint">scroll to zoom · drag to pan · <span class="home-pcb-hint-action"><button type="button" class="home-pcb-download" data-pcb-download-button>[click]</button> to download gerbers</span></p>
+    </div>
+  </div>
+  {% endif %}
 </div>

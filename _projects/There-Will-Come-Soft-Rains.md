@@ -15,7 +15,6 @@ This installation project was inspired by Ray Bradbury's *There Will Come Soft R
 ![](/assets/therewillcomesoftrains/20171102_173751.jpg)
 ![](/assets/therewillcomesoftrains/20171102_173845.jpg)
 ![](/assets/therewillcomesoftrains/20171102_173956.jpg)
-![](/assets/therewillcomesoftrains/20171102_173958.jpg)
 ![](/assets/therewillcomesoftrains/20171102_174117.jpg)
 ![](/assets/therewillcomesoftrains/20171102_174146.jpg)
 ![](/assets/therewillcomesoftrains/20171102_174224.jpg)
