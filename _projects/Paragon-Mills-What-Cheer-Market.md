@@ -48,11 +48,11 @@ The mill building is beautifully lit by three large skylights and many wall heig
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/intar/img_20150318_122140.jpg" data-gallery-title="Paragon Mills market model photo 04">
     <img src="/assets/intar/img_20150318_122140.jpg" alt="Paragon Mills market model photo 04">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/intar/portfolioparagon5.jpg" data-gallery-title="Paragon Mills market model photo 05">
-    <img src="/assets/intar/portfolioparagon5.jpg" alt="Paragon Mills market model photo 05">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/intar/paragon-mills-portfolio-paragon-5.jpg" data-gallery-title="Paragon Mills market model photo 05">
+    <img src="/assets/intar/paragon-mills-portfolio-paragon-5.jpg" alt="Paragon Mills market model photo 05">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/intar/portfolioparagon6.jpg" data-gallery-title="Paragon Mills market model photo 06">
-    <img src="/assets/intar/portfolioparagon6.jpg" alt="Paragon Mills market model photo 06">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/intar/paragon-mills-portfolio-paragon-6.jpg" data-gallery-title="Paragon Mills market model photo 06">
+    <img src="/assets/intar/paragon-mills-portfolio-paragon-6.jpg" alt="Paragon Mills market model photo 06">
   </button>
 </div>
 

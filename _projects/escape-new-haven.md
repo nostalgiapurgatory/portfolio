@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Escape New Haven
-image: /assets/escapeindustries/escapethumbnail.png
+image: /assets/escapeindustries/escape-new-haven-thumbnail.png
 permalink: /escaperooms/
 category: Immersive Art Design & Fabrication
 time: 2020-01-01
@@ -12,17 +12,17 @@ status: publish
 In 2020, during COVID-19 lockdowns, I was contracted by Escape Industries in New Haven, CT to help design outdoor escape room games where families could explore urban and park environments together and have immersive fun while staying safely in open air.
 
 <div class="finder-gallery-grid">
-  <button class="finder-gallery-item" style="grid-column: 1 / -1;" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/InstalledPuzzleSculpture.jpg" data-gallery-title="Installed Puzzle Sculpture">
-    <img src="/assets/escapeindustries/InstalledPuzzleSculpture.jpg" alt="Installed Puzzle Sculpture" style="aspect-ratio: 16 / 9;">
+  <button class="finder-gallery-item" style="grid-column: 1 / -1;" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/escape-new-haven-installed-puzzle-sculpture.jpg" data-gallery-title="Installed Puzzle Sculpture">
+    <img src="/assets/escapeindustries/escape-new-haven-installed-puzzle-sculpture.jpg" alt="Installed Puzzle Sculpture" style="aspect-ratio: 16 / 9;">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/PuzzleSculpture1.jpg" data-gallery-title="Puzzle Sculpture 01">
-    <img src="/assets/escapeindustries/PuzzleSculpture1.jpg" alt="Puzzle Sculpture 01">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/escape-new-haven-puzzle-sculpture-1.jpg" data-gallery-title="Puzzle Sculpture 01">
+    <img src="/assets/escapeindustries/escape-new-haven-puzzle-sculpture-1.jpg" alt="Puzzle Sculpture 01">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/PuzzleSculpture2.jpg" data-gallery-title="Puzzle Sculpture 02">
-    <img src="/assets/escapeindustries/PuzzleSculpture2.jpg" alt="Puzzle Sculpture 02">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/escape-new-haven-puzzle-sculpture-2.jpg" data-gallery-title="Puzzle Sculpture 02">
+    <img src="/assets/escapeindustries/escape-new-haven-puzzle-sculpture-2.jpg" alt="Puzzle Sculpture 02">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/PuzzleSculpture3.jpg" data-gallery-title="Puzzle Sculpture 03">
-    <img src="/assets/escapeindustries/PuzzleSculpture3.jpg" alt="Puzzle Sculpture 03">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/escape-new-haven-puzzle-sculpture-3.jpg" data-gallery-title="Puzzle Sculpture 03">
+    <img src="/assets/escapeindustries/escape-new-haven-puzzle-sculpture-3.jpg" alt="Puzzle Sculpture 03">
   </button>
 </div>
 
@@ -43,10 +43,10 @@ I designed puzzle systems, digitally painted worldbuilding assets, and created g
 As part of the outdoor adventure park installation, I sculpted wooden puzzle totems and developed concept art variants to guide fabrication, visual language, and puzzle readability in natural settings.
 
 <div class="finder-gallery-grid">
-  <button class="finder-gallery-item" style="grid-column: 1 / -1;" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/ColumnsPuzzleConceptArt.PNG" data-gallery-title="Columns Puzzle Concept Art">
-    <img src="/assets/escapeindustries/ColumnsPuzzleConceptArt.PNG" alt="Columns Puzzle Concept Art" style="aspect-ratio: 16 / 9;">
+  <button class="finder-gallery-item" style="grid-column: 1 / -1;" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/escape-new-haven-columns-puzzle-concept-art.png" data-gallery-title="Columns Puzzle Concept Art">
+    <img src="/assets/escapeindustries/escape-new-haven-columns-puzzle-concept-art.png" alt="Columns Puzzle Concept Art" style="aspect-ratio: 16 / 9;">
   </button>
-  <button class="finder-gallery-item" style="grid-column: 1 / -1;" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/ColumnsPuzzleConceptArt1.PNG" data-gallery-title="Columns Puzzle Concept Art Variant">
-    <img src="/assets/escapeindustries/ColumnsPuzzleConceptArt1.PNG" alt="Columns Puzzle Concept Art Variant" style="aspect-ratio: 16 / 9;">
+  <button class="finder-gallery-item" style="grid-column: 1 / -1;" type="button" data-gallery-item data-gallery-src="/assets/escapeindustries/escape-new-haven-columns-puzzle-concept-art-1.png" data-gallery-title="Columns Puzzle Concept Art Variant">
+    <img src="/assets/escapeindustries/escape-new-haven-columns-puzzle-concept-art-1.png" alt="Columns Puzzle Concept Art Variant" style="aspect-ratio: 16 / 9;">
   </button>
 </div>

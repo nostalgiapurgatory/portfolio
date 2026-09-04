@@ -119,8 +119,8 @@ status: publish
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/manilla1.jpg" data-gallery-title="Manilla 1">
     <img src="/assets/sketchbook/manilla1.jpg" alt="Manilla 1">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/manilla2.jpg" data-gallery-title="Manilla 2">
-    <img src="/assets/sketchbook/manilla2.jpg" alt="Manilla 2">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sketchbook-manilla-2.jpg" data-gallery-title="Manilla 2">
+    <img src="/assets/sketchbook/sketchbook-manilla-2.jpg" alt="Manilla 2">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/manilla3.jpg" data-gallery-title="Manilla 3">
     <img src="/assets/sketchbook/manilla3.jpg" alt="Manilla 3">
@@ -158,20 +158,20 @@ status: publish
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/manilla14.jpg" data-gallery-title="Manilla 14">
     <img src="/assets/sketchbook/manilla14.jpg" alt="Manilla 14">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/npsketch1.jpg" data-gallery-title="NP Sketch 1">
-    <img src="/assets/sketchbook/npsketch1.jpg" alt="NP Sketch 1">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sketchbook-npsketch-1.jpg" data-gallery-title="NP Sketch 1">
+    <img src="/assets/sketchbook/sketchbook-npsketch-1.jpg" alt="NP Sketch 1">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/npsketch2.jpg" data-gallery-title="NP Sketch 2">
-    <img src="/assets/sketchbook/npsketch2.jpg" alt="NP Sketch 2">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sketchbook-npsketch-2.jpg" data-gallery-title="NP Sketch 2">
+    <img src="/assets/sketchbook/sketchbook-npsketch-2.jpg" alt="NP Sketch 2">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/npsketch3.jpg" data-gallery-title="NP Sketch 3">
-    <img src="/assets/sketchbook/npsketch3.jpg" alt="NP Sketch 3">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sketchbook-npsketch-3.jpg" data-gallery-title="NP Sketch 3">
+    <img src="/assets/sketchbook/sketchbook-npsketch-3.jpg" alt="NP Sketch 3">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/npsketch4.jpg" data-gallery-title="NP Sketch 4">
-    <img src="/assets/sketchbook/npsketch4.jpg" alt="NP Sketch 4">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sketchbook-npsketch-4.jpg" data-gallery-title="NP Sketch 4">
+    <img src="/assets/sketchbook/sketchbook-npsketch-4.jpg" alt="NP Sketch 4">
   </button>
-  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/npsketch5.jpg" data-gallery-title="NP Sketch 5">
-    <img src="/assets/sketchbook/npsketch5.jpg" alt="NP Sketch 5">
+  <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sketchbook-npsketch-5.jpg" data-gallery-title="NP Sketch 5">
+    <img src="/assets/sketchbook/sketchbook-npsketch-5.jpg" alt="NP Sketch 5">
   </button>
   <button class="finder-gallery-item" type="button" data-gallery-item data-gallery-src="/assets/sketchbook/sculpture_sketchbookscan2.jpg" data-gallery-title="Sculpture Sketchbook Scan 2">
     <img src="/assets/sketchbook/sculpture_sketchbookscan2.jpg" alt="Sculpture Sketchbook Scan 2">

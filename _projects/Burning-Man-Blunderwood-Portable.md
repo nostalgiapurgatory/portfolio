@@ -28,7 +28,7 @@ In 2015, I had just finished my second year of college studying interior archite
 !["Blunderwood Portable progress"](/assets/burningman/blunderwood_x6.png)
 !["Blunderwood Portable progress"](/assets/burningman/blunderwood_x7.png)
 
-!["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot.png)!["Blunderwood Portable progress"](/assets/burningman/AdditionstoCad.png)
+!["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot.png)!["Blunderwood Portable progress"](/assets/burningman/burning-man-additions-to-cad.png)
 !["Blunderwood Portable progress"](/assets/burningman/Additions1.png)
 !["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot1.png)!["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot2.png)
 !["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot3.png)!["Blunderwood Portable progress"](/assets/burningman/RhinoScreenshot4.png)
@@ -47,7 +47,7 @@ In 2015, I had just finished my second year of college studying interior archite
 
  !["Blunderwood Portable progress"](/assets/burningman/figmentdrill.jpg)
 
- !["Blunderwood Portable progress"](/assets/burningman/figmentspace.jpg)
+ !["Blunderwood Portable progress"](/assets/burningman/burning-man-figment-space.jpg)
 
  !["Blunderwood Portable progress"](/assets/burningman/figmentkids_1.jpg)
 

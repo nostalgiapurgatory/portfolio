@@ -25,3 +25,6 @@ job-applications/
 .venv*/
 scripts/__pycache__/
 scripts/export-neotropolis-thirteens-dues-packet.py
+scripts/private/
+assets/website/
+assets/Time Tourist/

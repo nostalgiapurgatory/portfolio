@@ -18,8 +18,8 @@ BUDGET
 TIMELINE
 !["TIMELINE"](/assets/revolutionarylabyrinth/HonorariaTimelineRevLabBM2020.xlsx)
 
-!["General Diagram"](/assets/revolutionarylabyrinth/1GeneralDiagram2.PNG)
-!["Exploded Diagram"](/assets/revolutionarylabyrinth/ExplodedDiagram1.PNG)
+!["General Diagram"](/assets/revolutionarylabyrinth/revolutionary-labyrinth-general-diagram-2.png)
+!["Exploded Diagram"](/assets/revolutionarylabyrinth/revolutionary-labyrinth-exploded-diagram-1.png)
 !["Exploded Diagram 2"](/assets/revolutionarylabyrinth/ExplodedDiagram2.PNG)
 !["Metal Fab"](/assets/revolutionarylabyrinth/MetalFabricationDiagram.PNG)
 !["Slipring and Bearing"](/assets/revolutionarylabyrinth/SlipringAndBearingDiagram.PNG)
@@ -36,7 +36,7 @@ The proposed structure is a series of  13 revolving alcoves, each with a unique
 !["Revit 1"](/assets/revolutionarylabyrinth/RevLab2020_1.png)
 !["Revit 2"](/assets/revolutionarylabyrinth/RevLab2020_2.png)
 !["Revit 3"](/assets/revolutionarylabyrinth/RevLabRevit_TestFirstPersonview.png)
-!["top"](/assets/revolutionarylabyrinth/top.JPG)!["iso"](/assets/revolutionarylabyrinth/Iso.jpg)!["corner"](/assets/revolutionarylabyrinth/corner.JPG)
+!["top"](/assets/revolutionarylabyrinth/top.JPG)!["iso"](/assets/revolutionarylabyrinth/revolutionary-labyrinth-iso.jpg)!["corner"](/assets/revolutionarylabyrinth/corner.JPG)
 
 
 Special thanks to my friend Carl Gruesz for his help with electrical engineering solutions!
