@@ -19,6 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
   var mobileNavBreakpoint = 900;
   var galleryLimit = 8;
   var galleryCache = Object.create(null);
+  // These stay collapsed on every page load unless the current URL lives inside
+  // them. Saved open/closed state still applies to every other folder.
+  var collapsedOnLoadFolderIds = {
+    "projects-immersive-art-design-fabrication": true,
+    "projects-blue-sky-concept-art": true,
+    "projects-digital-illustration": true,
+    "projects-fine-art": true,
+    "projects-interior-architecture": true
+  };
   // Bumped on every preview swap so a slow gallery fetch can tell whether the
   // pane it was started for is still the one on screen.
   var previewToken = 0;
@@ -618,9 +627,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         Array.prototype.forEach.call(scope.querySelectorAll("img"), function (img) {
           var raw = img.getAttribute("src");
+          // A page steers its own hover preview with data-home-gallery:
+          // "skip" keeps an image out, "lead" pins it to the front.
+          var role = img.getAttribute("data-home-gallery");
           var src;
 
-          if (!raw) {
+          if (!raw || role === "skip") {
             return;
           }
 
@@ -630,7 +642,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
 
           seen[src] = true;
-          images.push({src: src, alt: img.getAttribute("alt") || ""});
+          images.push({src: src, alt: img.getAttribute("alt") || "", lead: role === "lead"});
         });
 
         return images;
@@ -681,7 +693,15 @@ document.addEventListener("DOMContentLoaded", function () {
       var candidates = images.filter(function (image) {
         return image.src !== thumbnailSrc;
       });
-      var tiles = sampleEvenly(candidates, galleryLimit).map(function (image) {
+      // Pinned images always make the cut; the rest are sampled into whatever
+      // room is left.
+      var lead = candidates.filter(function (image) {
+        return image.lead;
+      }).slice(0, galleryLimit);
+      var rest = candidates.filter(function (image) {
+        return !image.lead;
+      });
+      var tiles = lead.concat(sampleEvenly(rest, galleryLimit - lead.length)).map(function (image) {
         return buildGalleryTile(href, image);
       });
 
@@ -780,7 +800,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     navFolders.forEach(function (folder) {
       var folderId = folder.getAttribute("data-home-folder-id");
-      if (!folderId || typeof savedState[folderId] !== "boolean") {
+      if (!folderId) {
+        return;
+      }
+      if (collapsedOnLoadFolderIds[folderId]) {
+        folder.open = false;
+        return;
+      }
+      if (typeof savedState[folderId] !== "boolean") {
         return;
       }
       folder.open = savedState[folderId];

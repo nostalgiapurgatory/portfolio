@@ -1599,6 +1599,15 @@ body[data-theme="green"] .finder-gallery-window-title {
   height: auto;
 }
 
+.finder-document audio,
+.finder-audio {
+  display: block;
+  width: 100%;
+  max-width: 28rem;
+  margin: 1rem 0 1.4rem;
+  accent-color: var(--theme-text);
+}
+
 .finder-document blockquote {
   margin: 1rem 0;
   padding: 1rem 1.1rem;
